@@ -428,6 +428,18 @@
     [
       "8e993949-53ac-4d46-9f7d-59c9cf3d33c4",
       "Battery"
+    ],
+    [
+      "9fd076b0-1699-4df3-8028-c9ce38f70125",
+      "12V Regulator"
+    ],
+    [
+      "621dfe42-9e02-4284-a5b1-9c61d4f917c7",
+      "5V Regulator"
+    ],
+    [
+      "6a086886-f406-4257-bebf-82aa789985df",
+      "3.3V Regulator"
     ]
   ],
   "text_variables": {}

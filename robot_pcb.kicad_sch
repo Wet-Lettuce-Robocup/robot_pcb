@@ -3941,6 +3941,90 @@
 		)
 	)
 	(sheet
+		(at 35.56 120.65)
+		(size 40.64 27.94)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "621dfe42-9e02-4284-a5b1-9c61d4f917c7")
+		(property "Sheetname" "5V Regulator"
+			(at 35.56 119.9384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "regulator_5v.kicad_sch"
+			(at 35.56 149.1746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "robot_pcb"
+				(path "/2f56b371-1597-47e1-a48d-b7f69d342f77"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 35.56 157.48)
+		(size 40.64 27.94)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "6a086886-f406-4257-bebf-82aa789985df")
+		(property "Sheetname" "3.3V Regulator"
+			(at 35.56 156.7684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "regulator_3v3.kicad_sch"
+			(at 35.56 186.0046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "robot_pcb"
+				(path "/2f56b371-1597-47e1-a48d-b7f69d342f77"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 31.75 25.4)
 		(size 55.88 31.75)
 		(exclude_from_sim no)
@@ -4025,9 +4109,51 @@
 			)
 		)
 		(instances
-			(project "robot_pcb_v2"
+			(project "robot_pcb"
 				(path "/2f56b371-1597-47e1-a48d-b7f69d342f77"
 					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 35.56 82.55)
+		(size 40.64 27.94)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "9fd076b0-1699-4df3-8028-c9ce38f70125")
+		(property "Sheetname" "12V Regulator"
+			(at 35.56 81.8384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "regulator_12v.kicad_sch"
+			(at 35.56 111.0746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "robot_pcb"
+				(path "/2f56b371-1597-47e1-a48d-b7f69d342f77"
+					(page "3")
 				)
 			)
 		)
