@@ -1180,31 +1180,27 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector_Generic:Conn_01x06"
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
+		(symbol "International_Symbols:Motor_With_Encoder"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "J"
-				(at 0 7.62 0)
+			(property "Reference" "U"
+				(at 4.572 9.398 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "Conn_01x06"
-				(at 0 -10.16 0)
+			(property "Value" ""
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "Connector_JST:JST_PH_B6B-PH-K_1x06_P2.00mm_Vertical"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1213,7 +1209,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "~"
+			(property "Datasheet" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -1222,7 +1218,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(property "Description" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -1231,113 +1227,29 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "connector"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Conn_01x06_1_1"
+			(symbol "Motor_With_Encoder_1_1"
 				(rectangle
-					(start -1.27 6.35)
-					(end 1.27 -8.89)
+					(start -5.08 7.62)
+					(end 5.08 -7.62)
 					(stroke
-						(width 0.254)
-						(type default)
+						(width 0)
+						(type solid)
 					)
 					(fill
 						(type background)
 					)
 				)
-				(rectangle
-					(start -1.27 5.207)
-					(end 0 4.953)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 2.667)
-					(end 0 2.413)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 0.127)
-					(end 0 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 -2.413)
-					(end 0 -2.667)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 -4.953)
-					(end 0 -5.207)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 -7.493)
-					(end 0 -7.747)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 5.08 0)
-					(length 3.81)
-					(name "Pin_1"
+				(pin input line
+					(at -7.62 3.81 0)
+					(length 2.54)
+					(name "M1"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "1"
+					(number "6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1345,64 +1257,10 @@
 						)
 					)
 				)
-				(pin passive line
-					(at -5.08 2.54 0)
-					(length 3.81)
-					(name "Pin_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 3.81)
-					(name "Pin_3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -2.54 0)
-					(length 3.81)
-					(name "Pin_4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -5.08 0)
-					(length 3.81)
-					(name "Pin_5"
+				(pin input line
+					(at -7.62 1.27 0)
+					(length 2.54)
+					(name "M2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1417,17 +1275,71 @@
 						)
 					)
 				)
-				(pin passive line
-					(at -5.08 -7.62 0)
-					(length 3.81)
-					(name "Pin_6"
+				(pin output line
+					(at -7.62 -1.27 0)
+					(length 2.54)
+					(name "A"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "6"
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -7.62 -3.81 0)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 10.16 270)
+					(length 2.54)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -10.16 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4792,6 +4704,88 @@
 		)
 	)
 	(symbol
+		(lib_id "International_Symbols:Motor_With_Encoder")
+		(at 80.01 245.11 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "468d8a27-dcd4-4054-bc94-ef1d2c71ef56")
+		(property "Reference" "U4"
+			(at 86.36 243.8399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Motor FL"
+			(at 86.36 246.3799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_PH_B6B-PH-K_1x06_P2.00mm_Vertical"
+			(at 80.01 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 80.01 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 80.01 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "6"
+			(uuid "a8e3937f-8f67-4a49-ae16-bd3405ea1157")
+		)
+		(pin "5"
+			(uuid "337e3b47-d378-488b-a1bc-1db4113c5369")
+		)
+		(pin "1"
+			(uuid "d6030996-bd84-47d6-a982-dd4fde3b926a")
+		)
+		(pin "4"
+			(uuid "5aa0ef0c-0df9-4ef2-b45c-b154e04fd09a")
+		)
+		(pin "2"
+			(uuid "e113632a-e3f0-48ec-be86-a4d2957fd54b")
+		)
+		(pin "3"
+			(uuid "07a1093c-2337-41e3-b71e-ad041d290251")
+		)
+		(instances
+			(project ""
+				(path "/2f56b371-1597-47e1-a48d-b7f69d342f77"
+					(reference "U4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "LED:WS2812B-2020")
 		(at 139.7 217.17 0)
 		(unit 1)
@@ -4868,33 +4862,35 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x06")
-		(at 127 245.11 270)
+		(lib_id "International_Symbols:Motor_With_Encoder")
+		(at 166.37 245.11 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "5475e364-6925-4843-871b-e472c5a959cb")
-		(property "Reference" "J3"
-			(at 125.73 248.92 90)
+		(uuid "4bb59db0-4507-4252-8375-92ce60601dab")
+		(property "Reference" "U7"
+			(at 172.72 243.8399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "Motor FR"
-			(at 125.73 251.46 90)
+		(property "Value" "Motor BR"
+			(at 172.72 246.3799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Connector_JST:JST_PH_B6B-PH-K_1x06_P2.00mm_Vertical"
-			(at 127 245.11 0)
+			(at 166.37 245.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4902,8 +4898,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 127 245.11 0)
+		(property "Datasheet" ""
+			(at 166.37 245.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4911,117 +4907,37 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 127 245.11 0)
+		(property "Description" ""
+			(at 166.37 245.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(pin "1"
-			(uuid "ab831fd7-d707-48a9-a2e7-2540e4ffb334")
-		)
-		(pin "2"
-			(uuid "5e55adc8-0fce-4f05-818c-86a67db19af6")
-		)
-		(pin "3"
-			(uuid "da3354bb-644b-4038-a9e4-642f80b25212")
-		)
-		(pin "4"
-			(uuid "0f74a870-723c-429a-8a22-908ae08ab6c9")
-		)
-		(pin "5"
-			(uuid "313f0728-eb76-4eee-ad96-986ec1356495")
 		)
 		(pin "6"
-			(uuid "1cc10aa4-82e0-4c43-b063-d5bfc8b439b7")
-		)
-		(instances
-			(project "robot_pcb"
-				(path "/2f56b371-1597-47e1-a48d-b7f69d342f77"
-					(reference "J3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x06")
-		(at 105.41 245.11 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "629d0581-27ff-4bd8-a4ad-b6c1e3591b89")
-		(property "Reference" "J2"
-			(at 104.14 248.92 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Motor FL"
-			(at 104.14 251.46 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_JST:JST_PH_B6B-PH-K_1x06_P2.00mm_Vertical"
-			(at 105.41 245.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 105.41 245.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 105.41 245.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "25dc0818-5b4d-43a7-a944-07e175d85b3d")
-		)
-		(pin "2"
-			(uuid "afb08ee0-7470-4736-9933-3d4bc866edc2")
-		)
-		(pin "3"
-			(uuid "66293896-6b81-462a-a626-c28d3f415e90")
-		)
-		(pin "4"
-			(uuid "c4c7e235-43b2-4da9-85fc-a1497da6c712")
+			(uuid "a8e3937f-8f67-4a49-ae16-bd3405ea1157")
 		)
 		(pin "5"
-			(uuid "2b4170f6-e1e0-4374-9198-7d129962d1d0")
+			(uuid "337e3b47-d378-488b-a1bc-1db4113c5369")
 		)
-		(pin "6"
-			(uuid "9fefc741-cbbc-4812-b893-063b88a1424e")
+		(pin "1"
+			(uuid "d6030996-bd84-47d6-a982-dd4fde3b926a")
+		)
+		(pin "4"
+			(uuid "5aa0ef0c-0df9-4ef2-b45c-b154e04fd09a")
+		)
+		(pin "2"
+			(uuid "e113632a-e3f0-48ec-be86-a4d2957fd54b")
+		)
+		(pin "3"
+			(uuid "07a1093c-2337-41e3-b71e-ad041d290251")
 		)
 		(instances
 			(project ""
 				(path "/2f56b371-1597-47e1-a48d-b7f69d342f77"
-					(reference "J2")
+					(reference "U7")
 					(unit 1)
 				)
 			)
@@ -5102,6 +5018,88 @@
 		)
 	)
 	(symbol
+		(lib_id "International_Symbols:Motor_With_Encoder")
+		(at 107.95 245.11 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "71bdf233-1d1a-4d27-a6c2-0905f61aea7c")
+		(property "Reference" "U5"
+			(at 114.3 243.8399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Motor FR"
+			(at 114.3 246.3799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_PH_B6B-PH-K_1x06_P2.00mm_Vertical"
+			(at 107.95 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 107.95 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 107.95 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "6"
+			(uuid "a8e3937f-8f67-4a49-ae16-bd3405ea1157")
+		)
+		(pin "5"
+			(uuid "337e3b47-d378-488b-a1bc-1db4113c5369")
+		)
+		(pin "1"
+			(uuid "d6030996-bd84-47d6-a982-dd4fde3b926a")
+		)
+		(pin "4"
+			(uuid "5aa0ef0c-0df9-4ef2-b45c-b154e04fd09a")
+		)
+		(pin "2"
+			(uuid "e113632a-e3f0-48ec-be86-a4d2957fd54b")
+		)
+		(pin "3"
+			(uuid "07a1093c-2337-41e3-b71e-ad041d290251")
+		)
+		(instances
+			(project ""
+				(path "/2f56b371-1597-47e1-a48d-b7f69d342f77"
+					(reference "U5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector_Generic:Conn_01x03")
 		(at 252.73 246.38 270)
 		(unit 1)
@@ -5168,86 +5166,6 @@
 			(project "robot_pcb"
 				(path "/2f56b371-1597-47e1-a48d-b7f69d342f77"
 					(reference "J9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x06")
-		(at 148.59 245.11 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a5889181-0ccb-4b37-a75e-3309f8dc53d8")
-		(property "Reference" "Jr"
-			(at 147.32 248.92 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Motor BL"
-			(at 147.32 251.46 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_JST:JST_PH_B6B-PH-K_1x06_P2.00mm_Vertical"
-			(at 148.59 245.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 148.59 245.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 148.59 245.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c58abf7b-64a8-4d87-915e-7b73e031afc8")
-		)
-		(pin "2"
-			(uuid "b12f2a0d-0773-4d3c-9401-913003bd7398")
-		)
-		(pin "3"
-			(uuid "ac9bf7fb-a9d5-49f9-9f55-492fd9dbf978")
-		)
-		(pin "4"
-			(uuid "62713896-1ed3-4003-8a05-c3c440f1b279")
-		)
-		(pin "5"
-			(uuid "ad74937e-0fd6-4a4d-b636-38ef034617a3")
-		)
-		(pin "6"
-			(uuid "0b9c170a-c903-48ea-9ea8-e3ef87943c7c")
-		)
-		(instances
-			(project "robot_pcb"
-				(path "/2f56b371-1597-47e1-a48d-b7f69d342f77"
-					(reference "Jr")
 					(unit 1)
 				)
 			)
@@ -5390,86 +5308,6 @@
 			(project ""
 				(path "/2f56b371-1597-47e1-a48d-b7f69d342f77"
 					(reference "D1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x06")
-		(at 170.18 245.11 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b43dfe59-4e61-453f-9d93-37f3092db2f0")
-		(property "Reference" "J5"
-			(at 168.91 248.92 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Motor BR"
-			(at 168.91 251.46 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_JST:JST_PH_B6B-PH-K_1x06_P2.00mm_Vertical"
-			(at 170.18 245.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 170.18 245.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 170.18 245.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7557dc66-06a6-42c0-a51d-58121ce3db17")
-		)
-		(pin "2"
-			(uuid "382787b8-2c5f-4b38-834a-a9b0a2b93461")
-		)
-		(pin "3"
-			(uuid "649b1452-8bf2-48c8-8e3b-d23b8256a398")
-		)
-		(pin "4"
-			(uuid "1235c964-33bf-4ce3-ab6f-ad378f9272a6")
-		)
-		(pin "5"
-			(uuid "f0f58778-80d4-41c5-8e91-7ef1dc400af1")
-		)
-		(pin "6"
-			(uuid "755919e8-e54b-48fd-a16b-f3db59c8c61e")
-		)
-		(instances
-			(project "robot_pcb"
-				(path "/2f56b371-1597-47e1-a48d-b7f69d342f77"
-					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -5800,6 +5638,88 @@
 			(project ""
 				(path "/2f56b371-1597-47e1-a48d-b7f69d342f77"
 					(reference "J8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "International_Symbols:Motor_With_Encoder")
+		(at 135.89 245.11 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ec5b61bc-fb17-44a3-9d81-1ee422340268")
+		(property "Reference" "U6"
+			(at 142.24 243.8399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Motor BL"
+			(at 142.24 246.3799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_PH_B6B-PH-K_1x06_P2.00mm_Vertical"
+			(at 135.89 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 135.89 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 135.89 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "6"
+			(uuid "a8e3937f-8f67-4a49-ae16-bd3405ea1157")
+		)
+		(pin "5"
+			(uuid "337e3b47-d378-488b-a1bc-1db4113c5369")
+		)
+		(pin "1"
+			(uuid "d6030996-bd84-47d6-a982-dd4fde3b926a")
+		)
+		(pin "4"
+			(uuid "5aa0ef0c-0df9-4ef2-b45c-b154e04fd09a")
+		)
+		(pin "2"
+			(uuid "e113632a-e3f0-48ec-be86-a4d2957fd54b")
+		)
+		(pin "3"
+			(uuid "07a1093c-2337-41e3-b71e-ad041d290251")
+		)
+		(instances
+			(project ""
+				(path "/2f56b371-1597-47e1-a48d-b7f69d342f77"
+					(reference "U6")
 					(unit 1)
 				)
 			)
