@@ -5424,12 +5424,6 @@
 		(uuid "5e5b410b-df25-42c2-a6e8-296571229c5a")
 	)
 	(junction
-		(at 66.04 24.13)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6129f3e8-7005-4d6e-b31e-445244b62980")
-	)
-	(junction
 		(at 290.83 196.85)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6049,16 +6043,6 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 24.13) (xy 66.04 19.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "67398705-7603-430c-9f4f-02e4da3220b9")
-	)
-	(wire
-		(pts
 			(xy 308.61 39.37) (xy 323.85 39.37)
 		)
 		(stroke
@@ -6179,7 +6163,7 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 25.4) (xy 66.04 25.4)
+			(xy 63.5 24.13) (xy 80.01 24.13)
 		)
 		(stroke
 			(width 0)
@@ -6319,16 +6303,6 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 24.13) (xy 66.04 25.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "acf24b6b-4957-4bee-a555-80af72832537")
-	)
-	(wire
-		(pts
 			(xy 205.74 39.37) (xy 218.44 39.37)
 		)
 		(stroke
@@ -6439,6 +6413,16 @@
 	)
 	(wire
 		(pts
+			(xy 63.5 24.13) (xy 63.5 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd3f7670-8664-4732-b114-b863b67c2672")
+	)
+	(wire
+		(pts
 			(xy 290.83 49.53) (xy 290.83 50.8)
 		)
 		(stroke
@@ -6466,16 +6450,6 @@
 			(type default)
 		)
 		(uuid "d5788a6c-6104-46d0-bf84-d0f2ae54f6aa")
-	)
-	(wire
-		(pts
-			(xy 73.66 24.13) (xy 80.01 24.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e0f2cb27-0bc6-40d3-ab06-ba06b24f2ddf")
 	)
 	(wire
 		(pts
@@ -9422,73 +9396,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 73.66 19.05 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b1debc4b-1cf8-43e5-8a7d-cbc416426cab")
-		(property "Reference" "#PWR019"
-			(at 80.01 19.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 77.47 19.0499 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 73.66 19.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 73.66 19.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 73.66 19.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b79fa71c-20b2-49c6-9f8e-e4218d2feb23")
-		)
-		(instances
-			(project "robot_pcb"
-				(path "/2f56b371-1597-47e1-a48d-b7f69d342f77"
-					(reference "#PWR019")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 31.75 29.21 0)
 		(unit 1)
@@ -10005,140 +9912,6 @@
 			(project ""
 				(path "/2f56b371-1597-47e1-a48d-b7f69d342f77"
 					(reference "C7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 69.85 19.05 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "cec16782-759d-4950-bc6d-9e3578fdc3ca")
-		(property "Reference" "R7"
-			(at 69.85 19.05 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "2k"
-			(at 69.85 21.336 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 69.85 17.272 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 69.85 19.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 69.85 19.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "56d80364-50f1-4bfe-be0f-914917c084be")
-		)
-		(pin "1"
-			(uuid "27e575bc-0e12-4911-8d49-e272abeeaf44")
-		)
-		(instances
-			(project ""
-				(path "/2f56b371-1597-47e1-a48d-b7f69d342f77"
-					(reference "R7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 69.85 24.13 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "cf76baee-d282-4aad-a636-800aca913d65")
-		(property "Reference" "R8"
-			(at 69.85 24.13 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "6.2k"
-			(at 69.85 26.416 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 69.85 22.352 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 69.85 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 69.85 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "ed67ce47-9ee9-4eb2-8562-3aceae887b09")
-		)
-		(pin "1"
-			(uuid "9c95ccc7-47ec-485e-a374-b00371974de3")
-		)
-		(instances
-			(project "robot_pcb"
-				(path "/2f56b371-1597-47e1-a48d-b7f69d342f77"
-					(reference "R8")
 					(unit 1)
 				)
 			)
