@@ -5424,6 +5424,12 @@
 		(uuid "5e5b410b-df25-42c2-a6e8-296571229c5a")
 	)
 	(junction
+		(at 66.04 24.13)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6129f3e8-7005-4d6e-b31e-445244b62980")
+	)
+	(junction
 		(at 290.83 196.85)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5993,16 +5999,6 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 25.4) (xy 80.01 27.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "58733caf-2972-4275-b21d-79833f3a62fa")
-	)
-	(wire
-		(pts
 			(xy 147.32 124.46) (xy 149.86 124.46)
 		)
 		(stroke
@@ -6050,6 +6046,16 @@
 			(type default)
 		)
 		(uuid "6632c0de-4f85-4cec-857a-4d91e3d7182b")
+	)
+	(wire
+		(pts
+			(xy 66.04 24.13) (xy 66.04 19.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "67398705-7603-430c-9f4f-02e4da3220b9")
 	)
 	(wire
 		(pts
@@ -6170,6 +6176,16 @@
 			(type default)
 		)
 		(uuid "8326d461-036f-4b97-b8db-8afc347fe5be")
+	)
+	(wire
+		(pts
+			(xy 63.5 25.4) (xy 66.04 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "843a5bc7-36f6-4f06-8b98-e5b61b95d8a4")
 	)
 	(wire
 		(pts
@@ -6303,13 +6319,13 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 25.4) (xy 80.01 25.4)
+			(xy 66.04 24.13) (xy 66.04 25.4)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ae4e1176-fa64-43b6-9614-6021f7da2036")
+		(uuid "acf24b6b-4957-4bee-a555-80af72832537")
 	)
 	(wire
 		(pts
@@ -6360,6 +6376,16 @@
 			(type default)
 		)
 		(uuid "b3eb2dbd-5c87-4ce6-a023-18ad828f0013")
+	)
+	(wire
+		(pts
+			(xy 80.01 24.13) (xy 80.01 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b5d8848c-997e-4110-b813-ac6f5233aefe")
 	)
 	(wire
 		(pts
@@ -6440,6 +6466,16 @@
 			(type default)
 		)
 		(uuid "d5788a6c-6104-46d0-bf84-d0f2ae54f6aa")
+	)
+	(wire
+		(pts
+			(xy 73.66 24.13) (xy 80.01 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e0f2cb27-0bc6-40d3-ab06-ba06b24f2ddf")
 	)
 	(wire
 		(pts
@@ -7566,14 +7602,14 @@
 		(dnp no)
 		(uuid "36fbe632-1af2-4a70-97aa-2ed1c26801fb")
 		(property "Reference" "L2"
-			(at 76.2 23.622 90)
+			(at 76.2 25.908 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "L"
+		(property "Value" "47uH"
 			(at 76.2 29.464 90)
 			(effects
 				(font
@@ -9386,6 +9422,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 73.66 19.05 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b1debc4b-1cf8-43e5-8a7d-cbc416426cab")
+		(property "Reference" "#PWR019"
+			(at 80.01 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 77.47 19.0499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 73.66 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 73.66 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 73.66 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b79fa71c-20b2-49c6-9f8e-e4218d2feb23")
+		)
+		(instances
+			(project "robot_pcb"
+				(path "/2f56b371-1597-47e1-a48d-b7f69d342f77"
+					(reference "#PWR019")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 31.75 29.21 0)
 		(unit 1)
@@ -9908,6 +10011,140 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 69.85 19.05 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cec16782-759d-4950-bc6d-9e3578fdc3ca")
+		(property "Reference" "R7"
+			(at 69.85 19.05 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "2k"
+			(at 69.85 21.336 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 69.85 17.272 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 69.85 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 69.85 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "56d80364-50f1-4bfe-be0f-914917c084be")
+		)
+		(pin "1"
+			(uuid "27e575bc-0e12-4911-8d49-e272abeeaf44")
+		)
+		(instances
+			(project ""
+				(path "/2f56b371-1597-47e1-a48d-b7f69d342f77"
+					(reference "R7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 69.85 24.13 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cf76baee-d282-4aad-a636-800aca913d65")
+		(property "Reference" "R8"
+			(at 69.85 24.13 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "6.2k"
+			(at 69.85 26.416 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 69.85 22.352 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 69.85 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 69.85 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ed67ce47-9ee9-4eb2-8562-3aceae887b09")
+		)
+		(pin "1"
+			(uuid "9c95ccc7-47ec-485e-a374-b00371974de3")
+		)
+		(instances
+			(project "robot_pcb"
+				(path "/2f56b371-1597-47e1-a48d-b7f69d342f77"
+					(reference "R8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector_Generic:Conn_01x04")
 		(at 250.19 219.71 270)
 		(unit 1)
@@ -10153,7 +10390,7 @@
 				)
 			)
 		)
-		(property "Value" "LM2596SX"
+		(property "Value" "AP1501-50K5G-13"
 			(at 53.34 20.32 0)
 			(effects
 				(font
@@ -10232,7 +10469,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "D_Schottky"
+		(property "Value" "B340A"
 			(at 68.58 32.7024 90)
 			(effects
 				(font
@@ -10241,7 +10478,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SMA"
 			(at 66.04 31.75 0)
 			(effects
 				(font
@@ -10415,48 +10652,6 @@
 				(path "/2f56b371-1597-47e1-a48d-b7f69d342f77"
 					(reference "#PWR09")
 					(unit 1)
-				)
-			)
-		)
-	)
-	(sheet
-		(at 35.56 120.65)
-		(size 40.64 27.94)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "621dfe42-9e02-4284-a5b1-9c61d4f917c7")
-		(property "Sheetname" "5V Regulator"
-			(at 35.56 119.9384 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "regulator_5v.kicad_sch"
-			(at 35.56 149.1746 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "robot_pcb"
-				(path "/2f56b371-1597-47e1-a48d-b7f69d342f77"
-					(page "4")
 				)
 			)
 		)
