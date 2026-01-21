@@ -10153,7 +10153,7 @@
 				)
 			)
 		)
-		(property "Value" "LM2596DP-5.0"
+		(property "Value" "LM2596R-5.0"
 			(at 53.34 20.32 0)
 			(effects
 				(font
