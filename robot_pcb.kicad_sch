@@ -5953,16 +5953,6 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 27.94) (xy 76.2 27.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "49af656a-9717-4ee4-9859-a635c339e158")
-	)
-	(wire
-		(pts
 			(xy 218.44 49.53) (xy 231.14 49.53)
 		)
 		(stroke
@@ -10564,7 +10554,7 @@
 		)
 	)
 	(sheet
-		(at 35.56 82.55)
+		(at 33.02 110.49)
 		(size 40.64 27.94)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10580,7 +10570,7 @@
 		)
 		(uuid "9fd076b0-1699-4df3-8028-c9ce38f70125")
 		(property "Sheetname" "12V Regulator"
-			(at 35.56 81.8384 0)
+			(at 33.02 109.7784 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10589,7 +10579,7 @@
 			)
 		)
 		(property "Sheetfile" "regulator_12v.kicad_sch"
-			(at 35.56 111.0746 0)
+			(at 33.02 139.0146 0)
 			(effects
 				(font
 					(size 1.27 1.27)
