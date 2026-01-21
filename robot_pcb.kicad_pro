@@ -633,6 +633,10 @@
     [
       "9fd076b0-1699-4df3-8028-c9ce38f70125",
       "12V Regulator"
+    ],
+    [
+      "eed5055e-310e-40b9-8812-77db8a815e44",
+      "5.1V Regulator"
     ]
   ],
   "text_variables": {}
