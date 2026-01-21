@@ -814,6 +814,155 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:Polyfuse"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "F"
+				(at -2.54 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Polyfuse"
+				(at 2.54 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 1.27 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resettable fuse, polymeric positive temperature coefficient"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "resettable fuse PTC PPTC polyfuse polyswitch"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*polyfuse* *PTC*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Polyfuse_0_1"
+				(polyline
+					(pts
+						(xy -1.524 2.54) (xy -1.524 1.524) (xy 1.524 -1.524) (xy 1.524 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -0.762 2.54)
+					(end 0.762 -2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Polyfuse_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:Q_NMOS"
 			(pin_numbers
 				(hide yes)
@@ -1752,6 +1901,12 @@
 		)
 	)
 	(junction
+		(at 123.19 143.51)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0e3a6b01-51a5-4eea-a549-6ebbc5a964f0")
+	)
+	(junction
 		(at 90.17 77.47)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1786,6 +1941,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "507b170c-c24b-4a7c-be70-e187104f4f13")
+	)
+	(junction
+		(at 90.17 143.51)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "538137a5-3c68-41a2-88a9-a687392c3606")
 	)
 	(junction
 		(at 195.58 50.8)
@@ -1824,12 +1985,6 @@
 		(uuid "81519851-0536-44b5-8fef-cade4b5a6f75")
 	)
 	(junction
-		(at 123.19 143.51)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8635d376-331f-49df-b5f0-0c855bd3480e")
-	)
-	(junction
 		(at 212.09 123.19)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1858,12 +2013,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bd30a9af-7474-4037-8590-84cc2d5d2a70")
-	)
-	(junction
-		(at 90.17 143.51)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ce0edc5b-a0c7-4640-b74c-fedbbea328f1")
 	)
 	(junction
 		(at 158.75 143.51)
@@ -2112,16 +2261,6 @@
 			(type default)
 		)
 		(uuid "35705d02-b069-4097-9877-2e6e707e58ed")
-	)
-	(wire
-		(pts
-			(xy 90.17 113.03) (xy 90.17 143.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "37018306-0b45-4a50-8653-274d6a4e474a")
 	)
 	(wire
 		(pts
@@ -2495,7 +2634,7 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 143.51) (xy 90.17 144.78)
+			(xy 90.17 113.03) (xy 90.17 143.51)
 		)
 		(stroke
 			(width 0)
@@ -2582,6 +2721,16 @@
 			(type default)
 		)
 		(uuid "84535cb3-3768-484f-91c3-fbb63f83a291")
+	)
+	(wire
+		(pts
+			(xy 90.17 143.51) (xy 101.6 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a555083-c7c0-4329-a2e9-d59c18d92470")
 	)
 	(wire
 		(pts
@@ -2775,16 +2924,6 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 143.51) (xy 123.19 143.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b8e7d359-aa75-4d23-bf02-e7f82884dd8b")
-	)
-	(wire
-		(pts
 			(xy 243.84 85.09) (xy 233.68 85.09)
 		)
 		(stroke
@@ -2795,6 +2934,16 @@
 	)
 	(wire
 		(pts
+			(xy 109.22 143.51) (xy 123.19 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd496720-6371-47b4-8c6c-29bcb15ef070")
+	)
+	(wire
+		(pts
 			(xy 204.47 50.8) (xy 205.74 50.8)
 		)
 		(stroke
@@ -2802,6 +2951,16 @@
 			(type default)
 		)
 		(uuid "be213cf4-f5ba-46c1-8416-eecf6e155552")
+	)
+	(wire
+		(pts
+			(xy 90.17 143.51) (xy 90.17 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0eb8aea-4831-4551-b90c-c6168a2468c7")
 	)
 	(wire
 		(pts
@@ -5343,6 +5502,75 @@
 			(project ""
 				(path "/2f56b371-1597-47e1-a48d-b7f69d342f77/8e993949-53ac-4d46-9f7d-59c9cf3d33c4"
 					(reference "#PWR030")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Polyfuse")
+		(at 105.41 143.51 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dc09bf64-dc70-43f4-84b0-bae57a05cc55")
+		(property "Reference" "F1"
+			(at 105.41 137.16 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Polyfuse"
+			(at 105.41 139.7 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 110.49 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 105.41 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resettable fuse, polymeric positive temperature coefficient"
+			(at 105.41 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "644b51b1-e305-42af-82cc-553483b40e05")
+		)
+		(pin "1"
+			(uuid "58aeb1c3-87de-4483-b393-f1e6eb8b19b7")
+		)
+		(instances
+			(project ""
+				(path "/2f56b371-1597-47e1-a48d-b7f69d342f77/8e993949-53ac-4d46-9f7d-59c9cf3d33c4"
+					(reference "F1")
 					(unit 1)
 				)
 			)
