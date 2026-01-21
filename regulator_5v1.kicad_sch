@@ -2,7 +2,7 @@
 	(version 20250114)
 	(generator "eeschema")
 	(generator_version "9.0")
-	(uuid "679a4a17-a232-47e1-a5b5-d1bd3cc8d0a0")
+	(uuid "90a1e67f-1710-4543-873a-aa20134c9b1b")
 	(paper "A4")
 	(lib_symbols
 		(symbol "Device:C"
@@ -1350,7 +1350,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "AP64501SP-13"
 			(at 105.41 62.23 0)
 			(effects
 				(font
