@@ -1065,6 +1065,12 @@
 		(uuid "0503128b-53cf-4c42-b78b-e8cb4d915361")
 	)
 	(junction
+		(at 170.18 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "13347360-9108-4e75-ba4c-0ee937daab6c")
+	)
+	(junction
 		(at 106.68 102.87)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1147,6 +1153,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "971ad81e-0e85-4273-814d-4c00146e6b2f")
+	)
+	(junction
+		(at 170.18 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a38745da-baab-4797-a0d6-6f3b06bd9f43")
 	)
 	(junction
 		(at 110.49 133.35)
@@ -1304,7 +1316,7 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 87.63) (xy 157.48 87.63)
+			(xy 156.21 87.63) (xy 170.18 87.63)
 		)
 		(stroke
 			(width 0)
@@ -1321,6 +1333,16 @@
 			(type default)
 		)
 		(uuid "1989c53d-b56a-4093-86eb-766fc8a33e6b")
+	)
+	(wire
+		(pts
+			(xy 170.18 87.63) (xy 170.18 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ca733e3-7773-4c5a-8da4-a0e36f854f23")
 	)
 	(wire
 		(pts
@@ -1584,6 +1606,16 @@
 	)
 	(wire
 		(pts
+			(xy 170.18 90.17) (xy 170.18 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c9a7bcf-fb7d-48a3-89c9-0d34e757c7ce")
+	)
+	(wire
+		(pts
 			(xy 186.69 92.71) (xy 186.69 95.25)
 		)
 		(stroke
@@ -1744,7 +1776,17 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 90.17) (xy 157.48 90.17)
+			(xy 170.18 82.55) (xy 156.21 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7e34133-663b-43db-ab60-0a83d8516000")
+	)
+	(wire
+		(pts
+			(xy 156.21 90.17) (xy 170.18 90.17)
 		)
 		(stroke
 			(width 0)
@@ -1774,7 +1816,7 @@
 	)
 	(wire
 		(pts
-			(xy 217.17 82.55) (xy 156.21 82.55)
+			(xy 217.17 82.55) (xy 170.18 82.55)
 		)
 		(stroke
 			(width 0)
@@ -2134,28 +2176,6 @@
 			(justify right)
 		)
 		(uuid "46ff3484-b142-44f6-9971-0084fc1c7bc5")
-	)
-	(hierarchical_label "SYNC"
-		(shape input)
-		(at 157.48 87.63 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "670d1736-2539-477b-99aa-e81ed26d2076")
-	)
-	(hierarchical_label "SPS"
-		(shape input)
-		(at 157.48 90.17 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "7605378e-840f-4460-b2a3-376589378834")
 	)
 	(hierarchical_label "OUT"
 		(shape output)

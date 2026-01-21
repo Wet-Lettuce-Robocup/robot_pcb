@@ -10958,8 +10958,8 @@
 		)
 	)
 	(sheet
-		(at 15.24 52.07)
-		(size 40.64 27.94)
+		(at 15.24 54.61)
+		(size 40.64 25.4)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -10974,7 +10974,7 @@
 		)
 		(uuid "9fd076b0-1699-4df3-8028-c9ce38f70125")
 		(property "Sheetname" "12V Regulator"
-			(at 15.24 51.3584 0)
+			(at 15.24 53.8984 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10992,7 +10992,7 @@
 			)
 		)
 		(pin "EN" input
-			(at 55.88 63.5 0)
+			(at 55.88 60.96 0)
 			(uuid "f0bd6120-22ea-49ad-92e5-d8e2a519162b")
 			(effects
 				(font
@@ -11021,29 +11021,9 @@
 				(justify right)
 			)
 		)
-		(pin "SPS" input
-			(at 55.88 60.96 0)
-			(uuid "dd588152-1641-4dfa-b549-24f723b7e50d")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "SUP" input
 			(at 55.88 73.66 0)
 			(uuid "e8607a71-d75e-45f0-afbe-61a85571f236")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "SYNC" input
-			(at 55.88 66.04 0)
-			(uuid "8d5ed4b3-b97f-44a2-b130-fac8bad30693")
 			(effects
 				(font
 					(size 1.27 1.27)
