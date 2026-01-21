@@ -5953,16 +5953,6 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 27.94) (xy 76.2 27.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "49af656a-9717-4ee4-9859-a635c339e158")
-	)
-	(wire
-		(pts
 			(xy 218.44 49.53) (xy 231.14 49.53)
 		)
 		(stroke
@@ -7583,7 +7573,7 @@
 				)
 			)
 		)
-		(property "Value" "47uH"
+		(property "Value" "33uH"
 			(at 76.2 29.464 90)
 			(effects
 				(font
@@ -8233,7 +8223,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "COUT"
+		(property "Value" "220uF"
 			(at 87.63 33.0199 0)
 			(effects
 				(font
@@ -9414,7 +9404,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "CIN"
+		(property "Value" "680uF"
 			(at 35.56 30.4799 0)
 			(effects
 				(font
@@ -10163,7 +10153,7 @@
 				)
 			)
 		)
-		(property "Value" "AP1501-50K5G-13"
+		(property "Value" "LM2596DP-5.0"
 			(at 53.34 20.32 0)
 			(effects
 				(font
@@ -10181,7 +10171,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C77782.pdf"
 			(at 55.626 43.434 0)
 			(effects
 				(font
@@ -10242,7 +10232,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "B340A"
+		(property "Value" "1N5824"
 			(at 68.58 32.7024 90)
 			(effects
 				(font
