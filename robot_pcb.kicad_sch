@@ -6345,13 +6345,23 @@
 	)
 	(text "BATTERY"
 		(exclude_from_sim no)
-		(at 73.66 149.352 0)
+		(at 60.96 74.422 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
 		(uuid "714aa54b-59f8-438d-8cfe-f668eb834dde")
+	)
+	(text "3V3, 5V, 5V1 Regulators"
+		(exclude_from_sim no)
+		(at 29.972 112.776 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "843b7ce1-a0e6-46ef-bfb3-3c71b4ddd2a4")
 	)
 	(junction
 		(at 283.21 49.53)
@@ -7407,6 +7417,16 @@
 	)
 	(wire
 		(pts
+			(xy 46.99 105.41) (xy 45.72 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f0d254f-9401-42ed-9ba3-743d7453cf73")
+	)
+	(wire
+		(pts
 			(xy 219.71 93.98) (xy 219.71 81.28)
 		)
 		(stroke
@@ -7514,6 +7534,16 @@
 			(type default)
 		)
 		(uuid "84bc4bd3-e2fd-4bee-89e5-ce00d7182519")
+	)
+	(wire
+		(pts
+			(xy 45.72 88.9) (xy 46.99 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d91800e-f553-412f-99a7-83d481c1c533")
 	)
 	(wire
 		(pts
@@ -7647,7 +7677,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 121.92) (xy 92.71 121.92)
+			(xy 76.2 46.99) (xy 80.01 46.99)
 		)
 		(stroke
 			(width 0)
@@ -7774,6 +7804,16 @@
 			(type default)
 		)
 		(uuid "b02578a0-2f8e-4ade-8bb5-fb1d31765b1e")
+	)
+	(wire
+		(pts
+			(xy 46.99 101.6) (xy 45.72 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b0dad48f-becf-4410-a9d3-16880fd74190")
 	)
 	(wire
 		(pts
@@ -7917,6 +7957,16 @@
 	)
 	(wire
 		(pts
+			(xy 46.99 97.79) (xy 45.72 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf563f46-0e5e-4adf-8c49-758048f795b3")
+	)
+	(wire
+		(pts
 			(xy 290.83 49.53) (xy 290.83 50.8)
 		)
 		(stroke
@@ -8027,7 +8077,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 125.73) (xy 92.71 125.73)
+			(xy 76.2 50.8) (xy 80.01 50.8)
 		)
 		(stroke
 			(width 0)
@@ -8157,7 +8207,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 135.89) (xy 90.17 135.89)
+			(xy 76.2 60.96) (xy 77.47 60.96)
 		)
 		(stroke
 			(width 0)
@@ -8227,7 +8277,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 132.08) (xy 90.17 132.08)
+			(xy 76.2 57.15) (xy 77.47 57.15)
 		)
 		(stroke
 			(width 0)
@@ -8336,7 +8386,7 @@
 		(uuid "25cb4796-5650-46da-8731-a30cce4e336c")
 	)
 	(label "I2C_SCL"
-		(at 92.71 125.73 0)
+		(at 80.01 50.8 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8616,7 +8666,7 @@
 		(uuid "c2d90606-290a-47b5-ac5b-2c9469e262f2")
 	)
 	(label "I2C_SDA"
-		(at 92.71 121.92 0)
+		(at 80.01 46.99 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8736,6 +8786,50 @@
 				(hide yes)
 			)
 		)
+	)
+	(hierarchical_label "3.3V"
+		(shape input)
+		(at 45.72 97.79 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "249f9e3d-6cda-41bf-8415-7825c8f95e4d")
+	)
+	(hierarchical_label "5V"
+		(shape input)
+		(at 45.72 101.6 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7bb18d29-c305-430a-bb83-66b353e5ceb5")
+	)
+	(hierarchical_label "5.1V"
+		(shape input)
+		(at 45.72 105.41 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a75374bf-d7a5-4fc9-a4be-eb79f4827430")
+	)
+	(hierarchical_label "SUP"
+		(shape input)
+		(at 45.72 88.9 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ee020fb1-57f6-4fd9-b44a-2f1cfa3c591f")
 	)
 	(symbol
 		(lib_id "Device:FerriteBead")
@@ -8872,6 +8966,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 25.4 97.79 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0313dc49-50d6-45fb-a90a-a7f4a7fba567")
+		(property "Reference" "#PWR018"
+			(at 31.75 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 29.21 97.7899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 25.4 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 25.4 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 25.4 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "83bec2fb-6d22-4784-9c23-d260205cdab3")
+		)
+		(instances
+			(project "robot_pcb"
+				(path "/2f56b371-1597-47e1-a48d-b7f69d342f77"
+					(reference "#PWR018")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
 		(at 74.93 182.88 0)
 		(unit 1)
@@ -8939,7 +9100,7 @@
 	)
 	(symbol
 		(lib_id "power:+BATT")
-		(at 71.12 140.97 270)
+		(at 58.42 66.04 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8947,7 +9108,7 @@
 		(dnp no)
 		(uuid "03c4c4c1-d5ed-4939-be2a-0af42b6284e7")
 		(property "Reference" "#PWR037"
-			(at 67.31 140.97 0)
+			(at 54.61 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8956,7 +9117,7 @@
 			)
 		)
 		(property "Value" "+BATT"
-			(at 74.422 140.97 90)
+			(at 61.722 66.04 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8965,7 +9126,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 71.12 140.97 0)
+			(at 58.42 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8974,7 +9135,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 71.12 140.97 0)
+			(at 58.42 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8983,7 +9144,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+BATT\""
-			(at 71.12 140.97 0)
+			(at 58.42 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9352,6 +9513,73 @@
 			(project "robot_pcb"
 				(path "/2f56b371-1597-47e1-a48d-b7f69d342f77"
 					(reference "J10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 25.4 105.41 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0ab9b9d0-b563-4f8a-b758-17f2f7c6c2c7")
+		(property "Reference" "#PWR041"
+			(at 31.75 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 29.21 105.4099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 25.4 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 25.4 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 25.4 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "56408fb7-2744-4caa-b700-2b25973d6ead")
+		)
+		(instances
+			(project "robot_pcb"
+				(path "/2f56b371-1597-47e1-a48d-b7f69d342f77"
+					(reference "#PWR041")
 					(unit 1)
 				)
 			)
@@ -10133,6 +10361,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+BATT")
+		(at 46.99 88.9 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1a05ce5d-a7d1-4996-8125-4c6c66e95c02")
+		(property "Reference" "#PWR075"
+			(at 43.18 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+BATT"
+			(at 50.8 88.8999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 46.99 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 46.99 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+BATT\""
+			(at 46.99 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "512fa2f1-580f-4a59-9940-cd7322daa3d6")
+		)
+		(instances
+			(project "robot_pcb"
+				(path "/2f56b371-1597-47e1-a48d-b7f69d342f77"
+					(reference "#PWR075")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
 		(at 224.79 63.5 90)
 		(unit 1)
@@ -10667,23 +10962,23 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x02_Pin")
-		(at 66.04 138.43 0)
+		(at 20.32 105.41 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "3b1dbba2-d9fe-4024-9c8a-9f71aa0df046")
-		(property "Reference" "J11"
-			(at 63.5 139.446 0)
+		(uuid "31da1017-9ae1-45dc-aff6-e327ff2307dd")
+		(property "Reference" "J21"
+			(at 17.78 106.426 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "BATT BYPASS"
-			(at 66.675 135.89 0)
+		(property "Value" "5.1V BYPASS"
+			(at 20.955 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10691,7 +10986,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 66.04 138.43 0)
+			(at 20.32 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10700,7 +10995,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 66.04 138.43 0)
+			(at 20.32 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10709,7 +11004,140 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 66.04 138.43 0)
+			(at 20.32 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e8d9d61f-aa25-45a5-bb49-5bba3c874d5b")
+		)
+		(pin "2"
+			(uuid "ed0aa083-210b-4c52-a083-d04eb7d60858")
+		)
+		(instances
+			(project "robot_pcb"
+				(path "/2f56b371-1597-47e1-a48d-b7f69d342f77"
+					(reference "J21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+BATT")
+		(at 25.4 92.71 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3738e8a2-55e5-42e2-afb4-ef4f8bcdb9cf")
+		(property "Reference" "#PWR017"
+			(at 21.59 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 28.702 92.71 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 25.4 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 25.4 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+BATT\""
+			(at 25.4 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "83aa2b3c-623a-48be-a515-c82f7cff4094")
+		)
+		(instances
+			(project "robot_pcb"
+				(path "/2f56b371-1597-47e1-a48d-b7f69d342f77"
+					(reference "#PWR017")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x02_Pin")
+		(at 53.34 63.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3b1dbba2-d9fe-4024-9c8a-9f71aa0df046")
+		(property "Reference" "J11"
+			(at 50.8 64.516 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BATT BYPASS"
+			(at 53.975 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 53.34 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 53.34 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 53.34 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11039,6 +11467,73 @@
 			(project ""
 				(path "/2f56b371-1597-47e1-a48d-b7f69d342f77"
 					(reference "C9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 25.4 90.17 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "48d7c952-418b-44d3-a9a3-1e23346afd47")
+		(property "Reference" "#PWR016"
+			(at 31.75 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 29.21 90.1699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 25.4 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 25.4 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 25.4 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e85b47dd-65b2-4806-b0b9-ae2732fc067e")
+		)
+		(instances
+			(project "robot_pcb"
+				(path "/2f56b371-1597-47e1-a48d-b7f69d342f77"
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -11860,6 +12355,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+BATT")
+		(at 46.99 101.6 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5c44f82d-3df3-4d05-9cca-670e02ede3f2")
+		(property "Reference" "#PWR044"
+			(at 43.18 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 50.292 101.6 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 46.99 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 46.99 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+BATT\""
+			(at 46.99 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b0a48390-dc00-4eaf-9773-17968b3ed063")
+		)
+		(instances
+			(project "robot_pcb"
+				(path "/2f56b371-1597-47e1-a48d-b7f69d342f77"
+					(reference "#PWR044")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
 		(at 283.21 38.1 0)
 		(unit 1)
@@ -12013,6 +12574,72 @@
 			(project ""
 				(path "/2f56b371-1597-47e1-a48d-b7f69d342f77"
 					(reference "J15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+BATT")
+		(at 25.4 100.33 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "643376f4-3f53-4082-a635-49ba8d409d21")
+		(property "Reference" "#PWR036"
+			(at 21.59 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 28.702 100.33 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 25.4 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 25.4 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+BATT\""
+			(at 25.4 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "38e531cc-be9c-4965-ad92-29df5a9bbc69")
+		)
+		(instances
+			(project "robot_pcb"
+				(path "/2f56b371-1597-47e1-a48d-b7f69d342f77"
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -12990,6 +13617,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Conn_01x02_Pin")
+		(at 20.32 97.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "82ca814c-203c-4de5-92d0-41c1ef2bb60c")
+		(property "Reference" "J20"
+			(at 17.78 98.806 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "5V BYPASS"
+			(at 20.955 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 20.32 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 20.32 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 20.32 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b388fc21-4e8f-4ab8-9204-fa32e602fcab")
+		)
+		(pin "2"
+			(uuid "bc922dcf-24ff-49a7-a393-b44213e17e41")
+		)
+		(instances
+			(project "robot_pcb"
+				(path "/2f56b371-1597-47e1-a48d-b7f69d342f77"
+					(reference "J20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:Crystal_GND24")
 		(at 228.6 93.98 0)
 		(unit 1)
@@ -13145,6 +13839,72 @@
 			(project ""
 				(path "/2f56b371-1597-47e1-a48d-b7f69d342f77"
 					(reference "R6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+BATT")
+		(at 25.4 107.95 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8be1f392-c670-47dc-9b99-aa84f5099910")
+		(property "Reference" "#PWR042"
+			(at 21.59 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5.1V"
+			(at 28.702 107.95 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 25.4 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 25.4 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+BATT\""
+			(at 25.4 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2d4d8c73-1b5f-4bd1-b74f-d70b612ffbee")
+		)
+		(instances
+			(project "robot_pcb"
+				(path "/2f56b371-1597-47e1-a48d-b7f69d342f77"
+					(reference "#PWR042")
 					(unit 1)
 				)
 			)
@@ -13415,6 +14175,72 @@
 			(project "robot_pcb"
 				(path "/2f56b371-1597-47e1-a48d-b7f69d342f77"
 					(reference "C16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+BATT")
+		(at 46.99 97.79 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9b4a8900-42b8-4901-b6ec-a97d8fe09ff5")
+		(property "Reference" "#PWR043"
+			(at 43.18 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 50.292 97.79 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 46.99 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 46.99 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+BATT\""
+			(at 46.99 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "57df6d66-65ad-45ae-a368-aecad5648a9b")
+		)
+		(instances
+			(project "robot_pcb"
+				(path "/2f56b371-1597-47e1-a48d-b7f69d342f77"
+					(reference "#PWR043")
 					(unit 1)
 				)
 			)
@@ -14023,7 +14849,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 90.17 135.89 90)
+		(at 77.47 60.96 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14032,7 +14858,7 @@
 		(fields_autoplaced yes)
 		(uuid "bd4e2195-e982-4d03-a68d-017f0eecaed8")
 		(property "Reference" "#PWR052"
-			(at 96.52 135.89 0)
+			(at 83.82 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14041,7 +14867,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 93.98 135.8899 90)
+			(at 81.28 60.9599 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14050,7 +14876,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 90.17 135.89 0)
+			(at 77.47 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14059,7 +14885,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 90.17 135.89 0)
+			(at 77.47 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14068,7 +14894,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 90.17 135.89 0)
+			(at 77.47 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14629,6 +15455,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+BATT")
+		(at 46.99 105.41 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d4abfab3-afcf-4a8e-bd9b-8b8836567c91")
+		(property "Reference" "#PWR074"
+			(at 43.18 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5.1V"
+			(at 50.292 105.41 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 46.99 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 46.99 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+BATT\""
+			(at 46.99 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "504a0b43-c0ac-488b-8193-5656de3caf6f")
+		)
+		(instances
+			(project "robot_pcb"
+				(path "/2f56b371-1597-47e1-a48d-b7f69d342f77"
+					(reference "#PWR074")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector_Generic:Conn_01x03")
 		(at 273.05 219.71 270)
 		(unit 1)
@@ -14701,8 +15593,75 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Conn_01x02_Pin")
+		(at 20.32 90.17 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "dfd1432e-c5b3-4202-9ad9-59b65d97d6b4")
+		(property "Reference" "J19"
+			(at 17.78 91.186 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "3V3 BYPASS"
+			(at 20.955 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 20.32 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 20.32 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 20.32 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c61469d3-6a51-4c42-87b4-d17e762f00e7")
+		)
+		(pin "2"
+			(uuid "c16a4363-537f-4c8c-9015-c643f8a47af4")
+		)
+		(instances
+			(project "robot_pcb"
+				(path "/2f56b371-1597-47e1-a48d-b7f69d342f77"
+					(reference "J19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
-		(at 71.12 138.43 90)
+		(at 58.42 63.5 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14711,7 +15670,7 @@
 		(fields_autoplaced yes)
 		(uuid "e9585868-bed2-497f-a1c2-90e4c4a04699")
 		(property "Reference" "#PWR038"
-			(at 77.47 138.43 0)
+			(at 64.77 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14720,7 +15679,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 74.93 138.4299 90)
+			(at 62.23 63.4999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14729,7 +15688,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 71.12 138.43 0)
+			(at 58.42 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14738,7 +15697,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 71.12 138.43 0)
+			(at 58.42 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14747,7 +15706,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 71.12 138.43 0)
+			(at 58.42 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14851,7 +15810,7 @@
 	)
 	(symbol
 		(lib_id "power:+BATT")
-		(at 90.17 132.08 270)
+		(at 77.47 57.15 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14860,7 +15819,7 @@
 		(fields_autoplaced yes)
 		(uuid "f7e9db71-9f89-4cc0-a500-00321788e731")
 		(property "Reference" "#PWR051"
-			(at 86.36 132.08 0)
+			(at 73.66 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14869,7 +15828,7 @@
 			)
 		)
 		(property "Value" "+BATT"
-			(at 93.98 132.0799 90)
+			(at 81.28 57.1499 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14878,7 +15837,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 90.17 132.08 0)
+			(at 77.47 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14887,7 +15846,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 90.17 132.08 0)
+			(at 77.47 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14896,7 +15855,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+BATT\""
-			(at 90.17 132.08 0)
+			(at 77.47 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15123,7 +16082,7 @@
 		)
 	)
 	(sheet
-		(at 58.42 118.11)
+		(at 45.72 43.18)
 		(size 30.48 33.02)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15139,7 +16098,7 @@
 		)
 		(uuid "8e993949-53ac-4d46-9f7d-59c9cf3d33c4")
 		(property "Sheetname" "Battery"
-			(at 58.42 117.3984 0)
+			(at 45.72 42.4684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15149,7 +16108,7 @@
 			)
 		)
 		(property "Sheetfile" "battery.kicad_sch"
-			(at 58.42 151.7146 0)
+			(at 45.72 76.7846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15158,7 +16117,7 @@
 			)
 		)
 		(pin "ALERT" input
-			(at 88.9 142.24 0)
+			(at 76.2 67.31 0)
 			(uuid "c8e553e2-5cc1-406a-96f0-0c7ecd0bcef5")
 			(effects
 				(font
@@ -15168,7 +16127,7 @@
 			)
 		)
 		(pin "BATT+" output
-			(at 88.9 132.08 0)
+			(at 76.2 57.15 0)
 			(uuid "307e14e4-2bb2-41ef-917f-449a317c0657")
 			(effects
 				(font
@@ -15178,7 +16137,7 @@
 			)
 		)
 		(pin "BATT-" output
-			(at 88.9 135.89 0)
+			(at 76.2 60.96 0)
 			(uuid "67aebaa8-2f14-43bd-a10e-a68cae3f0181")
 			(effects
 				(font
@@ -15188,7 +16147,7 @@
 			)
 		)
 		(pin "SCL" input
-			(at 88.9 125.73 0)
+			(at 76.2 50.8 0)
 			(uuid "f691674e-e8d1-4412-82bd-c934d5b1a53f")
 			(effects
 				(font
@@ -15198,7 +16157,7 @@
 			)
 		)
 		(pin "SDA" input
-			(at 88.9 121.92 0)
+			(at 76.2 46.99 0)
 			(uuid "50e81960-51af-44f6-aa51-1875ebb9191b")
 			(effects
 				(font
@@ -15314,7 +16273,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "eed5055e-310e-40b9-8812-77db8a815e44")
-		(property "Sheetname" "5.1V Regulator"
+		(property "Sheetname" "Regulators"
 			(at 13.97 84.3784 0)
 			(effects
 				(font
@@ -15323,7 +16282,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "regulator_5v1.kicad_sch"
+		(property "Sheetfile" "regulators.kicad_sch"
 			(at 13.97 114.8846 0)
 			(effects
 				(font
