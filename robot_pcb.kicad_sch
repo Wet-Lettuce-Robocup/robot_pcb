@@ -6534,7 +6534,7 @@
 		(uuid "02b914fe-2459-45cc-9a8d-60c08766b910")
 	)
 	(junction
-		(at 102.87 26.67)
+		(at 163.83 92.71)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0436dcda-e4ec-4952-8762-19279ca92a4b")
@@ -6558,7 +6558,7 @@
 		(uuid "0b16f151-0b53-4d08-910a-11e483a1e055")
 	)
 	(junction
-		(at 120.65 44.45)
+		(at 181.61 110.49)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1c7a4155-4e06-4065-aea6-0e5ecedee6d1")
@@ -6576,7 +6576,7 @@
 		(uuid "2c1c3d67-06c9-4885-8dd9-11c536daa948")
 	)
 	(junction
-		(at 102.87 44.45)
+		(at 163.83 110.49)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "379fc412-d7a4-4d88-932e-0128216c90d7")
@@ -6750,7 +6750,7 @@
 		(uuid "d85e831b-58f4-4145-b92d-6897b16ede57")
 	)
 	(junction
-		(at 120.65 26.67)
+		(at 181.61 92.71)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d89a8626-f7cf-42b1-8fb2-36c77897539d")
@@ -6774,7 +6774,7 @@
 		(uuid "f60ebfd6-d1dc-4bc2-971b-3c60f028c093")
 	)
 	(no_connect
-		(at 146.05 35.56)
+		(at 207.01 101.6)
 		(uuid "7d806df3-95f0-4b39-9d4f-d29d393ac44b")
 	)
 	(wire
@@ -6879,7 +6879,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 44.45) (xy 102.87 44.45)
+			(xy 181.61 110.49) (xy 163.83 110.49)
 		)
 		(stroke
 			(width 0)
@@ -6959,7 +6959,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 26.67) (xy 120.65 26.67)
+			(xy 163.83 92.71) (xy 181.61 92.71)
 		)
 		(stroke
 			(width 0)
@@ -7409,7 +7409,7 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 43.18) (xy 138.43 44.45)
+			(xy 199.39 109.22) (xy 199.39 110.49)
 		)
 		(stroke
 			(width 0)
@@ -7456,16 +7456,6 @@
 			(type default)
 		)
 		(uuid "550493c2-8ccd-47a2-8100-96fc179b9952")
-	)
-	(wire
-		(pts
-			(xy 95.25 81.28) (xy 95.25 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5659b189-d1bd-47ef-878b-b3c61d98b6a3")
 	)
 	(wire
 		(pts
@@ -7529,7 +7519,7 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 35.56) (xy 130.81 35.56)
+			(xy 189.23 101.6) (xy 191.77 101.6)
 		)
 		(stroke
 			(width 0)
@@ -7779,7 +7769,7 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 44.45) (xy 120.65 44.45)
+			(xy 199.39 110.49) (xy 181.61 110.49)
 		)
 		(stroke
 			(width 0)
@@ -7799,7 +7789,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 43.18) (xy 120.65 44.45)
+			(xy 181.61 109.22) (xy 181.61 110.49)
 		)
 		(stroke
 			(width 0)
@@ -8029,7 +8019,7 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 26.67) (xy 120.65 26.67)
+			(xy 199.39 92.71) (xy 181.61 92.71)
 		)
 		(stroke
 			(width 0)
@@ -8099,17 +8089,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 81.28) (xy 95.25 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "af767b0a-885c-4c8f-bf52-482c7f5203c9")
-	)
-	(wire
-		(pts
-			(xy 110.49 35.56) (xy 113.03 35.56)
+			(xy 171.45 101.6) (xy 173.99 101.6)
 		)
 		(stroke
 			(width 0)
@@ -8259,7 +8239,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 26.67) (xy 120.65 27.94)
+			(xy 181.61 92.71) (xy 181.61 93.98)
 		)
 		(stroke
 			(width 0)
@@ -8279,7 +8259,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 44.45) (xy 102.87 43.18)
+			(xy 163.83 110.49) (xy 163.83 109.22)
 		)
 		(stroke
 			(width 0)
@@ -8299,7 +8279,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 27.94) (xy 102.87 26.67)
+			(xy 163.83 93.98) (xy 163.83 92.71)
 		)
 		(stroke
 			(width 0)
@@ -8609,7 +8589,7 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 27.94) (xy 138.43 26.67)
+			(xy 199.39 93.98) (xy 199.39 92.71)
 		)
 		(stroke
 			(width 0)
@@ -8666,6 +8646,16 @@
 			(type default)
 		)
 		(uuid "fe89bd8e-ef55-4175-b26b-f600aa4f8b97")
+	)
+	(wire
+		(pts
+			(xy 146.05 101.6) (xy 156.21 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fff445f4-42f4-4a6f-b4ca-18440bcf8d2b")
 	)
 	(label "TIM5_CH2"
 		(at 95.25 210.82 0)
@@ -11178,7 +11168,7 @@
 	)
 	(symbol
 		(lib_id "LED:WS2812B-2020")
-		(at 138.43 35.56 0)
+		(at 199.39 101.6 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11186,7 +11176,7 @@
 		(dnp no)
 		(uuid "1ca1e3b4-854c-4144-926a-886480cf8cf0")
 		(property "Reference" "D3"
-			(at 134.366 41.91 0)
+			(at 195.326 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11194,7 +11184,7 @@
 			)
 		)
 		(property "Value" "WS2812B-5050"
-			(at 146.812 42.164 0)
+			(at 207.772 108.204 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11202,7 +11192,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
-			(at 139.7 43.18 0)
+			(at 200.66 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11212,7 +11202,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/4684/4684_WS2812B-2020_V1.3_EN.pdf"
-			(at 140.97 45.085 0)
+			(at 201.93 111.125 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11222,7 +11212,7 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller, 2.0 x 2.0 mm, 12 mA"
-			(at 138.43 35.56 0)
+			(at 199.39 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12236,7 +12226,7 @@
 	)
 	(symbol
 		(lib_id "LED:WS2812B-2020")
-		(at 120.65 35.56 0)
+		(at 181.61 101.6 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12244,7 +12234,7 @@
 		(dnp no)
 		(uuid "4a351cd6-db7f-42d0-a2fb-82258afd2e20")
 		(property "Reference" "D2"
-			(at 117.094 29.21 0)
+			(at 178.054 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12252,7 +12242,7 @@
 			)
 		)
 		(property "Value" "WS2812B-2020"
-			(at 131.064 24.13 0)
+			(at 192.024 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12261,7 +12251,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
-			(at 121.92 43.18 0)
+			(at 182.88 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12271,7 +12261,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/4684/4684_WS2812B-2020_V1.3_EN.pdf"
-			(at 123.19 45.085 0)
+			(at 184.15 111.125 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12281,7 +12271,7 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller, 2.0 x 2.0 mm, 12 mA"
-			(at 120.65 35.56 0)
+			(at 181.61 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14810,7 +14800,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 102.87 26.67 0)
+		(at 163.83 92.71 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14819,7 +14809,7 @@
 		(fields_autoplaced yes)
 		(uuid "975e5bf0-5ccf-4b79-9085-d23b917222dd")
 		(property "Reference" "#PWR081"
-			(at 102.87 30.48 0)
+			(at 163.83 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14828,7 +14818,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 102.87 21.59 0)
+			(at 163.83 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14836,7 +14826,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 102.87 26.67 0)
+			(at 163.83 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14845,7 +14835,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 102.87 26.67 0)
+			(at 163.83 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14854,7 +14844,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 102.87 26.67 0)
+			(at 163.83 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15283,7 +15273,7 @@
 	)
 	(symbol
 		(lib_id "LED:WS2812B-2020")
-		(at 102.87 35.56 0)
+		(at 163.83 101.6 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15291,7 +15281,7 @@
 		(dnp no)
 		(uuid "b0803ebf-8e40-4c62-b569-a4e1c1712d6a")
 		(property "Reference" "D1"
-			(at 105.156 29.21 0)
+			(at 166.116 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15299,7 +15289,7 @@
 			)
 		)
 		(property "Value" "WS2812B-2020"
-			(at 110.998 42.164 0)
+			(at 171.958 108.204 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15307,7 +15297,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
-			(at 104.14 43.18 0)
+			(at 165.1 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15317,7 +15307,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/4684/4684_WS2812B-2020_V1.3_EN.pdf"
-			(at 105.41 45.085 0)
+			(at 166.37 111.125 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15327,7 +15317,7 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller, 2.0 x 2.0 mm, 12 mA"
-			(at 102.87 35.56 0)
+			(at 163.83 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16484,7 +16474,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 102.87 44.45 0)
+		(at 163.83 110.49 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16493,7 +16483,7 @@
 		(fields_autoplaced yes)
 		(uuid "e30e27ac-5192-4e64-81d9-3996f18859a5")
 		(property "Reference" "#PWR080"
-			(at 102.87 50.8 0)
+			(at 163.83 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16502,7 +16492,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 102.87 49.53 0)
+			(at 163.83 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16510,7 +16500,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 102.87 44.45 0)
+			(at 163.83 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16519,7 +16509,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 102.87 44.45 0)
+			(at 163.83 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16528,7 +16518,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 102.87 44.45 0)
+			(at 163.83 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
