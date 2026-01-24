@@ -4828,7 +4828,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cb6dd832-29c5-4d2b-92b0-1fdff1b5a591")
-		(property "Reference" "#PWR051"
+		(property "Reference" "#PWR0101"
 			(at 59.69 102.87 0)
 			(effects
 				(font
@@ -4878,7 +4878,7 @@
 		(instances
 			(project "robot_pcb"
 				(path "/2f56b371-1597-47e1-a48d-b7f69d342f77/eed5055e-310e-40b9-8812-77db8a815e44"
-					(reference "#PWR051")
+					(reference "#PWR0101")
 					(unit 1)
 				)
 			)
