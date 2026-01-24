@@ -2040,6 +2040,16 @@
 		)
 		(uuid "9ade5c37-078e-4045-9e8d-b15d66483130")
 	)
+	(label "SUP"
+		(at 100.33 82.55 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b63614da-5989-44c7-8330-2a0d747e1310")
+	)
 	(hierarchical_label "PGOOD"
 		(shape output)
 		(at 157.48 85.09 0)

@@ -9172,6 +9172,16 @@
 		)
 		(uuid "03fc1b92-4544-4dd3-9e97-be5934ae1c20")
 	)
+	(label "BL_M1"
+		(at 50.8 259.08 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "06950180-bde6-40de-a3ee-1d7ebaa91163")
+	)
 	(label "PD10"
 		(at 16.51 257.81 0)
 		(effects
@@ -9231,6 +9241,16 @@
 			(justify left bottom)
 		)
 		(uuid "11ad37cd-20e6-4167-9101-3b188499593d")
+	)
+	(label "FR_M1"
+		(at 124.46 217.17 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "15f9085a-cabe-4c17-bda7-2b81c7bee592")
 	)
 	(label "PI_SDA"
 		(at 111.76 52.07 180)
@@ -9302,6 +9322,16 @@
 		)
 		(uuid "37a434b6-ee8d-4bcc-80ca-ac214c4492e5")
 	)
+	(label "BR_M1"
+		(at 124.46 259.08 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "37b6b569-ceb1-4faf-b083-9fc0d54ccaef")
+	)
 	(label "SW_BOOT0"
 		(at 237.49 66.04 0)
 		(effects
@@ -9342,6 +9372,16 @@
 		)
 		(uuid "44c312b2-4474-4291-b062-401ab2da9a3f")
 	)
+	(label "FR_M2"
+		(at 124.46 219.71 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "53091a0a-f708-4060-898a-4ea06bb029f9")
+	)
 	(label "PD9"
 		(at 90.17 215.9 0)
 		(effects
@@ -9361,6 +9401,16 @@
 			(justify left bottom)
 		)
 		(uuid "55a24aca-d770-4953-aa43-c6de387b9452")
+	)
+	(label "CC2"
+		(at 44.45 175.26 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "57980ea6-7be1-40d7-b2c8-5b508a5f1ca7")
 	)
 	(label "TIM5_CH1"
 		(at 317.5 60.96 0)
@@ -9412,6 +9462,16 @@
 		)
 		(uuid "644616ac-6f0d-49f7-b52f-dcb54df8c941")
 	)
+	(label "FL_M1"
+		(at 50.8 217.17 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "69ccac38-dbc0-46f9-a3f1-645f7e6a078d")
+	)
 	(label "NRST"
 		(at 222.25 60.96 0)
 		(effects
@@ -9432,6 +9492,16 @@
 		)
 		(uuid "706164b6-d1ea-42d9-b444-e709f83eb267")
 	)
+	(label "BR_M2"
+		(at 124.46 261.62 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "75879457-d4b9-43b7-ba3a-3667bde9cc5e")
+	)
 	(label "TIM1_CH2"
 		(at 50.8 224.79 0)
 		(effects
@@ -9451,6 +9521,16 @@
 			(justify left bottom)
 		)
 		(uuid "77c74fe8-7760-493a-b8a7-7c2e894e4f27")
+	)
+	(label "BL_M2"
+		(at 50.8 261.62 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7d20ddb6-c809-4957-a83b-b23aed8ba419")
 	)
 	(label "TIM3_CH1"
 		(at 317.5 76.2 0)
@@ -9592,6 +9672,16 @@
 		)
 		(uuid "cf679d45-20ed-4f5e-8fe3-f1dfb58e104d")
 	)
+	(label "CC1"
+		(at 44.45 172.72 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d0c932c9-6c9a-4e97-935a-4375c135b566")
+	)
 	(label "TIM8_CH2"
 		(at 317.5 165.1 0)
 		(effects
@@ -9601,6 +9691,16 @@
 			(justify left bottom)
 		)
 		(uuid "d51e2298-a569-45e0-bb1e-4f242e4ce70b")
+	)
+	(label "FL_M2"
+		(at 50.8 219.71 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d833b023-7365-49c1-9bbf-28363d51ffb1")
 	)
 	(label "TIM2_CH1"
 		(at 317.5 73.66 0)
