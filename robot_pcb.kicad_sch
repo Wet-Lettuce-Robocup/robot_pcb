@@ -9282,6 +9282,16 @@
 		)
 		(uuid "25cb4796-5650-46da-8731-a30cce4e336c")
 	)
+	(label "TIM8_CH2"
+		(at 284.48 214.63 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2a3a0ca2-3b7c-4f98-a5e2-06dd57f15506")
+	)
 	(label "I2C_SCL"
 		(at 49.53 121.92 0)
 		(effects
@@ -9491,6 +9501,16 @@
 			(justify left bottom)
 		)
 		(uuid "706164b6-d1ea-42d9-b444-e709f83eb267")
+	)
+	(label "TIM8_CH1"
+		(at 270.51 214.63 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "71432030-e1ee-498c-9ec2-dd8449031b43")
 	)
 	(label "BR_M2"
 		(at 124.46 261.62 0)
@@ -9781,6 +9801,16 @@
 			(justify left bottom)
 		)
 		(uuid "fa3e06e2-080c-4971-9366-06aad94fb5ad")
+	)
+	(label "TIM8_CH3"
+		(at 299.72 214.63 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "fcab8080-2ffa-4961-8499-a710d9c24df2")
 	)
 	(label "TIM5_CH3"
 		(at 317.5 66.04 0)
