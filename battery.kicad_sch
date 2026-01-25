@@ -1576,7 +1576,7 @@
 				(pin power_out line
 					(at -7.62 3.81 0)
 					(length 2.54)
-					(name "V4"
+					(name "V3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3231,6 +3231,76 @@
 			(type default)
 		)
 		(uuid "f3692e52-ff0b-41ec-ae4b-4cdb75468a18")
+	)
+	(label "VC1"
+		(at 185.42 90.17 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "09b012c9-ae5c-44c7-961b-53cddb95daf0")
+	)
+	(label "V3"
+		(at 238.76 85.09 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5722c9d9-1b42-42f8-895d-2db7ad54d946")
+	)
+	(label "VC0"
+		(at 185.42 92.71 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c769e424-061d-4bf2-b276-ecb738901e36")
+	)
+	(label "V2"
+		(at 238.76 87.63 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d5ea53fb-049b-4e78-9189-fd24c020bd5e")
+	)
+	(label "V1"
+		(at 238.76 90.17 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e37b2fdb-0e2b-46f9-af9c-5689128cb117")
+	)
+	(label "VC3"
+		(at 185.42 85.09 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ecf66cd8-bf65-41ea-90af-8ba0def8bfeb")
+	)
+	(label "VC2"
+		(at 185.42 87.63 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f1325c0c-ba2d-446c-b931-fcf007212571")
 	)
 	(hierarchical_label "ALERT"
 		(shape input)
@@ -5514,7 +5584,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "a1e138dc-4b29-4fef-b385-8acc01534729")
 		(property "Reference" "#PWR032"
 			(at 189.23 77.47 0)
@@ -5526,7 +5595,7 @@
 			)
 		)
 		(property "Value" "GND1"
-			(at 189.23 76.2 0)
+			(at 192.532 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
