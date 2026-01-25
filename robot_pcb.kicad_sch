@@ -7925,6 +7925,14 @@
 		(uuid "f60ebfd6-d1dc-4bc2-971b-3c60f028c093")
 	)
 	(no_connect
+		(at 247.65 236.22)
+		(uuid "2a6330d9-d9c8-49a8-9632-ed41e5a27a06")
+	)
+	(no_connect
+		(at 247.65 233.68)
+		(uuid "371cb4bd-7463-4ea4-9f07-c41f0bc5ca8c")
+	)
+	(no_connect
 		(at 186.69 248.92)
 		(uuid "68eaff89-9a6f-4912-a03b-882eaa4db1fd")
 	)
@@ -8013,6 +8021,16 @@
 			(type default)
 		)
 		(uuid "049a0d08-591d-4f1a-b32f-42aeebc988e6")
+	)
+	(wire
+		(pts
+			(xy 172.72 228.6) (xy 186.69 228.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "05798f47-728a-47c4-83aa-fe378aec1797")
 	)
 	(wire
 		(pts
@@ -8546,6 +8564,16 @@
 	)
 	(wire
 		(pts
+			(xy 172.72 228.6) (xy 172.72 224.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2fe7c46f-b0f3-4948-97bb-907accb59b01")
+	)
+	(wire
+		(pts
 			(xy 50.8 266.7) (xy 60.96 266.7)
 		)
 		(stroke
@@ -8806,6 +8834,16 @@
 	)
 	(wire
 		(pts
+			(xy 172.72 215.9) (xy 172.72 217.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "517bfaca-ec2f-473e-b784-c86f2a270044")
+	)
+	(wire
+		(pts
 			(xy 255.27 147.32) (xy 265.43 147.32)
 		)
 		(stroke
@@ -8823,16 +8861,6 @@
 			(type default)
 		)
 		(uuid "550493c2-8ccd-47a2-8100-96fc179b9952")
-	)
-	(wire
-		(pts
-			(xy 167.64 223.52) (xy 167.64 224.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "56b1fca3-3b87-422b-9741-fe1cd3ad49c4")
 	)
 	(wire
 		(pts
@@ -9356,16 +9384,6 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 228.6) (xy 186.69 228.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8eb17629-7f3a-4dfb-8994-f41cd95f1611")
-	)
-	(wire
-		(pts
 			(xy 308.61 49.53) (xy 323.85 49.53)
 		)
 		(stroke
@@ -9543,16 +9561,6 @@
 			(type default)
 		)
 		(uuid "9df240ef-dc3f-4dad-8df6-c6d93a005ed3")
-	)
-	(wire
-		(pts
-			(xy 185.42 228.6) (xy 185.42 224.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9e94fb13-8667-446d-9e15-e7d88f337b74")
 	)
 	(wire
 		(pts
@@ -9926,16 +9934,6 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 224.79) (xy 185.42 224.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ca655d31-16e8-4b2d-834e-875c798e2269")
-	)
-	(wire
-		(pts
 			(xy 237.49 93.98) (xy 237.49 95.25)
 		)
 		(stroke
@@ -10103,16 +10101,6 @@
 			(type default)
 		)
 		(uuid "ddcc52e2-305d-42af-8a06-63a7c77f037b")
-	)
-	(wire
-		(pts
-			(xy 167.64 224.79) (xy 168.91 224.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e0bf9856-208b-4fbc-8ff9-474c1d6d7831")
 	)
 	(wire
 		(pts
@@ -11065,10 +11053,10 @@
 		(uuid "c3c05950-3166-4429-8d98-1e86cfc90608")
 	)
 	(label "BNO_COM3"
-		(at 176.53 224.79 0)
+		(at 173.99 228.6 0)
 		(effects
 			(font
-				(size 0.762 0.762)
+				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
@@ -15752,6 +15740,76 @@
 			(project "robot_pcb"
 				(path "/2f56b371-1597-47e1-a48d-b7f69d342f77"
 					(reference "#PWR011")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 172.72 220.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "571e5827-0dfc-45f7-a58c-032217019ab8")
+		(property "Reference" "R29"
+			(at 175.26 219.7099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 175.26 222.2499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 170.942 220.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 172.72 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 172.72 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f9a98c5b-2712-4575-8bbe-fb8da0561241")
+		)
+		(pin "1"
+			(uuid "f9cba890-84ba-483b-a1e9-d8f7743f4dbe")
+		)
+		(instances
+			(project ""
+				(path "/2f56b371-1597-47e1-a48d-b7f69d342f77"
+					(reference "R29")
 					(unit 1)
 				)
 			)
@@ -20737,7 +20795,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 167.64 223.52 0)
+		(at 172.72 215.9 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -20745,7 +20803,7 @@
 		(dnp no)
 		(uuid "d4a61b28-68a4-489c-a886-d3be431aecd2")
 		(property "Reference" "#PWR091"
-			(at 167.64 227.33 0)
+			(at 172.72 219.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20754,7 +20812,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 162.56 223.266 0)
+			(at 167.64 215.646 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20762,7 +20820,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 167.64 223.52 0)
+			(at 172.72 215.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20771,7 +20829,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 167.64 223.52 0)
+			(at 172.72 215.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20780,7 +20838,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 167.64 223.52 0)
+			(at 172.72 215.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20894,73 +20952,6 @@
 			(project ""
 				(path "/2f56b371-1597-47e1-a48d-b7f69d342f77"
 					(reference "J8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 172.72 224.79 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "de353c13-e98c-402f-9708-148ae03c10c0")
-		(property "Reference" "R29"
-			(at 169.418 227.076 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10k"
-			(at 175.26 226.822 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 172.72 226.568 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 172.72 224.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 172.72 224.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2f44859f-68c0-4d21-af64-d3f0616ebe58")
-		)
-		(pin "2"
-			(uuid "03bd399a-f7ad-4970-9119-052f55d89d75")
-		)
-		(instances
-			(project "robot_pcb"
-				(path "/2f56b371-1597-47e1-a48d-b7f69d342f77"
-					(reference "R29")
 					(unit 1)
 				)
 			)
