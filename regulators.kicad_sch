@@ -963,12 +963,6 @@
 		(uuid "777c30b8-e4a4-4bc3-9f98-8973e93cb9fc")
 	)
 	(junction
-		(at 80.01 73.66)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "78aa14aa-6b43-4ce7-96ac-03fec220e9a3")
-	)
-	(junction
 		(at 31.75 115.57)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1075,6 +1069,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d5b59d9b-47ab-47a6-a8da-8bf63b6730ca")
+	)
+	(junction
+		(at 80.01 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e21db68f-57ec-4801-9c3d-1217f37008b6")
 	)
 	(junction
 		(at 100.33 29.21)
@@ -3407,7 +3407,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "KiCad:CYA0630-3.3uH"
 			(at 83.82 73.66 0)
 			(effects
 				(font
@@ -3434,7 +3434,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C5189747"
 			(at 83.82 73.66 90)
 			(effects
 				(font

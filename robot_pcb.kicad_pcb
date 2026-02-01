@@ -21139,6 +21139,162 @@
 			)
 		)
 	)
+	(footprint "KiCad:CYA0630-3.3uH"
+		(layer "F.Cu")
+		(uuid "82cae95c-df47-43bd-977b-9bbb7962aa6b")
+		(at 117.1 149.4 90)
+		(property "Reference" "L5"
+			(at 0 -0.9 90)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "0a17a604-348c-46e3-a7e6-a0b3e14bee0e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "3.3uH"
+			(at 0 1 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "7c395523-38f2-47ee-ac0a-129fc48e085a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7dc555b0-3b4e-49ad-a162-7f030c9328e5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Inductor"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e1722fca-660c-4252-bf84-dc41e02c8d92")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C5189747"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "88d54177-a646-4c16-9bcd-9049d90e549a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "daaeb628-cf7c-4393-af01-3843d3d7c012")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6778d1d2-0d03-4053-a41e-2265cf390060")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Choke_* *Coil* Inductor_* L_*")
+		(path "/eed5055e-310e-40b9-8812-77db8a815e44/34fff25e-dc17-48c5-a0b6-5af77b6a4e19")
+		(sheetname "/Regulators/")
+		(sheetfile "regulators.kicad_sch")
+		(attr smd)
+		(fp_poly
+			(pts
+				(xy 0 0) (xy 6.999999 0) (xy 7 6.6) (xy 0 6.6)
+			)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(fill no)
+			(layer "F.SilkS")
+			(uuid "63a2baa7-68a9-4736-b27b-0cb33d202ebe")
+		)
+		(fp_poly
+			(pts
+				(xy -0.2 -0.2) (xy 7.2 -0.2) (xy 7.2 6.8) (xy -0.199999 6.8)
+			)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "18eacee7-d5ff-43c0-a907-93a03a528cab")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 2.5 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "b40bece4-c33d-480d-9188-67f80b4fa188")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" smd roundrect
+			(at 0.8 3.3 90)
+			(size 1.7 3.2)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.15)
+			(net 41 "Net-(U7-SW)")
+			(pinfunction "1")
+			(pintype "passive")
+			(uuid "3d89bafc-c22d-4c7f-a068-0153df216ff0")
+		)
+		(pad "2" smd roundrect
+			(at 6.2 3.299999 90)
+			(size 1.7 3.2)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.15)
+			(net 44 "/Regulators/3.3V")
+			(pinfunction "2")
+			(pintype "passive")
+			(uuid "c65c3bdc-dbda-44bf-9385-d587a6d30f51")
+		)
+		(embedded_fonts no)
+	)
 	(footprint "Package_TO_SOT_SMD:TSOT-23"
 		(layer "F.Cu")
 		(uuid "872e0cea-01d4-4e3c-887f-d601af3a9d99")
