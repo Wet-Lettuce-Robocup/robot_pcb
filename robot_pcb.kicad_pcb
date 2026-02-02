@@ -45070,14 +45070,6 @@
 		(uuid "3647893e-ce8f-45f2-a39d-0b086b82335b")
 	)
 	(segment
-		(start 80.05 217.175)
-		(end 80.025 217.15)
-		(width 0.3)
-		(layer "F.Cu")
-		(net 86)
-		(uuid "8c0200cb-b091-4929-8b13-7ee59b086aec")
-	)
-	(segment
 		(start 103.535 203.81)
 		(end 103.535 204.04)
 		(width 0.3)
