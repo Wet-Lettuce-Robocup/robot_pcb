@@ -2194,7 +2194,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 100.33) (xy 153.67 100.33)
+			(xy 151.13 100.33) (xy 153.67 100.33)
 		)
 		(stroke
 			(width 0)
@@ -2334,7 +2334,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 101.6) (xy 149.86 100.33)
+			(xy 151.13 101.6) (xy 151.13 100.33)
 		)
 		(stroke
 			(width 0)
@@ -2474,7 +2474,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 109.22) (xy 149.86 110.49)
+			(xy 151.13 109.22) (xy 151.13 110.49)
 		)
 		(stroke
 			(width 0)
@@ -3242,16 +3242,6 @@
 		)
 		(uuid "09b012c9-ae5c-44c7-961b-53cddb95daf0")
 	)
-	(label "SRP"
-		(at 180.34 97.79 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "09f2a500-73cb-4410-8b30-f2b0a28c8bbc")
-	)
 	(label "V3"
 		(at 238.76 85.09 0)
 		(effects
@@ -3261,46 +3251,6 @@
 			(justify left bottom)
 		)
 		(uuid "5722c9d9-1b42-42f8-895d-2db7ad54d946")
-	)
-	(label "DSG_DRAIN"
-		(at 143.51 143.51 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "5929dd4e-acac-4362-9aeb-462b67576a25")
-	)
-	(label "TS1"
-		(at 130.81 87.63 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "68c55ba2-0fff-4393-9fe7-8ed1f5b6bda5")
-	)
-	(label "DSG_SRC"
-		(at 114.3 143.51 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "a9fe85d5-79d5-47c8-978b-f5a5e1996000")
-	)
-	(label "CHG"
-		(at 149.86 100.33 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "c506fc63-f817-48ad-aebb-779011942f21")
 	)
 	(label "VC0"
 		(at 185.42 92.71 0)
@@ -3312,26 +3262,6 @@
 		)
 		(uuid "c769e424-061d-4bf2-b276-ecb738901e36")
 	)
-	(label "TS1_SW"
-		(at 109.22 77.47 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "caa7a792-7a0d-4189-89a0-7dfdd006f5bc")
-	)
-	(label "BAT"
-		(at 181.61 74.93 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "cafd6705-c471-41a0-aba8-a0d21b208c85")
-	)
 	(label "V2"
 		(at 238.76 87.63 0)
 		(effects
@@ -3342,16 +3272,6 @@
 		)
 		(uuid "d5ea53fb-049b-4e78-9189-fd24c020bd5e")
 	)
-	(label "DSG_GATE"
-		(at 124.46 127 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "d8763d29-f26e-4230-aad2-d742b5b2a7ee")
-	)
 	(label "V1"
 		(at 238.76 90.17 0)
 		(effects
@@ -3361,36 +3281,6 @@
 			(justify left bottom)
 		)
 		(uuid "e37b2fdb-0e2b-46f9-af9c-5689128cb117")
-	)
-	(label "DSG"
-		(at 137.16 97.79 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "e655730e-353f-4ef5-ba73-7f6a779a9563")
-	)
-	(label "SRN"
-		(at 180.34 100.33 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "e8c648d6-86d3-4830-a517-49e5880cccc7")
-	)
-	(label "REGSRC"
-		(at 166.37 62.23 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "eb4d8361-1de8-4f67-98da-56f3bd1b4a42")
 	)
 	(label "VC3"
 		(at 185.42 85.09 0)
@@ -4015,7 +3905,7 @@
 	)
 	(symbol
 		(lib_id "power:GND1")
-		(at 149.86 110.49 0)
+		(at 151.13 110.49 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4023,7 +3913,7 @@
 		(dnp no)
 		(uuid "2a84feda-cd32-4519-80d7-5d2f2e811103")
 		(property "Reference" "#PWR028"
-			(at 149.86 116.84 0)
+			(at 151.13 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4032,7 +3922,7 @@
 			)
 		)
 		(property "Value" "GND1"
-			(at 152.908 110.49 0)
+			(at 154.178 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4040,7 +3930,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 149.86 110.49 0)
+			(at 151.13 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4049,7 +3939,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 149.86 110.49 0)
+			(at 151.13 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4058,7 +3948,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND1\" , ground"
-			(at 149.86 110.49 0)
+			(at 151.13 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6617,7 +6507,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 149.86 105.41 0)
+		(at 151.13 105.41 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6625,7 +6515,7 @@
 		(dnp no)
 		(uuid "c9d53f54-86fc-4c1e-a3b2-46cd522c9f77")
 		(property "Reference" "R17"
-			(at 151.638 104.394 0)
+			(at 152.908 104.394 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6634,7 +6524,7 @@
 			)
 		)
 		(property "Value" "1M"
-			(at 151.892 106.934 0)
+			(at 153.162 106.934 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6643,7 +6533,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 148.082 105.41 90)
+			(at 149.352 105.41 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6652,7 +6542,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 149.86 105.41 0)
+			(at 151.13 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6661,7 +6551,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 149.86 105.41 0)
+			(at 151.13 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6670,7 +6560,7 @@
 			)
 		)
 		(property "LCSC" ""
-			(at 149.86 105.41 0)
+			(at 151.13 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6679,7 +6569,7 @@
 			)
 		)
 		(property "KLC_S3.3" ""
-			(at 149.86 105.41 0)
+			(at 151.13 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6688,7 +6578,7 @@
 			)
 		)
 		(property "KLC_S4.1" ""
-			(at 149.86 105.41 0)
+			(at 151.13 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)

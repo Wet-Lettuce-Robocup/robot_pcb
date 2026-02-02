@@ -3407,7 +3407,7 @@
 				)
 			)
 		)
-		(property "Footprint" "KiCad:CYA0630-3.3uH"
+		(property "Footprint" "Dry_Lettuce:CYA0630-3.3uH"
 			(at 83.82 73.66 0)
 			(effects
 				(font
