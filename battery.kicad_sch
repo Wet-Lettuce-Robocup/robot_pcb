@@ -3379,6 +3379,16 @@
 		)
 		(uuid "cab18556-52a2-46f6-9967-72bd064f061b")
 	)
+	(label "BATT-"
+		(at 92.71 143.51 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "caf56a36-5567-4e5c-b311-182d92b9c2c9")
+	)
 	(label "V2"
 		(at 238.76 87.63 0)
 		(effects
