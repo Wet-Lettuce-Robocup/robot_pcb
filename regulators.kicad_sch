@@ -5994,7 +5994,7 @@
 				)
 			)
 		)
-		(property "Footprint" "C223037"
+		(property "Footprint" ""
 			(at 83.82 118.11 0)
 			(effects
 				(font
