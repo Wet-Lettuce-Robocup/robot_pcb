@@ -1514,7 +1514,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "International_Symbols:Lipo_Pinout"
+		(symbol "Dry_Lettuce:Lipo_Pinout"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -5737,7 +5737,7 @@
 		)
 	)
 	(symbol
-		(lib_id "International_Symbols:Lipo_Pinout")
+		(lib_id "Dry_Lettuce:Lipo_Pinout")
 		(at 251.46 88.9 0)
 		(unit 1)
 		(exclude_from_sim no)

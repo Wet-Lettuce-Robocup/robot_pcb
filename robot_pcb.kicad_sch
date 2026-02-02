@@ -3085,7 +3085,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "International_Symbols:BNO086"
+		(symbol "Dry_Lettuce:BNO086"
 			(pin_names
 				(offset 1.016)
 			)
@@ -3110,7 +3110,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Footprint" "International_Footprints:IC_BNO086"
+			(property "Footprint" "Dry_Lettuce:IC_BNO086"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3785,7 +3785,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "International_Symbols:MAX14870"
+		(symbol "Dry_Lettuce:MAX14870"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -3805,7 +3805,7 @@
 					)
 				)
 			)
-			(property "Footprint" "International_Footprints:Pololu_MAX14870"
+			(property "Footprint" "Dry_Lettuce:Pololu_MAX14870"
 				(at 0 0 0)
 				(effects
 					(font
@@ -4028,7 +4028,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "International_Symbols:Motor_With_Encoder"
+		(symbol "Dry_Lettuce:Motor_With_Encoder"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -15255,7 +15255,7 @@
 		)
 	)
 	(symbol
-		(lib_id "International_Symbols:MAX14870")
+		(lib_id "Dry_Lettuce:MAX14870")
 		(at 110.49 259.08 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -15282,7 +15282,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "International_Footprints:Pololu_MAX14870"
+		(property "Footprint" "Dry_Lettuce:Pololu_MAX14870"
 			(at 110.49 259.08 0)
 			(effects
 				(font
@@ -15508,7 +15508,7 @@
 		)
 	)
 	(symbol
-		(lib_id "International_Symbols:Motor_With_Encoder")
+		(lib_id "Dry_Lettuce:Motor_With_Encoder")
 		(at 68.58 220.98 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -16016,7 +16016,7 @@
 		)
 	)
 	(symbol
-		(lib_id "International_Symbols:Motor_With_Encoder")
+		(lib_id "Dry_Lettuce:Motor_With_Encoder")
 		(at 142.24 262.89 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -16222,7 +16222,7 @@
 		)
 	)
 	(symbol
-		(lib_id "International_Symbols:MAX14870")
+		(lib_id "Dry_Lettuce:MAX14870")
 		(at 110.49 217.17 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -16249,7 +16249,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "International_Footprints:Pololu_MAX14870"
+		(property "Footprint" "Dry_Lettuce:Pololu_MAX14870"
 			(at 110.49 217.17 0)
 			(effects
 				(font
@@ -16876,7 +16876,7 @@
 		)
 	)
 	(symbol
-		(lib_id "International_Symbols:MAX14870")
+		(lib_id "Dry_Lettuce:MAX14870")
 		(at 36.83 217.17 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -16903,7 +16903,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "International_Footprints:Pololu_MAX14870"
+		(property "Footprint" "Dry_Lettuce:Pololu_MAX14870"
 			(at 36.83 217.17 0)
 			(effects
 				(font
@@ -17294,7 +17294,7 @@
 		)
 	)
 	(symbol
-		(lib_id "International_Symbols:MAX14870")
+		(lib_id "Dry_Lettuce:MAX14870")
 		(at 36.83 259.08 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -17321,7 +17321,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "International_Footprints:Pololu_MAX14870"
+		(property "Footprint" "Dry_Lettuce:Pololu_MAX14870"
 			(at 36.83 259.08 0)
 			(effects
 				(font
@@ -18039,7 +18039,7 @@
 		)
 	)
 	(symbol
-		(lib_id "International_Symbols:Motor_With_Encoder")
+		(lib_id "Dry_Lettuce:Motor_With_Encoder")
 		(at 142.24 220.98 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -19992,7 +19992,7 @@
 		)
 	)
 	(symbol
-		(lib_id "International_Symbols:BNO086")
+		(lib_id "Dry_Lettuce:BNO086")
 		(at 214.63 251.46 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -20017,7 +20017,7 @@
 				)
 			)
 		)
-		(property "Footprint" "International_Footprints:IC_BNO086"
+		(property "Footprint" "Dry_Lettuce:IC_BNO086"
 			(at 214.63 251.46 0)
 			(effects
 				(font
@@ -22354,7 +22354,7 @@
 		)
 	)
 	(symbol
-		(lib_id "International_Symbols:Motor_With_Encoder")
+		(lib_id "Dry_Lettuce:Motor_With_Encoder")
 		(at 68.58 262.89 0)
 		(unit 1)
 		(exclude_from_sim no)

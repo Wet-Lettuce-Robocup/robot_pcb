@@ -1,4 +1,4 @@
 (sym_lib_table
   (version 7)
-  (lib (name "MAX25240")(type "KiCad")(uri "/Users/williamdolier/Documents/kicad_libraries/ul_MAX25240AFFD-VY-/KiCADv6/2026-01-21_06-21-12.kicad_sym")(options "")(descr ""))
+  (lib (name "Dry_Lettuce")(type "KiCad")(uri "${KIPRJMOD}/Dry_Lettuce.kicad_sym")(options "")(descr ""))
 )
