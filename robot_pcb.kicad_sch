@@ -16475,7 +16475,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical"
+		(property "Footprint" "Dry_Lettuce:OLED_small"
 			(at 238.76 205.74 0)
 			(effects
 				(font
