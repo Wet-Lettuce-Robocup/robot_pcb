@@ -70,10 +70,10 @@
 		(end 7.874 6.604)
 		(stroke
 			(width 0.1)
-			(type default)
+			(type solid)
 		)
 		(fill no)
-		(layer "Margin")
+		(layer "F.CrtYd")
 		(uuid "c570dc42-5074-4270-a4b3-6b10e6012b08")
 	)
 	(fp_text user "${REFERENCE}"
