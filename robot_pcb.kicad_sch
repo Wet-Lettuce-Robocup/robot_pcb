@@ -4,6 +4,10 @@
 	(generator_version "9.0")
 	(uuid "2f56b371-1597-47e1-a48d-b7f69d342f77")
 	(paper "A3")
+	(title_block
+		(title "Dry Lettuce Robot")
+		(date "2026-02-07")
+	)
 	(lib_symbols
 		(symbol "Connector:Conn_01x02_Pin"
 			(pin_names
