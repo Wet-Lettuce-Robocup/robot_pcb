@@ -1334,8 +1334,8 @@
 		)
 		(symbol "MAX14870IC_1_1"
 			(rectangle
-				(start -6.35 -30.48)
-				(end 12.7 -43.18)
+				(start -3.81 -2.54)
+				(end 15.24 -15.24)
 				(stroke
 					(width 0)
 					(type solid)
@@ -1345,7 +1345,7 @@
 				)
 			)
 			(pin passive line
-				(at -8.89 -33.02 0)
+				(at -6.35 -5.08 0)
 				(length 2.54)
 				(name "FAULT"
 					(effects
@@ -1363,7 +1363,7 @@
 				)
 			)
 			(pin passive line
-				(at -8.89 -35.56 0)
+				(at -6.35 -7.62 0)
 				(length 2.54)
 				(name "DIR"
 					(effects
@@ -1381,7 +1381,7 @@
 				)
 			)
 			(pin passive line
-				(at -8.89 -38.1 0)
+				(at -6.35 -10.16 0)
 				(length 2.54)
 				(name "PWM"
 					(effects
@@ -1399,7 +1399,7 @@
 				)
 			)
 			(pin passive line
-				(at -8.89 -40.64 0)
+				(at -6.35 -12.7 0)
 				(length 2.54)
 				(name "EN"
 					(effects
@@ -1417,7 +1417,7 @@
 				)
 			)
 			(pin passive line
-				(at 2.54 -45.72 90)
+				(at 2.54 -17.78 90)
 				(length 2.54)
 				(name "SNS"
 					(effects
@@ -1435,44 +1435,7 @@
 				)
 			)
 			(pin passive line
-				(at 3.81 -27.94 270)
-				(length 2.54)
-				(name "VDD"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "10"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 3.81 -27.94 270)
-				(length 2.54)
-				(hide yes)
-				(name "VDD"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "3"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 5.08 -45.72 90)
+				(at 5.08 -17.78 90)
 				(length 2.54)
 				(name "COM"
 					(effects
@@ -1490,7 +1453,7 @@
 				)
 			)
 			(pin passive line
-				(at 5.08 -45.72 90)
+				(at 5.08 -17.78 90)
 				(length 2.54)
 				(hide yes)
 				(name "COM"
@@ -1509,7 +1472,44 @@
 				)
 			)
 			(pin passive line
-				(at 7.62 -27.94 270)
+				(at 6.35 0 270)
+				(length 2.54)
+				(name "VDD"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "10"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 6.35 0 270)
+				(length 2.54)
+				(hide yes)
+				(name "VDD"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 10.16 0 270)
 				(length 2.54)
 				(name "M1"
 					(effects
@@ -1527,7 +1527,7 @@
 				)
 			)
 			(pin passive line
-				(at 10.16 -27.94 270)
+				(at 12.7 0 270)
 				(length 2.54)
 				(name "M2"
 					(effects
@@ -1545,7 +1545,7 @@
 				)
 			)
 			(pin passive line
-				(at 10.16 -45.72 90)
+				(at 12.7 -17.78 90)
 				(length 2.54)
 				(name "GND"
 					(effects
