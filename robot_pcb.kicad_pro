@@ -766,6 +766,10 @@
     [
       "eed5055e-310e-40b9-8812-77db8a815e44",
       "Regulators"
+    ],
+    [
+      "9f434ffa-a142-48be-9b47-bfa20dc9d6ef",
+      "Down LEDs"
     ]
   ],
   "text_variables": {}
