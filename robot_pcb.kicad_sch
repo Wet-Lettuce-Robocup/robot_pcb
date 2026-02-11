@@ -8147,6 +8147,16 @@
 		)
 		(uuid "136d5b28-778d-4763-91ac-e989347f1395")
 	)
+	(text "trig\n"
+		(exclude_from_sim no)
+		(at 376.936 204.724 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "1a0bdee9-bd34-4dc4-9985-8992d139085e")
+	)
 	(text "SERVOS"
 		(exclude_from_sim no)
 		(at 220.726 190.5 0)
@@ -8216,6 +8226,16 @@
 			)
 		)
 		(uuid "d88e51c3-546c-4ef9-b77f-c220ac0fee6b")
+	)
+	(text "echo\n"
+		(exclude_from_sim no)
+		(at 376.428 207.01 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "edb836a2-073a-4bac-a8ef-40935a1659b7")
 	)
 	(junction
 		(at 320.04 48.26)
@@ -23661,7 +23681,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_PH_B4B-PH-K_1x04_P2.00mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
 			(at 386.08 207.01 0)
 			(effects
 				(font
@@ -24850,6 +24870,72 @@
 			(project "robot_pcb"
 				(path "/2f56b371-1597-47e1-a48d-b7f69d342f77"
 					(reference "C76")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 391.16 201.93 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ef0ae2bf-2b41-4039-b2dc-58e026d0b4b9")
+		(property "Reference" "#PWR017"
+			(at 391.16 205.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 391.16 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 391.16 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 391.16 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 391.16 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0f5fefe8-94af-47ff-b3f9-70770bac8961")
+		)
+		(instances
+			(project ""
+				(path "/2f56b371-1597-47e1-a48d-b7f69d342f77"
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
