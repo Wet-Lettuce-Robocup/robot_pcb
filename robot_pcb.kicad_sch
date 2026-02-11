@@ -21846,7 +21846,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Conn_01x04"
+		(property "Value" "Programmer"
 			(at 382.27 95.2499 0)
 			(effects
 				(font
