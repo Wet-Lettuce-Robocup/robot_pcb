@@ -11872,16 +11872,6 @@
 		)
 		(uuid "1ddfbf26-69fd-49db-a192-e969141d49ff")
 	)
-	(label "TIM1_CH2"
-		(at 53.34 227.33 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "1f257993-89eb-4816-88f4-5e7911349fb7")
-	)
 	(label "TIM4_CH2"
 		(at 292.1 158.75 0)
 		(effects
@@ -12002,16 +11992,6 @@
 		)
 		(uuid "366b6c45-b69d-4a24-9207-dfe770916e4b")
 	)
-	(label "TIM3_CH2"
-		(at 53.34 269.24 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "37259b5a-a7ac-4c39-998b-e808bc4d1b9c")
-	)
 	(label "TIM8_CH4"
 		(at 354.33 168.91 0)
 		(effects
@@ -12062,25 +12042,25 @@
 		)
 		(uuid "44c312b2-4474-4291-b062-401ab2da9a3f")
 	)
-	(label "TIM1_CH1"
-		(at 53.34 224.79 0)
+	(label "TIM5_CH2"
+		(at 29.21 245.11 90)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "492bc10f-b322-46dd-8ce8-999dac5305f6")
+		(uuid "4bcd7919-5ba6-4c98-a90e-c46b4290ff79")
 	)
-	(label "TIM3_CH1"
-		(at 53.34 266.7 0)
+	(label "TIM5_CH3"
+		(at 106.68 203.2 90)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "50db114d-328f-4d58-8129-682f4639e346")
+		(uuid "5135f030-95aa-4e23-a90a-468a14ebd7df")
 	)
 	(label "HSE_OUT"
 		(at 293.37 77.47 0)
@@ -12091,6 +12071,16 @@
 			(justify left bottom)
 		)
 		(uuid "55a24aca-d770-4953-aa43-c6de387b9452")
+	)
+	(label "TIM5_CH4"
+		(at 29.21 203.2 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5678fb86-a3f7-45ec-85f8-93c557db5e0e")
 	)
 	(label "CC2"
 		(at 44.45 161.29 0)
@@ -12182,6 +12172,16 @@
 		)
 		(uuid "644616ac-6f0d-49f7-b52f-dcb54df8c941")
 	)
+	(label "TIM3_CH1"
+		(at 53.34 224.79 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6970df15-f7f5-432d-b11d-c4014a2b4761")
+	)
 	(label "NRST"
 		(at 259.08 59.69 0)
 		(effects
@@ -12201,16 +12201,6 @@
 			(justify left bottom)
 		)
 		(uuid "6f8556ee-6e8b-435f-b96d-ce7012c9c93c")
-	)
-	(label "TIM5_CH1"
-		(at 29.21 203.2 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "706164b6-d1ea-42d9-b444-e709f83eb267")
 	)
 	(label "TIM8_CH1"
 		(at 184.15 179.07 90)
@@ -12472,6 +12462,16 @@
 		)
 		(uuid "b4fff85c-bae2-46a8-bf58-16d13314eb2a")
 	)
+	(label "TIM3_CH2"
+		(at 53.34 227.33 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "bd6a42ce-48d4-481f-ac39-c6708488ebda")
+	)
 	(label "PD9"
 		(at 109.22 203.2 90)
 		(effects
@@ -12491,16 +12491,6 @@
 			(justify left bottom)
 		)
 		(uuid "bec73b30-94b3-4126-9537-2d3f7a92d3aa")
-	)
-	(label "TIM5_CH2"
-		(at 106.68 203.2 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "c20fe09a-404a-4b12-a20b-7314899a6fcb")
 	)
 	(label "PD8"
 		(at 31.75 203.2 90)
@@ -12592,6 +12582,16 @@
 		)
 		(uuid "d51e2298-a569-45e0-bb1e-4f242e4ce70b")
 	)
+	(label "TIM5_CH1"
+		(at 106.68 245.11 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d997ed2a-0643-4875-9f85-d72ae626cdf9")
+	)
 	(label "GPIO0"
 		(at 88.9 30.48 0)
 		(effects
@@ -12642,16 +12642,6 @@
 		)
 		(uuid "e3b87d1f-a2fd-4990-af89-16df262d271d")
 	)
-	(label "TIM5_CH4"
-		(at 106.68 245.11 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "e557a2cf-f0c3-4526-8aaa-91955489a307")
-	)
 	(label "I2C_SCL"
 		(at 96.52 40.64 180)
 		(effects
@@ -12692,6 +12682,16 @@
 		)
 		(uuid "f061f113-754c-47d9-ae27-ba32bc74770b")
 	)
+	(label "TIM1_CH2"
+		(at 53.34 269.24 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f0a61b5b-5e5e-435b-a77f-9b5b4d3f2da6")
+	)
 	(label "GPIO1"
 		(at 88.9 33.02 0)
 		(effects
@@ -12711,16 +12711,6 @@
 			(justify right bottom)
 		)
 		(uuid "f6b6d2b5-a10c-4647-973a-cca039fad906")
-	)
-	(label "TIM5_CH3"
-		(at 29.21 245.11 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "fa3e06e2-080c-4971-9366-06aad94fb5ad")
 	)
 	(label "GPIO10"
 		(at 190.5 132.08 180)
@@ -12761,6 +12751,16 @@
 			(justify left bottom)
 		)
 		(uuid "fecd3bd6-94e4-443f-b4d9-b32e63d90cc1")
+	)
+	(label "TIM1_CH1"
+		(at 53.34 266.7 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ffec0820-5bff-408c-b62e-96fa9674d941")
 	)
 	(global_label "+5V1"
 		(shape input)
