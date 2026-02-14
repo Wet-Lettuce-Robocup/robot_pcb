@@ -9000,6 +9000,10 @@
 		(uuid "f60ebfd6-d1dc-4bc2-971b-3c60f028c093")
 	)
 	(no_connect
+		(at 76.2 20.32)
+		(uuid "1d1251f5-1228-499b-8c7e-a8731e9bf5ca")
+	)
+	(no_connect
 		(at 248.92 248.92)
 		(uuid "2a6330d9-d9c8-49a8-9632-ed41e5a27a06")
 	)
@@ -9016,8 +9020,20 @@
 		(uuid "7d806df3-95f0-4b39-9d4f-d29d393ac44b")
 	)
 	(no_connect
+		(at 63.5 20.32)
+		(uuid "b1e4b89f-742f-44b7-bf91-7fd6815a6666")
+	)
+	(no_connect
 		(at 187.96 259.08)
 		(uuid "cf736232-85e3-4058-ae82-9b62a2546781")
+	)
+	(no_connect
+		(at 73.66 20.32)
+		(uuid "e3bfc5ed-fdf0-4b3c-b961-ec8960916eff")
+	)
+	(no_connect
+		(at 60.96 20.32)
+		(uuid "fb5926dc-8d6a-4d0d-af63-4121ded2a39a")
 	)
 	(bus_entry
 		(at 312.42 161.29)
@@ -10197,16 +10213,6 @@
 			(type default)
 		)
 		(uuid "599677e9-4c9e-4689-b366-676b6631ffcf")
-	)
-	(wire
-		(pts
-			(xy 73.66 20.32) (xy 76.2 20.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5b170408-7147-4694-b29f-ffb23f9a3e28")
 	)
 	(wire
 		(pts
@@ -11827,16 +11833,6 @@
 			(type default)
 		)
 		(uuid "e7af8d00-1823-4f05-81b0-25791cc2065f")
-	)
-	(wire
-		(pts
-			(xy 60.96 20.32) (xy 63.5 20.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e997911b-0305-4303-8a82-efb1d70af08a")
 	)
 	(wire
 		(pts
@@ -23893,7 +23889,7 @@
 			)
 		)
 		(property "Value" "Raspberry_Pi_2_3"
-			(at 60.452 18.542 0)
+			(at 60.96 16.256 0)
 			(effects
 				(font
 					(size 1.27 1.27)
