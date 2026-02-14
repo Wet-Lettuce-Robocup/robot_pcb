@@ -12498,6 +12498,16 @@
 		)
 		(uuid "5d172ca4-05fc-41f0-8391-c3ff15e391e2")
 	)
+	(label "GPIO4"
+		(at 88.9 45.72 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5d86cc52-0e9b-4b85-a3f6-6f244d885be1")
+	)
 	(label "FR_M1"
 		(at 130.81 219.71 0)
 		(effects
@@ -12837,6 +12847,16 @@
 			(justify left bottom)
 		)
 		(uuid "b4fff85c-bae2-46a8-bf58-16d13314eb2a")
+	)
+	(label "GPIO4"
+		(at 193.04 162.56 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "bb22f9da-3e7e-4103-8574-27e1822a1d72")
 	)
 	(label "TIM3_CH2"
 		(at 53.34 227.33 0)
@@ -13222,7 +13242,7 @@
 			)
 			(justify left)
 		)
-		(uuid "b3f0c4cd-a075-478d-b26f-03efda1432d3")
+		(uuid "ba1a13e0-7515-4e1a-b180-54297f444afd")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 51.2452 146.05 0)
 			(effects
@@ -16977,10 +16997,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "36ed86f1-943f-480e-a5d0-e89c9689f607")
 		(property "Reference" "U8"
-			(at 181.61 161.2899 0)
+			(at 181.356 161.036 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19154,10 +19173,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "5c933fe6-1050-4d1c-84d8-4d0f87dfa407")
 		(property "Reference" "U11"
-			(at 199.39 161.2899 0)
+			(at 201.422 157.734 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19166,7 +19184,7 @@
 			)
 		)
 		(property "Value" "DMG2305UX-7"
-			(at 199.39 163.8299 0)
+			(at 219.964 167.132 0)
 			(effects
 				(font
 					(size 1.27 1.27)
