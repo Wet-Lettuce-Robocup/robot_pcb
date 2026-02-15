@@ -764,8 +764,11 @@
 		(uuid "7c1a0acd-cb74-44b4-ae2a-a8497e662005")
 	)
 	(pad "10" smd custom
-		(at 1.937499 1.225001)
+		(at 1.437499 1.725001)
 		(size 0.127 0.127)
+		(drill
+			(offset 0.5 -0.5)
+		)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(options
 			(clearance outline)
