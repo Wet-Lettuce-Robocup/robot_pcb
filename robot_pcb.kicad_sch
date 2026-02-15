@@ -4212,6 +4212,25 @@
 						)
 					)
 				)
+				(pin input line
+					(at 12.7 -17.78 90)
+					(length 2.54)
+					(hide yes)
+					(name "PAD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 				(pin passive line
 					(at 12.7 -17.78 90)
 					(length 2.54)
@@ -15753,6 +15772,9 @@
 		(pin "4"
 			(uuid "472eb979-36cc-4168-b987-4c0b7f8bd911")
 		)
+		(pin "13"
+			(uuid "583b9250-35e5-4834-a341-985d15e320db")
+		)
 		(instances
 			(project "robot_pcb"
 				(path "/2f56b371-1597-47e1-a48d-b7f69d342f77"
@@ -23304,6 +23326,9 @@
 		(pin "4"
 			(uuid "c0f98fb2-4070-426e-aaf9-1f528d4b7fa7")
 		)
+		(pin "13"
+			(uuid "5fc4ba58-200b-4236-b52b-573c498f5c84")
+		)
 		(instances
 			(project "robot_pcb"
 				(path "/2f56b371-1597-47e1-a48d-b7f69d342f77"
@@ -24784,6 +24809,9 @@
 		)
 		(pin "4"
 			(uuid "4095eac7-48dc-4012-8116-6cb6f693e05e")
+		)
+		(pin "13"
+			(uuid "a4472d1a-6714-4173-89b2-ff682a1d7649")
 		)
 		(instances
 			(project "robot_pcb"
@@ -26293,6 +26321,9 @@
 		)
 		(pin "4"
 			(uuid "5ea93104-7644-4db6-b1ac-ccbec275da9d")
+		)
+		(pin "13"
+			(uuid "2faca2b5-b1e1-4446-a2ff-64be643e1dba")
 		)
 		(instances
 			(project "robot_pcb"
