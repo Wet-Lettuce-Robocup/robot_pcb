@@ -28003,6 +28003,48 @@
 		)
 	)
 	(sheet
+		(at 40.64 163.83)
+		(size 21.59 10.16)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "a0987cd4-dfa7-4cf4-a9f1-5b392786bba7")
+		(property "Sheetname" "PD_IC"
+			(at 40.64 163.1184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "pd_ic.kicad_sch"
+			(at 40.64 174.5746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "robot_pcb"
+				(path "/2f56b371-1597-47e1-a48d-b7f69d342f77"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 114.3 135.89)
 		(size 31.75 45.72)
 		(exclude_from_sim no)
