@@ -1600,7 +1600,7 @@
 		)
 		(uuid "790786b3-bdaf-4a9d-9a84-18a80d057775")
 	)
-	(text "5.1V\n"
+	(text "5V1"
 		(exclude_from_sim no)
 		(at 83.058 58.42 0)
 		(effects
@@ -3232,7 +3232,7 @@
 		)
 		(uuid "fef17aa6-def8-4ac1-8178-710a441c6aa7")
 	)
-	(global_label "+5.1V"
+	(global_label "+5V1"
 		(shape input)
 		(at 130.81 29.21 0)
 		(fields_autoplaced yes)
@@ -3244,7 +3244,7 @@
 		)
 		(uuid "866607bb-5b2c-4e45-a711-c6eae62cbaf8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 139.48 29.21 0)
+			(at 138.8752 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3276,7 +3276,7 @@
 		)
 		(uuid "7609662c-74a4-4119-8f1f-00ad8f77b9d8")
 	)
-	(hierarchical_label "3.3VEN"
+	(hierarchical_label "3V3EN"
 		(shape input)
 		(at 45.72 68.58 90)
 		(effects
@@ -3380,6 +3380,12 @@
 					(unit 1)
 				)
 			)
+			(project "regulators"
+				(path "/90a1e67f-1710-4543-873a-aa20134c9b1b"
+					(reference "C12")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -3474,6 +3480,12 @@
 			(project "robot_pcb"
 				(path "/2f56b371-1597-47e1-a48d-b7f69d342f77/eed5055e-310e-40b9-8812-77db8a815e44"
 					(reference "R20")
+					(unit 1)
+				)
+			)
+			(project "regulators"
+				(path "/90a1e67f-1710-4543-873a-aa20134c9b1b"
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -3594,6 +3606,12 @@
 					(unit 1)
 				)
 			)
+			(project "regulators"
+				(path "/90a1e67f-1710-4543-873a-aa20134c9b1b"
+					(reference "U1")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -3688,6 +3706,12 @@
 			(project "robot_pcb"
 				(path "/2f56b371-1597-47e1-a48d-b7f69d342f77/eed5055e-310e-40b9-8812-77db8a815e44"
 					(reference "R19")
+					(unit 1)
+				)
+			)
+			(project "regulators"
+				(path "/90a1e67f-1710-4543-873a-aa20134c9b1b"
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -3788,6 +3812,12 @@
 					(unit 1)
 				)
 			)
+			(project "regulators"
+				(path "/90a1e67f-1710-4543-873a-aa20134c9b1b"
+					(reference "C20")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -3882,6 +3912,12 @@
 			(project "robot_pcb"
 				(path "/2f56b371-1597-47e1-a48d-b7f69d342f77/eed5055e-310e-40b9-8812-77db8a815e44"
 					(reference "C47")
+					(unit 1)
+				)
+			)
+			(project "regulators"
+				(path "/90a1e67f-1710-4543-873a-aa20134c9b1b"
+					(reference "C13")
 					(unit 1)
 				)
 			)
@@ -3982,6 +4018,12 @@
 					(unit 1)
 				)
 			)
+			(project "regulators"
+				(path "/90a1e67f-1710-4543-873a-aa20134c9b1b"
+					(reference "C16")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -4076,6 +4118,12 @@
 			(project "robot_pcb"
 				(path "/2f56b371-1597-47e1-a48d-b7f69d342f77/eed5055e-310e-40b9-8812-77db8a815e44"
 					(reference "C57")
+					(unit 1)
+				)
+			)
+			(project "regulators"
+				(path "/90a1e67f-1710-4543-873a-aa20134c9b1b"
+					(reference "C23")
 					(unit 1)
 				)
 			)
@@ -4176,6 +4224,12 @@
 					(unit 1)
 				)
 			)
+			(project "regulators"
+				(path "/90a1e67f-1710-4543-873a-aa20134c9b1b"
+					(reference "C1")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -4268,6 +4322,12 @@
 			(project "robot_pcb"
 				(path "/2f56b371-1597-47e1-a48d-b7f69d342f77/eed5055e-310e-40b9-8812-77db8a815e44"
 					(reference "L5")
+					(unit 1)
+				)
+			)
+			(project "regulators"
+				(path "/90a1e67f-1710-4543-873a-aa20134c9b1b"
+					(reference "L2")
 					(unit 1)
 				)
 			)
@@ -4368,6 +4428,12 @@
 					(unit 1)
 				)
 			)
+			(project "regulators"
+				(path "/90a1e67f-1710-4543-873a-aa20134c9b1b"
+					(reference "C22")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -4463,6 +4529,12 @@
 					(unit 1)
 				)
 			)
+			(project "regulators"
+				(path "/90a1e67f-1710-4543-873a-aa20134c9b1b"
+					(reference "L1")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -4554,6 +4626,12 @@
 			(project ""
 				(path "/2f56b371-1597-47e1-a48d-b7f69d342f77/eed5055e-310e-40b9-8812-77db8a815e44"
 					(reference "R27")
+					(unit 1)
+				)
+			)
+			(project "regulators"
+				(path "/90a1e67f-1710-4543-873a-aa20134c9b1b"
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -4653,6 +4731,12 @@
 					(unit 1)
 				)
 			)
+			(project "regulators"
+				(path "/90a1e67f-1710-4543-873a-aa20134c9b1b"
+					(reference "C3")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -4717,6 +4801,12 @@
 			(project ""
 				(path "/2f56b371-1597-47e1-a48d-b7f69d342f77/eed5055e-310e-40b9-8812-77db8a815e44"
 					(reference "#PWR056")
+					(unit 1)
+				)
+			)
+			(project "regulators"
+				(path "/90a1e67f-1710-4543-873a-aa20134c9b1b"
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -4817,6 +4907,12 @@
 					(unit 1)
 				)
 			)
+			(project "regulators"
+				(path "/90a1e67f-1710-4543-873a-aa20134c9b1b"
+					(reference "R5")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -4911,6 +5007,12 @@
 			(project "robot_pcb"
 				(path "/2f56b371-1597-47e1-a48d-b7f69d342f77/eed5055e-310e-40b9-8812-77db8a815e44"
 					(reference "R26")
+					(unit 1)
+				)
+			)
+			(project "regulators"
+				(path "/90a1e67f-1710-4543-873a-aa20134c9b1b"
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -5011,6 +5113,12 @@
 					(unit 1)
 				)
 			)
+			(project "regulators"
+				(path "/90a1e67f-1710-4543-873a-aa20134c9b1b"
+					(reference "C7")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -5105,6 +5213,12 @@
 			(project "robot_pcb"
 				(path "/2f56b371-1597-47e1-a48d-b7f69d342f77/eed5055e-310e-40b9-8812-77db8a815e44"
 					(reference "C60")
+					(unit 1)
+				)
+			)
+			(project "regulators"
+				(path "/90a1e67f-1710-4543-873a-aa20134c9b1b"
+					(reference "C24")
 					(unit 1)
 				)
 			)
@@ -5205,6 +5319,12 @@
 					(unit 1)
 				)
 			)
+			(project "regulators"
+				(path "/90a1e67f-1710-4543-873a-aa20134c9b1b"
+					(reference "R3")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -5298,6 +5418,12 @@
 			(project "robot_pcb"
 				(path "/2f56b371-1597-47e1-a48d-b7f69d342f77/eed5055e-310e-40b9-8812-77db8a815e44"
 					(reference "C45")
+					(unit 1)
+				)
+			)
+			(project "regulators"
+				(path "/90a1e67f-1710-4543-873a-aa20134c9b1b"
+					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -5398,6 +5524,12 @@
 					(unit 1)
 				)
 			)
+			(project "regulators"
+				(path "/90a1e67f-1710-4543-873a-aa20134c9b1b"
+					(reference "C6")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -5490,6 +5622,12 @@
 			(project "robot_pcb"
 				(path "/2f56b371-1597-47e1-a48d-b7f69d342f77/eed5055e-310e-40b9-8812-77db8a815e44"
 					(reference "C53")
+					(unit 1)
+				)
+			)
+			(project "regulators"
+				(path "/90a1e67f-1710-4543-873a-aa20134c9b1b"
+					(reference "C11")
 					(unit 1)
 				)
 			)
@@ -5587,6 +5725,12 @@
 			(project "robot_pcb"
 				(path "/2f56b371-1597-47e1-a48d-b7f69d342f77/eed5055e-310e-40b9-8812-77db8a815e44"
 					(reference "R22")
+					(unit 1)
+				)
+			)
+			(project "regulators"
+				(path "/90a1e67f-1710-4543-873a-aa20134c9b1b"
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -5706,6 +5850,12 @@
 					(unit 1)
 				)
 			)
+			(project "regulators"
+				(path "/90a1e67f-1710-4543-873a-aa20134c9b1b"
+					(reference "U3")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -5803,6 +5953,12 @@
 					(unit 1)
 				)
 			)
+			(project "regulators"
+				(path "/90a1e67f-1710-4543-873a-aa20134c9b1b"
+					(reference "C5")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -5894,6 +6050,12 @@
 			(project "robot_pcb"
 				(path "/2f56b371-1597-47e1-a48d-b7f69d342f77/eed5055e-310e-40b9-8812-77db8a815e44"
 					(reference "R28")
+					(unit 1)
+				)
+			)
+			(project "regulators"
+				(path "/90a1e67f-1710-4543-873a-aa20134c9b1b"
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -5994,6 +6156,12 @@
 					(unit 1)
 				)
 			)
+			(project "regulators"
+				(path "/90a1e67f-1710-4543-873a-aa20134c9b1b"
+					(reference "C21")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -6086,6 +6254,12 @@
 			(project "robot_pcb"
 				(path "/2f56b371-1597-47e1-a48d-b7f69d342f77/eed5055e-310e-40b9-8812-77db8a815e44"
 					(reference "C44")
+					(unit 1)
+				)
+			)
+			(project "regulators"
+				(path "/90a1e67f-1710-4543-873a-aa20134c9b1b"
+					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -6186,6 +6360,12 @@
 					(unit 1)
 				)
 			)
+			(project "regulators"
+				(path "/90a1e67f-1710-4543-873a-aa20134c9b1b"
+					(reference "C4")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -6280,6 +6460,12 @@
 			(project "robot_pcb"
 				(path "/2f56b371-1597-47e1-a48d-b7f69d342f77/eed5055e-310e-40b9-8812-77db8a815e44"
 					(reference "C58")
+					(unit 1)
+				)
+			)
+			(project "regulators"
+				(path "/90a1e67f-1710-4543-873a-aa20134c9b1b"
+					(reference "C18")
 					(unit 1)
 				)
 			)
@@ -6380,6 +6566,12 @@
 					(unit 1)
 				)
 			)
+			(project "regulators"
+				(path "/90a1e67f-1710-4543-873a-aa20134c9b1b"
+					(reference "C19")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -6477,6 +6669,12 @@
 					(unit 1)
 				)
 			)
+			(project "regulators"
+				(path "/90a1e67f-1710-4543-873a-aa20134c9b1b"
+					(reference "C9")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -6498,7 +6696,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3.3V"
+		(property "Value" "+3V3"
 			(at 134.62 73.6599 90)
 			(effects
 				(font
@@ -6541,6 +6739,12 @@
 			(project ""
 				(path "/2f56b371-1597-47e1-a48d-b7f69d342f77/eed5055e-310e-40b9-8812-77db8a815e44"
 					(reference "#PWR042")
+					(unit 1)
+				)
+			)
+			(project "regulators"
+				(path "/90a1e67f-1710-4543-873a-aa20134c9b1b"
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -6641,6 +6845,12 @@
 					(unit 1)
 				)
 			)
+			(project "regulators"
+				(path "/90a1e67f-1710-4543-873a-aa20134c9b1b"
+					(reference "C14")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -6704,6 +6914,12 @@
 			(project "robot_pcb"
 				(path "/2f56b371-1597-47e1-a48d-b7f69d342f77/eed5055e-310e-40b9-8812-77db8a815e44"
 					(reference "#PWR0101")
+					(unit 1)
+				)
+			)
+			(project "regulators"
+				(path "/90a1e67f-1710-4543-873a-aa20134c9b1b"
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -6800,6 +7016,12 @@
 			(project "robot_pcb"
 				(path "/2f56b371-1597-47e1-a48d-b7f69d342f77/eed5055e-310e-40b9-8812-77db8a815e44"
 					(reference "R25")
+					(unit 1)
+				)
+			)
+			(project "regulators"
+				(path "/90a1e67f-1710-4543-873a-aa20134c9b1b"
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -6900,6 +7122,12 @@
 					(unit 1)
 				)
 			)
+			(project "regulators"
+				(path "/90a1e67f-1710-4543-873a-aa20134c9b1b"
+					(reference "R4")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -6992,6 +7220,12 @@
 			(project "robot_pcb"
 				(path "/2f56b371-1597-47e1-a48d-b7f69d342f77/eed5055e-310e-40b9-8812-77db8a815e44"
 					(reference "L2")
+					(unit 1)
+				)
+			)
+			(project "regulators"
+				(path "/90a1e67f-1710-4543-873a-aa20134c9b1b"
+					(reference "L3")
 					(unit 1)
 				)
 			)
@@ -7112,6 +7346,12 @@
 					(unit 1)
 				)
 			)
+			(project "regulators"
+				(path "/90a1e67f-1710-4543-873a-aa20134c9b1b"
+					(reference "U2")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -7206,6 +7446,12 @@
 			(project "robot_pcb"
 				(path "/2f56b371-1597-47e1-a48d-b7f69d342f77/eed5055e-310e-40b9-8812-77db8a815e44"
 					(reference "C52")
+					(unit 1)
+				)
+			)
+			(project "regulators"
+				(path "/90a1e67f-1710-4543-873a-aa20134c9b1b"
+					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -7306,6 +7552,12 @@
 					(unit 1)
 				)
 			)
+			(project "regulators"
+				(path "/90a1e67f-1710-4543-873a-aa20134c9b1b"
+					(reference "C15")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -7403,6 +7655,12 @@
 					(unit 1)
 				)
 			)
+			(project "regulators"
+				(path "/90a1e67f-1710-4543-873a-aa20134c9b1b"
+					(reference "R9")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -7466,6 +7724,12 @@
 			(project "robot_pcb"
 				(path "/2f56b371-1597-47e1-a48d-b7f69d342f77/eed5055e-310e-40b9-8812-77db8a815e44"
 					(reference "#PWR050")
+					(unit 1)
+				)
+			)
+			(project "regulators"
+				(path "/90a1e67f-1710-4543-873a-aa20134c9b1b"
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -7566,6 +7830,12 @@
 					(unit 1)
 				)
 			)
+			(project "regulators"
+				(path "/90a1e67f-1710-4543-873a-aa20134c9b1b"
+					(reference "C17")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -7632,6 +7902,18 @@
 					(unit 1)
 				)
 			)
+			(project "regulators"
+				(path "/90a1e67f-1710-4543-873a-aa20134c9b1b"
+					(reference "#PWR03")
+					(unit 1)
+				)
+			)
 		)
 	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
 )
