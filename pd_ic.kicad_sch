@@ -1396,20 +1396,12 @@
 		(uuid "2595153a-fcd4-4f5f-988c-a8e7e3a8b5ab")
 	)
 	(no_connect
-		(at 88.9 81.28)
-		(uuid "3e178fc6-d244-47aa-b5e3-05ba33b1473f")
-	)
-	(no_connect
 		(at 88.9 106.68)
 		(uuid "46f5e486-dc8e-4684-bfd1-385389aff4e7")
 	)
 	(no_connect
 		(at 88.9 111.76)
 		(uuid "c1e8fcc1-9451-4535-9c1f-ff6eaf3ae4dc")
-	)
-	(no_connect
-		(at 88.9 78.74)
-		(uuid "c308acd0-5d83-4cb1-a649-cd036b4cc5ca")
 	)
 	(no_connect
 		(at 88.9 99.06)
@@ -1896,8 +1888,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 20.32 63.5 0)
-		(mirror y)
+		(at 25.4 63.5 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1905,7 +1896,7 @@
 		(dnp no)
 		(uuid "21f959f4-2dea-4936-8c68-d583bcca820e")
 		(property "Reference" "C68"
-			(at 16.51 62.2299 0)
+			(at 29.21 62.2299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1914,7 +1905,7 @@
 			)
 		)
 		(property "Value" "1uF"
-			(at 18.288 65.786 0)
+			(at 27.432 65.786 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1923,7 +1914,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 19.3548 67.31 0)
+			(at 26.3652 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1932,7 +1923,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 20.32 63.5 0)
+			(at 25.4 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1941,7 +1932,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 20.32 63.5 0)
+			(at 25.4 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2563,8 +2554,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 30.48 63.5 0)
-		(mirror y)
+		(at 15.24 63.5 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2572,7 +2562,7 @@
 		(dnp no)
 		(uuid "fab406f2-7594-4483-9f84-555912179ee8")
 		(property "Reference" "C78"
-			(at 26.67 62.2299 0)
+			(at 19.05 62.2299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2581,7 +2571,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 29.21 66.04 0)
+			(at 16.51 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2590,7 +2580,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 29.5148 67.31 0)
+			(at 16.2052 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2599,7 +2589,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 30.48 63.5 0)
+			(at 15.24 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2608,7 +2598,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 30.48 63.5 0)
+			(at 15.24 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
