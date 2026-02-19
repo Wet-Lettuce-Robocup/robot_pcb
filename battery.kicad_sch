@@ -3798,7 +3798,7 @@
 				)
 			)
 		)
-		(property "Value" "100k"
+		(property "Value" "470"
 			(at 228.092 135.89 90)
 			(effects
 				(font
@@ -4146,7 +4146,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10uF"
+		(property "Value" "0.1uF"
 			(at 215.9 109.2199 0)
 			(effects
 				(font
@@ -5482,7 +5482,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10uF"
+		(property "Value" "0.1uF"
 			(at 215.9 99.0599 0)
 			(effects
 				(font
@@ -5585,7 +5585,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10uF"
+		(property "Value" "0.1uF"
 			(at 215.9 129.5399 0)
 			(effects
 				(font
@@ -6141,7 +6141,7 @@
 				)
 			)
 		)
-		(property "Value" "100k"
+		(property "Value" "470"
 			(at 228.092 95.25 90)
 			(effects
 				(font
@@ -6241,7 +6241,7 @@
 				)
 			)
 		)
-		(property "Value" "100k"
+		(property "Value" "470"
 			(at 228.092 115.57 90)
 			(effects
 				(font
@@ -6444,7 +6444,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10uF"
+		(property "Value" "0.1uF"
 			(at 215.9 119.3799 0)
 			(effects
 				(font
@@ -7126,7 +7126,7 @@
 				)
 			)
 		)
-		(property "Value" "100k"
+		(property "Value" "470"
 			(at 228.092 105.41 90)
 			(effects
 				(font
