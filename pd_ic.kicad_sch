@@ -3028,7 +3028,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 112.7252 100.33 0)
 			(effects
 				(font
@@ -3244,7 +3244,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 119.38 88.138 90)
 			(effects
 				(font
@@ -3525,7 +3525,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 123.952 80.01 90)
 			(effects
 				(font
@@ -3594,7 +3594,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 199.0852 88.9 0)
 			(effects
 				(font
@@ -3663,7 +3663,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 150.622 59.69 90)
 			(effects
 				(font
@@ -4081,7 +4081,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 190.1952 91.44 0)
 			(effects
 				(font
@@ -4150,7 +4150,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 144.4752 74.93 0)
 			(effects
 				(font
