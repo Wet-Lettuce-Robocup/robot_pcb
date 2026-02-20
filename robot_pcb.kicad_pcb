@@ -1671,7 +1671,7 @@
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R42"
-			(at 0 -1.17 90)
+			(at -0.015 1.075 90)
 			(layer "F.SilkS")
 			(uuid "4d60b520-c36d-40d2-b430-a6dea1232ead")
 			(effects
@@ -11777,7 +11777,7 @@
 		(descr "TSSOP, 20 Pin (JEDEC MO-153 Var AC https://www.jedec.org/document_search?search_api_views_fulltext=MO-153), generated with kicad-footprint-generator ipc_gullwing_generator.py")
 		(tags "TSSOP SO")
 		(property "Reference" "U2"
-			(at 0 -4.2 90)
+			(at 1.098034 -4.165535 90)
 			(layer "F.SilkS")
 			(uuid "171c4a5a-8164-4b61-b165-e2bcfd382eb0")
 			(effects
