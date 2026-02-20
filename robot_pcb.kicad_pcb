@@ -33316,7 +33316,7 @@
 			)
 		)
 		(property "Value" "OPEN"
-			(at -1.935534 -0.375 180)
+			(at 0.014466 1.15 270)
 			(layer "F.SilkS")
 			(uuid "fa43acb0-440b-425a-8017-d60d182e9e9f")
 			(effects
