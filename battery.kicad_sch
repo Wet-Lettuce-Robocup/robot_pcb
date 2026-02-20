@@ -2942,6 +2942,16 @@
 	)
 	(wire
 		(pts
+			(xy 121.92 118.11) (xy 121.92 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b74d316-1fa0-4041-a2d4-a26adaf085b9")
+	)
+	(wire
+		(pts
 			(xy 233.68 113.03) (xy 233.68 114.3)
 		)
 		(stroke
@@ -3309,16 +3319,6 @@
 			(type default)
 		)
 		(uuid "58ff6c2a-811c-40b4-8e56-224cd3996a72")
-	)
-	(wire
-		(pts
-			(xy 121.92 107.95) (xy 121.92 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5b6c063f-2277-45cd-a53a-f878b1429a99")
 	)
 	(wire
 		(pts
@@ -4179,6 +4179,16 @@
 			(type default)
 		)
 		(uuid "f3692e52-ff0b-41ec-ae4b-4cdb75468a18")
+	)
+	(wire
+		(pts
+			(xy 121.92 107.95) (xy 121.92 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f75a9c7a-58d0-4735-9d54-94cdcf3bf18b")
 	)
 	(label "VC1"
 		(at 185.42 90.17 0)
@@ -7035,7 +7045,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_THT:SW_Slide_SPDT_Straight_CK_OS102011MS2Q"
 			(at 111.76 119.38 0)
 			(effects
 				(font
@@ -8432,6 +8442,76 @@
 			(project "battery"
 				(path "/5852dc9c-be81-4731-9c95-5e6ebdb17894"
 					(reference "C5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 121.92 114.3 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "df7272f6-2d2a-4a2f-9d82-f34be10ce0f3")
+		(property "Reference" "R49"
+			(at 124.46 113.0299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100"
+			(at 124.46 115.5699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 120.142 114.3 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 121.92 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 121.92 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "87a59d88-85e4-414f-b067-df408737099d")
+		)
+		(pin "1"
+			(uuid "2e274b9e-e399-4442-bf4c-e5c0471346c5")
+		)
+		(instances
+			(project ""
+				(path "/2f56b371-1597-47e1-a48d-b7f69d342f77/8e993949-53ac-4d46-9f7d-59c9cf3d33c4"
+					(reference "R49")
 					(unit 1)
 				)
 			)
