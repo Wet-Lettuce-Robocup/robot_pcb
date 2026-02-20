@@ -4790,6 +4790,12 @@
 					(unit 1)
 				)
 			)
+			(project "battery"
+				(path "/5852dc9c-be81-4731-9c95-5e6ebdb17894"
+					(reference "SW2")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -5162,6 +5168,12 @@
 					(unit 1)
 				)
 			)
+			(project "battery"
+				(path "/5852dc9c-be81-4731-9c95-5e6ebdb17894"
+					(reference "#PWR013")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -5349,6 +5361,12 @@
 					(unit 1)
 				)
 			)
+			(project "battery"
+				(path "/5852dc9c-be81-4731-9c95-5e6ebdb17894"
+					(reference "D1")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -5420,6 +5438,12 @@
 			(project ""
 				(path "/2f56b371-1597-47e1-a48d-b7f69d342f77/8e993949-53ac-4d46-9f7d-59c9cf3d33c4"
 					(reference "Q2")
+					(unit 1)
+				)
+			)
+			(project "battery"
+				(path "/5852dc9c-be81-4731-9c95-5e6ebdb17894"
+					(reference "Q3")
 					(unit 1)
 				)
 			)
@@ -5736,6 +5760,12 @@
 			(project ""
 				(path "/2f56b371-1597-47e1-a48d-b7f69d342f77/8e993949-53ac-4d46-9f7d-59c9cf3d33c4"
 					(reference "R48")
+					(unit 1)
+				)
+			)
+			(project "battery"
+				(path "/5852dc9c-be81-4731-9c95-5e6ebdb17894"
+					(reference "R16")
 					(unit 1)
 				)
 			)
@@ -6718,6 +6748,12 @@
 					(unit 1)
 				)
 			)
+			(project "battery"
+				(path "/5852dc9c-be81-4731-9c95-5e6ebdb17894"
+					(reference "#PWR012")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -6861,6 +6897,12 @@
 			(project ""
 				(path "/2f56b371-1597-47e1-a48d-b7f69d342f77/8e993949-53ac-4d46-9f7d-59c9cf3d33c4"
 					(reference "Q3")
+					(unit 1)
+				)
+			)
+			(project "battery"
+				(path "/5852dc9c-be81-4731-9c95-5e6ebdb17894"
+					(reference "Q2")
 					(unit 1)
 				)
 			)
@@ -7038,6 +7080,12 @@
 			(project "robot_pcb"
 				(path "/2f56b371-1597-47e1-a48d-b7f69d342f77/8e993949-53ac-4d46-9f7d-59c9cf3d33c4"
 					(reference "Q5")
+					(unit 1)
+				)
+			)
+			(project "battery"
+				(path "/5852dc9c-be81-4731-9c95-5e6ebdb17894"
+					(reference "Q1")
 					(unit 1)
 				)
 			)
@@ -7564,6 +7612,12 @@
 					(unit 1)
 				)
 			)
+			(project "battery"
+				(path "/5852dc9c-be81-4731-9c95-5e6ebdb17894"
+					(reference "R4")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -7728,6 +7782,12 @@
 			(project "robot_pcb"
 				(path "/2f56b371-1597-47e1-a48d-b7f69d342f77/8e993949-53ac-4d46-9f7d-59c9cf3d33c4"
 					(reference "R17")
+					(unit 1)
+				)
+			)
+			(project "battery"
+				(path "/5852dc9c-be81-4731-9c95-5e6ebdb17894"
+					(reference "R15")
 					(unit 1)
 				)
 			)
@@ -8786,6 +8846,12 @@
 					(unit 1)
 				)
 			)
+			(project "battery"
+				(path "/5852dc9c-be81-4731-9c95-5e6ebdb17894"
+					(reference "R14")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -9436,6 +9502,12 @@
 		(instances
 			(project "robot_pcb"
 				(path "/2f56b371-1597-47e1-a48d-b7f69d342f77/8e993949-53ac-4d46-9f7d-59c9cf3d33c4"
+					(reference "Q4")
+					(unit 1)
+				)
+			)
+			(project "battery"
+				(path "/5852dc9c-be81-4731-9c95-5e6ebdb17894"
 					(reference "Q4")
 					(unit 1)
 				)
