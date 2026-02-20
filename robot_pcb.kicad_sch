@@ -9072,15 +9072,6 @@
 		(at 60.96 20.32)
 		(uuid "fb5926dc-8d6a-4d0d-af63-4121ded2a39a")
 	)
-	(bus_entry
-		(at 312.42 161.29)
-		(size 2.54 2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "aebcb585-6655-4a19-be04-2138328a71a7")
-	)
 	(wire
 		(pts
 			(xy 290.83 274.32) (xy 290.83 273.05)
