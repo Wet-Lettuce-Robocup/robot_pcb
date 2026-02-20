@@ -1676,6 +1676,182 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Switch:SW_SPDT"
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SW_SPDT"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Switch, single pole double throw"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "switch single-pole double-throw spdt ON-ON"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SW_SPDT_0_1"
+				(circle
+					(center -2.032 0)
+					(radius 0.4572)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.651 0.254) (xy 1.651 2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 2.54)
+					(radius 0.4572)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 -2.54)
+					(radius 0.4572)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SW_SPDT_1_1"
+				(rectangle
+					(start -3.175 3.81)
+					(end 3.175 -3.81)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 2.54 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Transistor_FET:AO3401A"
 			(pin_names
 				(hide yes)
@@ -2393,6 +2569,12 @@
 		(uuid "180f3b7c-e082-49b0-a145-31308aaecd85")
 	)
 	(junction
+		(at 90.17 121.92)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "19d3502b-6ed3-46e8-9825-ad7d118f21ea")
+	)
+	(junction
 		(at 185.42 124.46)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2537,6 +2719,12 @@
 		(uuid "edcd7edf-80ac-4a12-a1b0-282affcb5c8a")
 	)
 	(junction
+		(at 90.17 95.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f466e485-0053-4e3b-8be6-0acd81c5d2ff")
+	)
+	(junction
 		(at 167.64 133.35)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2564,6 +2752,16 @@
 	)
 	(wire
 		(pts
+			(xy 90.17 121.92) (xy 90.17 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0482cf83-8527-4959-a282-9651bc438cb9")
+	)
+	(wire
+		(pts
 			(xy 180.34 82.55) (xy 180.34 85.09)
 		)
 		(stroke
@@ -2584,7 +2782,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 115.57) (xy 135.89 127)
+			(xy 135.89 121.92) (xy 135.89 127)
 		)
 		(stroke
 			(width 0)
@@ -2611,6 +2809,16 @@
 			(type default)
 		)
 		(uuid "0b4c1feb-1078-4d3f-b328-6696dd9c33df")
+	)
+	(wire
+		(pts
+			(xy 135.89 113.03) (xy 135.89 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b70a970-775d-4235-a42c-a6586f292509")
 	)
 	(wire
 		(pts
@@ -2754,6 +2962,16 @@
 	)
 	(wire
 		(pts
+			(xy 90.17 121.92) (xy 106.68 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "221cb166-d5dc-423a-8433-63fe3a4807c5")
+	)
+	(wire
+		(pts
 			(xy 153.67 97.79) (xy 135.89 97.79)
 		)
 		(stroke
@@ -2761,6 +2979,16 @@
 			(type default)
 		)
 		(uuid "239e73f1-aae1-4616-a2a4-4b6d1a01994c")
+	)
+	(wire
+		(pts
+			(xy 104.14 116.84) (xy 104.14 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "297a7975-0f68-4488-b587-f7e6fb6b2f0e")
 	)
 	(wire
 		(pts
@@ -3014,6 +3242,16 @@
 	)
 	(wire
 		(pts
+			(xy 106.68 116.84) (xy 104.14 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "54487ba5-20b4-4ec1-ae45-1022b345d431")
+	)
+	(wire
+		(pts
 			(xy 198.12 124.46) (xy 203.2 124.46)
 		)
 		(stroke
@@ -3071,6 +3309,16 @@
 			(type default)
 		)
 		(uuid "58ff6c2a-811c-40b4-8e56-224cd3996a72")
+	)
+	(wire
+		(pts
+			(xy 121.92 107.95) (xy 121.92 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b6c063f-2277-45cd-a53a-f878b1429a99")
 	)
 	(wire
 		(pts
@@ -3134,13 +3382,13 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 97.79) (xy 135.89 107.95)
+			(xy 121.92 119.38) (xy 116.84 119.38)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "68b42fa3-08a7-4a20-8933-a0431e4d5dcc")
+		(uuid "6bebe15b-6ff2-4cad-8cca-a17f73922953")
 	)
 	(wire
 		(pts
@@ -3194,7 +3442,7 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 113.03) (xy 90.17 143.51)
+			(xy 90.17 113.03) (xy 90.17 121.92)
 		)
 		(stroke
 			(width 0)
@@ -3454,6 +3702,16 @@
 	)
 	(wire
 		(pts
+			(xy 135.89 97.79) (xy 135.89 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a58e25f3-a538-464b-86ac-30e1eb8a5f8c")
+	)
+	(wire
+		(pts
 			(xy 140.97 143.51) (xy 154.94 143.51)
 		)
 		(stroke
@@ -3474,7 +3732,7 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 102.87) (xy 90.17 77.47)
+			(xy 90.17 102.87) (xy 90.17 95.25)
 		)
 		(stroke
 			(width 0)
@@ -3521,6 +3779,16 @@
 			(type default)
 		)
 		(uuid "b3456455-dc2e-4ddf-a142-7635b5a938e4")
+	)
+	(wire
+		(pts
+			(xy 104.14 95.25) (xy 90.17 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b511d73d-3820-4679-82ee-a541d0afb24d")
 	)
 	(wire
 		(pts
@@ -3694,6 +3962,16 @@
 	)
 	(wire
 		(pts
+			(xy 128.27 107.95) (xy 121.92 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ccf7ae59-03f7-4ff8-a773-5e9392d6e4d3")
+	)
+	(wire
+		(pts
 			(xy 142.24 92.71) (xy 143.51 92.71)
 		)
 		(stroke
@@ -3731,6 +4009,16 @@
 			(type default)
 		)
 		(uuid "d51b85d0-355d-4712-97a8-7c822ad734de")
+	)
+	(wire
+		(pts
+			(xy 90.17 95.25) (xy 90.17 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d56557c1-1c15-4575-9456-a4a7c6f1e1d5")
 	)
 	(wire
 		(pts
@@ -6194,6 +6482,80 @@
 		)
 	)
 	(symbol
+		(lib_id "Transistor_FET:AO3401A")
+		(at 133.35 107.95 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7619a41d-d352-471f-93f1-044c24bf9e5f")
+		(property "Reference" "Q5"
+			(at 142.24 107.95 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AO3401A"
+			(at 139.7 107.95 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 138.43 106.045 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.aosmd.com/pdfs/datasheet/AO3401A.pdf"
+			(at 138.43 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "-4.0A Id, -30V Vds, P-Channel MOSFET, SOT-23"
+			(at 133.35 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d126a611-f7cf-4ce3-99ce-7150b10e7a99")
+		)
+		(pin "3"
+			(uuid "695e1925-6a82-47e8-99d0-3cede917a932")
+		)
+		(pin "2"
+			(uuid "4771b4aa-bcde-4975-993e-001e08ee3796")
+		)
+		(instances
+			(project "robot_pcb"
+				(path "/2f56b371-1597-47e1-a48d-b7f69d342f77/8e993949-53ac-4d46-9f7d-59c9cf3d33c4"
+					(reference "Q5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND1")
 		(at 90.17 144.78 0)
 		(unit 1)
@@ -6642,6 +7004,77 @@
 			(project "battery"
 				(path "/5852dc9c-be81-4731-9c95-5e6ebdb17894"
 					(reference "C12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_SPDT")
+		(at 111.76 119.38 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "89120a0b-4fc8-4c85-918c-0035300f8590")
+		(property "Reference" "SW3"
+			(at 111.76 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_SPDT"
+			(at 111.76 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 111.76 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 111.76 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Switch, single pole double throw"
+			(at 111.76 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d706cd5f-2443-41e2-964b-0a6ce708f7ff")
+		)
+		(pin "3"
+			(uuid "4bd44683-2d6b-4243-a9b8-64e789d99f85")
+		)
+		(pin "2"
+			(uuid "8990a061-8cc9-4411-bfb2-f1d2543c83bf")
+		)
+		(instances
+			(project ""
+				(path "/2f56b371-1597-47e1-a48d-b7f69d342f77/8e993949-53ac-4d46-9f7d-59c9cf3d33c4"
+					(reference "SW3")
 					(unit 1)
 				)
 			)
@@ -8106,7 +8539,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 135.89 111.76 0)
+		(at 135.89 118.11 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8115,7 +8548,7 @@
 		(fields_autoplaced yes)
 		(uuid "eae685ea-2461-4a5b-9e35-a968a819fcc5")
 		(property "Reference" "R13"
-			(at 138.43 110.4899 0)
+			(at 138.43 116.8399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8124,7 +8557,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 138.43 113.0299 0)
+			(at 138.43 119.3799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8133,7 +8566,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 134.112 111.76 90)
+			(at 134.112 118.11 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8142,7 +8575,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 135.89 111.76 0)
+			(at 135.89 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8151,7 +8584,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 135.89 111.76 0)
+			(at 135.89 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8160,7 +8593,7 @@
 			)
 		)
 		(property "LCSC" ""
-			(at 135.89 111.76 0)
+			(at 135.89 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8169,7 +8602,7 @@
 			)
 		)
 		(property "KLC_S3.3" ""
-			(at 135.89 111.76 0)
+			(at 135.89 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8178,7 +8611,7 @@
 			)
 		)
 		(property "KLC_S4.1" ""
-			(at 135.89 111.76 0)
+			(at 135.89 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
