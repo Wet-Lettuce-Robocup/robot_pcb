@@ -779,6 +779,10 @@
     [
       "a0987cd4-dfa7-4cf4-a9f1-5b392786bba7",
       "PD_IC"
+    ],
+    [
+      "f9fd353d-136c-4b1d-af31-404dc5242855",
+      "Front LEDs"
     ]
   ],
   "text_variables": {}
