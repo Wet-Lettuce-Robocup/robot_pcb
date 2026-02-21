@@ -9130,10 +9130,6 @@
 		(uuid "f60ebfd6-d1dc-4bc2-971b-3c60f028c093")
 	)
 	(no_connect
-		(at 302.26 95.25)
-		(uuid "06573f7f-e1b3-4733-8b97-faeee546e53e")
-	)
-	(no_connect
 		(at 353.06 80.01)
 		(uuid "091b8db2-a6b2-4d26-accf-5c5bda30570b")
 	)
@@ -9272,10 +9268,6 @@
 	(no_connect
 		(at 353.06 148.59)
 		(uuid "94fcb923-b7ce-4bed-804c-aff6c0929b2d")
-	)
-	(no_connect
-		(at 302.26 97.79)
-		(uuid "95e1485b-83fa-47e8-8b9a-53743842279e")
 	)
 	(no_connect
 		(at 353.06 105.41)
@@ -9578,6 +9570,16 @@
 			(type default)
 		)
 		(uuid "0a66605a-f194-432a-b3d1-6e5aaaf80505")
+	)
+	(wire
+		(pts
+			(xy 292.1 95.25) (xy 302.26 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0acfe7a8-e308-4d50-b0d5-f472fd6156c1")
 	)
 	(wire
 		(pts
@@ -9978,6 +9980,16 @@
 			(type default)
 		)
 		(uuid "230928a5-6cde-41f6-87a4-27bdf4f44eda")
+	)
+	(wire
+		(pts
+			(xy 292.1 97.79) (xy 302.26 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2322fc1b-369f-4d60-9b57-e667cb9d9b15")
 	)
 	(wire
 		(pts
@@ -12819,6 +12831,16 @@
 		)
 		(uuid "13593993-71d6-4f42-849c-dcefa5cc2ec3")
 	)
+	(label "PE6"
+		(at 292.1 97.79 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1b4e89d5-41d3-4a1c-a586-82bb0b1c23fd")
+	)
 	(label "I2C_SDA"
 		(at 96.52 38.1 180)
 		(effects
@@ -12998,6 +13020,16 @@
 			(justify left bottom)
 		)
 		(uuid "3c1a6cdd-7e6e-44ce-aee7-0d693a8d7cad")
+	)
+	(label "TIM9_CH1"
+		(at 292.1 95.25 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4020b152-5b49-4616-987a-fa8a7fab1a1e")
 	)
 	(label "GPIO9"
 		(at 96.52 60.96 180)
@@ -13228,6 +13260,16 @@
 			(justify left bottom)
 		)
 		(uuid "7022a022-a615-47bd-87d9-bdc690e71010")
+	)
+	(label "PE6"
+		(at 391.16 204.47 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "708d7358-df44-4a0b-925d-2a26d4883b01")
 	)
 	(label "TIM8_CH1"
 		(at 184.15 179.07 90)
@@ -13768,6 +13810,16 @@
 			(justify left bottom)
 		)
 		(uuid "f0a61b5b-5e5e-435b-a77f-9b5b4d3f2da6")
+	)
+	(label "TIM9_CH1"
+		(at 391.16 207.01 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f106d2bf-145d-401c-81ca-b92b33b98424")
 	)
 	(label "GPIO1"
 		(at 88.9 33.02 0)
@@ -24856,10 +24908,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "45f8ae58-c907-4c0e-a247-0866ac82e3ca")
+			(uuid "45f8ae58-c907-4c0e-a247-0866ac82e3cb")
 		)
 		(pin "2"
-			(uuid "c601aa12-e957-4833-af52-6a09339fc5d0")
+			(uuid "c601aa12-e957-4833-af52-6a09339fc5d1")
 		)
 		(instances
 			(project ""
