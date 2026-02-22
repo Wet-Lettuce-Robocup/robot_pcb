@@ -6,52 +6,45 @@
 	(paper "A5")
 	(lib_symbols
 		(symbol "LED:SK6812B"
-			(pin_names
-				(offset 0.254)
-			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "D"
-				(at 5.08 5.715 0)
+				(at 6.35 -4.572 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify right bottom)
 				)
 			)
 			(property "Value" "SK6812B"
-				(at 1.27 -5.715 0)
+				(at 9.906 -2.794 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
 				)
 			)
-			(property "Footprint" "LED_SMD:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm"
-				(at 1.27 -7.62 0)
+			(property "Footprint" "LED_SMD:LED_SK6812B_SIDE_4.0mmx1.5mm"
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
 					(hide yes)
 				)
 			)
 			(property "Datasheet" "https://core-electronics.com.au/attachments/localcontent/4691_SK68XX_SIDE_REV_55747b5a68c.pdf"
-				(at 2.54 -9.525 0)
+				(at 0 19.05 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
 					(hide yes)
 				)
 			)
-			(property "Description" "Side-light RGB LED with integrated controller"
-				(at 0 0 0)
+			(property "Description" "RGB LED with integrated controller"
+				(at 0 21.59 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -68,119 +61,17 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "LED*SK6812*PLCC*5.0x5.0mm*P3.2mm*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "SK6812B_0_0"
-				(text "RGB"
-					(at 2.286 -4.191 0)
-					(effects
-						(font
-							(size 0.762 0.762)
-						)
-					)
-				)
-			)
 			(symbol "SK6812B_0_1"
-				(polyline
-					(pts
-						(xy 1.27 -2.54) (xy 1.778 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -3.556) (xy 1.778 -3.556)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.286 -1.524) (xy 1.27 -2.54) (xy 1.27 -2.032)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.286 -2.54) (xy 1.27 -3.556) (xy 1.27 -3.048)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.683 -1.016) (xy 3.683 -3.556) (xy 3.683 -4.064)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 4.699 -1.524) (xy 2.667 -1.524) (xy 3.683 -3.556) (xy 4.699 -1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 4.699 -3.556) (xy 2.667 -3.556)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
 				(rectangle
-					(start 5.08 5.08)
-					(end -5.08 -5.08)
+					(start -5.08 5.08)
+					(end 5.08 -5.08)
 					(stroke
-						(width 0.254)
+						(width 0)
 						(type default)
 					)
 					(fill
-						(type background)
+						(type color)
+						(color 255 255 194 1)
 					)
 				)
 			)
@@ -195,7 +86,7 @@
 							)
 						)
 					)
-					(number "2"
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -213,7 +104,7 @@
 							)
 						)
 					)
-					(number "3"
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -224,14 +115,14 @@
 				(pin power_in line
 					(at 0 -7.62 90)
 					(length 2.54)
-					(name "VSS"
+					(name "GND"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "1"
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -249,7 +140,7 @@
 							)
 						)
 					)
-					(number "4"
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -585,6 +476,80 @@
 		(uuid "a6069ee3-ab1e-44e9-b7ab-b5c1e21ab7e3")
 	)
 	(symbol
+		(lib_id "LED:SK6812B")
+		(at 55.88 29.21 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6365ecda-0caf-4592-9962-d99ba33f586c")
+		(property "Reference" "D12"
+			(at 66.04 22.7898 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SK6812B"
+			(at 66.04 25.3298 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_SK6812B_SIDE_4.0mmx1.5mm"
+			(at 55.88 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://core-electronics.com.au/attachments/localcontent/4691_SK68XX_SIDE_REV_55747b5a68c.pdf"
+			(at 55.88 10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 55.88 7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "1abe57c5-a821-4f68-8c6f-85001a9e8d0e")
+		)
+		(pin "1"
+			(uuid "d32d4378-b3cb-4cfb-b46c-c94aeb221da7")
+		)
+		(pin "4"
+			(uuid "8f9af58f-38a0-46c0-90ba-1e6bab0ae14c")
+		)
+		(pin "2"
+			(uuid "75652c0a-3f26-417e-8362-4918cefbc832")
+		)
+		(instances
+			(project "robot_pcb"
+				(path "/2f56b371-1597-47e1-a48d-b7f69d342f77/f9fd353d-136c-4b1d-af31-404dc5242855"
+					(reference "D12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5V")
 		(at 41.91 19.05 0)
 		(unit 1)
@@ -645,82 +610,6 @@
 			(project ""
 				(path "/2f56b371-1597-47e1-a48d-b7f69d342f77/f9fd353d-136c-4b1d-af31-404dc5242855"
 					(reference "#PWR0102")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "LED:SK6812B")
-		(at 29.21 29.21 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "91d73594-bb56-475c-9d31-f20f61a8f118")
-		(property "Reference" "D11"
-			(at 40.64 22.7898 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SK6812B"
-			(at 40.64 25.3298 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm"
-			(at 30.48 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://core-electronics.com.au/attachments/localcontent/4691_SK68XX_SIDE_REV_55747b5a68c.pdf"
-			(at 31.75 38.735 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "Side-light RGB LED with integrated controller"
-			(at 29.21 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "ffc3120b-11f3-460f-aaac-c12f40dbc91c")
-		)
-		(pin "1"
-			(uuid "6b7344b3-72b6-480d-9025-a55c77640dfe")
-		)
-		(pin "4"
-			(uuid "6cbacb9a-b20d-45e3-a967-4a513b9b2e6b")
-		)
-		(pin "3"
-			(uuid "3e120b55-c2f6-4657-b1e8-8ad5c9694295")
-		)
-		(instances
-			(project ""
-				(path "/2f56b371-1597-47e1-a48d-b7f69d342f77/f9fd353d-136c-4b1d-af31-404dc5242855"
-					(reference "D11")
 					(unit 1)
 				)
 			)
@@ -794,16 +683,16 @@
 	)
 	(symbol
 		(lib_id "LED:SK6812B")
-		(at 55.88 29.21 0)
+		(at 29.21 29.21 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "d3a3ab5e-b6e4-4e0b-b74e-705896eabd66")
-		(property "Reference" "D12"
-			(at 67.31 22.7898 0)
+		(uuid "d3cf0eeb-7c23-424a-8489-da6697801ccf")
+		(property "Reference" "D11"
+			(at 39.37 22.7898 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -811,35 +700,24 @@
 			)
 		)
 		(property "Value" "SK6812B"
-			(at 67.31 25.3298 0)
+			(at 39.37 25.3298 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm"
-			(at 57.15 36.83 0)
+		(property "Footprint" "LED_SMD:LED_SK6812B_SIDE_4.0mmx1.5mm"
+			(at 29.21 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
 				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://core-electronics.com.au/attachments/localcontent/4691_SK68XX_SIDE_REV_55747b5a68c.pdf"
-			(at 58.42 38.735 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "Side-light RGB LED with integrated controller"
-			(at 55.88 29.21 0)
+			(at 29.21 10.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -847,22 +725,31 @@
 				(hide yes)
 			)
 		)
-		(pin "2"
-			(uuid "24280ca6-fc9e-4803-b5ab-034a0bf274fa")
-		)
-		(pin "1"
-			(uuid "45161a6a-69ed-4905-a1a0-92c864c1e909")
-		)
-		(pin "4"
-			(uuid "15f79445-ee55-4b87-b02d-1c177999dc53")
+		(property "Description" "RGB LED with integrated controller"
+			(at 29.21 7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
 		(pin "3"
-			(uuid "a08bdd12-341e-42e6-82f9-e530c0b6972f")
+			(uuid "188f1e72-e8fa-409e-8c7c-d14d8a878214")
+		)
+		(pin "1"
+			(uuid "d86b011d-916a-416e-b770-929852ed8a86")
+		)
+		(pin "4"
+			(uuid "c65ab265-545d-4fc9-9992-5e20d956a123")
+		)
+		(pin "2"
+			(uuid "8aa414e5-7b5b-442b-9265-a8d5c9745810")
 		)
 		(instances
-			(project "robot_pcb"
+			(project ""
 				(path "/2f56b371-1597-47e1-a48d-b7f69d342f77/f9fd353d-136c-4b1d-af31-404dc5242855"
-					(reference "D12")
+					(reference "D11")
 					(unit 1)
 				)
 			)
