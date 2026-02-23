@@ -5,27 +5,31 @@
 	(uuid "c5055a52-2a59-4ac7-8e13-bfa74af8a63f")
 	(paper "A5")
 	(lib_symbols
-		(symbol "LED:SK6812B"
+		(symbol "Connector:Conn_01x02_Socket"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "D"
-				(at 6.35 -4.572 0)
+			(property "Reference" "J"
+				(at 0 2.54 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "SK6812B"
-				(at 9.906 -2.794 0)
+			(property "Value" "Conn_01x02_Socket"
+				(at 0 -5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Footprint" "LED_SMD:LED_SK6812B_SIDE_4.0mmx1.5mm"
+			(property "Footprint" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -34,25 +38,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://core-electronics.com.au/attachments/localcontent/4691_SK68XX_SIDE_REV_55747b5a68c.pdf"
-				(at 0 19.05 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "RGB LED with integrated controller"
-				(at 0 21.59 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "RGB LED NeoPixel addressable"
+			(property "Datasheet" "~"
 				(at 0 0 0)
 				(effects
 					(font
@@ -61,25 +47,94 @@
 					(hide yes)
 				)
 			)
-			(symbol "SK6812B_0_1"
-				(rectangle
-					(start -5.08 5.08)
-					(end 5.08 -5.08)
+			(property "Description" "Generic connector, single row, 01x02, script generated"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x02_Socket_1_1"
+				(polyline
+					(pts
+						(xy -1.27 0) (xy -0.508 0)
+					)
 					(stroke
-						(width 0)
+						(width 0.1524)
 						(type default)
 					)
 					(fill
-						(type color)
-						(color 255 255 194 1)
+						(type none)
 					)
 				)
-			)
-			(symbol "SK6812B_1_1"
-				(pin input line
-					(at -7.62 0 0)
-					(length 2.54)
-					(name "DIN"
+				(polyline
+					(pts
+						(xy -1.27 -2.54) (xy -0.508 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -0.508)
+					(mid -0.5058 0)
+					(end 0 0.508)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -3.048)
+					(mid -0.5058 -2.54)
+					(end 0 -2.032)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -94,10 +149,10 @@
 						)
 					)
 				)
-				(pin power_in line
-					(at 0 7.62 270)
-					(length 2.54)
-					(name "VDD"
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -112,17 +167,205 @@
 						)
 					)
 				)
-				(pin power_in line
-					(at 0 -7.62 90)
-					(length 2.54)
-					(name "GND"
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:R"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "4"
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Transistor_FET:DMG2305UX-7"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "DMG2305UX-7_0_1"
+				(circle
+					(center 0 0)
+					(radius 3.81)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "DMG2305UX-7_1_1"
+				(pin input line
+					(at -6.35 0 0)
+					(length 2.54)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -131,9 +374,9 @@
 					)
 				)
 				(pin output line
-					(at 7.62 0 180)
+					(at 0 6.35 270)
 					(length 2.54)
-					(name "DOUT"
+					(name "D"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -141,6 +384,24 @@
 						)
 					)
 					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 -6.35 90)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -379,139 +640,200 @@
 		)
 	)
 	(junction
-		(at 41.91 36.83)
+		(at 26.67 57.15)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "367e870d-adc3-4f04-8f8c-d85e631fef6a")
-	)
-	(junction
-		(at 41.91 21.59)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "cec65895-6ff4-46df-8a4e-cac9c609f3d3")
-	)
-	(no_connect
-		(at 63.5 29.21)
-		(uuid "86887eb1-3266-4c0e-a0d7-ee889fd375bb")
+		(uuid "b8a1870f-645f-4c3f-93cf-135bae4cd4c5")
 	)
 	(wire
 		(pts
-			(xy 29.21 36.83) (xy 41.91 36.83)
+			(xy 26.67 57.15) (xy 26.67 60.96)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "077aa568-046e-463e-a61b-5c046305bd58")
+		(uuid "1e9d3eac-4214-4173-8b77-9cf48f0b7e02")
 	)
 	(wire
 		(pts
-			(xy 36.83 29.21) (xy 48.26 29.21)
+			(xy 26.67 53.34) (xy 35.56 53.34)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "18c7eee3-ffac-4b46-950f-804b4eb69fe3")
+		(uuid "368d1d28-60f4-42ab-bad7-cea944af02b5")
 	)
 	(wire
 		(pts
-			(xy 41.91 36.83) (xy 55.88 36.83)
+			(xy 64.77 36.83) (xy 64.77 45.72)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1b613087-140b-458f-a819-d040c1e8edfb")
+		(uuid "379e63d6-c6aa-442a-8b02-9d7e3427e5ca")
 	)
 	(wire
 		(pts
-			(xy 41.91 36.83) (xy 41.91 39.37)
+			(xy 34.29 36.83) (xy 52.07 36.83)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4ab1f398-7629-49a0-a3c6-cea4a6aa6ac4")
+		(uuid "3919b07c-b01e-4b61-9bc1-0c688950c263")
 	)
 	(wire
 		(pts
-			(xy 41.91 19.05) (xy 41.91 21.59)
+			(xy 64.77 45.72) (xy 68.58 45.72)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "cdc67be0-0ad6-4fba-844d-93b4501ed0c5")
+		(uuid "424336be-61b3-4933-a004-4fc66a93573a")
 	)
 	(wire
 		(pts
-			(xy 29.21 21.59) (xy 41.91 21.59)
+			(xy 35.56 60.96) (xy 26.67 60.96)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e84d29d9-45f1-43ae-a5a2-429cd6b6dd6b")
+		(uuid "5e5f0f1a-5c02-4dae-b9ea-4a4f410f69a8")
 	)
 	(wire
 		(pts
-			(xy 41.91 21.59) (xy 55.88 21.59)
+			(xy 25.4 57.15) (xy 26.67 57.15)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f5515926-2e99-4f1d-b821-33af061b8a71")
+		(uuid "a4e59392-c97c-40bd-8eb7-3f5cffa2bff2")
 	)
-	(hierarchical_label "GPIO12"
-		(shape input)
-		(at 21.59 29.21 180)
+	(wire
+		(pts
+			(xy 26.67 53.34) (xy 26.67 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8eff162-24a3-4baa-96f6-60ee47bf53a8")
+	)
+	(wire
+		(pts
+			(xy 76.2 36.83) (xy 77.47 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd8d2406-e826-49c5-9212-dc7f98a2420a")
+	)
+	(wire
+		(pts
+			(xy 76.2 45.72) (xy 77.47 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce3638f6-b488-49e1-a4bb-65a2fe69756f")
+	)
+	(wire
+		(pts
+			(xy 64.77 36.83) (xy 68.58 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb106155-52f5-4966-a620-fa1cace862b5")
+	)
+	(label "LED2"
+		(at 77.47 45.72 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left bottom)
+		)
+		(uuid "229c7cab-7181-4cde-b27e-51c55ceeb205")
+	)
+	(label "LED1"
+		(at 77.47 36.83 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2904750b-9baf-49b6-87ec-2b4782a48974")
+	)
+	(label "LED1"
+		(at 35.56 50.8 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "82a8d61e-0a4f-41ba-8529-b62fca87aff0")
+	)
+	(label "LED2"
+		(at 35.56 58.42 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "fdedc0ae-fe8d-400b-b19c-dbf07beb2027")
+	)
+	(hierarchical_label "GPIO12"
+		(shape input)
+		(at 40.64 30.48 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
 		)
 		(uuid "a6069ee3-ab1e-44e9-b7ab-b5c1e21ab7e3")
 	)
 	(symbol
-		(lib_id "LED:SK6812B")
-		(at 55.88 29.21 0)
+		(lib_id "Device:R")
+		(at 72.39 36.83 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "6365ecda-0caf-4592-9962-d99ba33f586c")
-		(property "Reference" "D12"
-			(at 66.04 22.7898 0)
+		(uuid "3987fa80-4a85-441c-b567-08921a737472")
+		(property "Reference" "R54"
+			(at 72.39 30.48 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "SK6812B"
-			(at 66.04 25.3298 0)
+		(property "Value" "8"
+			(at 72.39 33.02 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812B_SIDE_4.0mmx1.5mm"
-			(at 55.88 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://core-electronics.com.au/attachments/localcontent/4691_SK68XX_SIDE_REV_55747b5a68c.pdf"
-			(at 55.88 10.16 0)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 72.39 38.608 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -519,8 +841,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RGB LED with integrated controller"
-			(at 55.88 7.62 0)
+		(property "Datasheet" "~"
+			(at 72.39 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -528,22 +850,93 @@
 				(hide yes)
 			)
 		)
-		(pin "3"
-			(uuid "1abe57c5-a821-4f68-8c6f-85001a9e8d0e")
-		)
-		(pin "1"
-			(uuid "d32d4378-b3cb-4cfb-b46c-c94aeb221da7")
-		)
-		(pin "4"
-			(uuid "8f9af58f-38a0-46c0-90ba-1e6bab0ae14c")
+		(property "Description" "Resistor"
+			(at 72.39 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
 		(pin "2"
-			(uuid "75652c0a-3f26-417e-8362-4918cefbc832")
+			(uuid "3865b8ac-6f7e-43ee-bd4d-ec2f1b7035bc")
+		)
+		(pin "1"
+			(uuid "4ea26c95-d857-4ed1-a68b-eca34bc60271")
+		)
+		(instances
+			(project ""
+				(path "/2f56b371-1597-47e1-a48d-b7f69d342f77/f9fd353d-136c-4b1d-af31-404dc5242855"
+					(reference "R54")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 72.39 45.72 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5a231a50-5eac-4c52-95aa-cb718527a3bb")
+		(property "Reference" "R55"
+			(at 72.39 39.37 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "8"
+			(at 72.39 41.91 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 72.39 47.498 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 72.39 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 72.39 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "da7184aa-f3f9-4cc8-b5d0-c82da4d5bb7c")
+		)
+		(pin "1"
+			(uuid "0b6d905e-dde0-404b-95b1-02a0e44e9aca")
 		)
 		(instances
 			(project "robot_pcb"
 				(path "/2f56b371-1597-47e1-a48d-b7f69d342f77/f9fd353d-136c-4b1d-af31-404dc5242855"
-					(reference "D12")
+					(reference "R55")
 					(unit 1)
 				)
 			)
@@ -551,7 +944,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 41.91 19.05 0)
+		(at 34.29 24.13 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -560,7 +953,7 @@
 		(fields_autoplaced yes)
 		(uuid "7bef3967-b0b7-4cca-a400-e4b26be70231")
 		(property "Reference" "#PWR0102"
-			(at 41.91 22.86 0)
+			(at 34.29 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -568,8 +961,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
-			(at 41.91 13.97 0)
+		(property "Value" "+12V"
+			(at 34.29 19.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -577,7 +970,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 41.91 19.05 0)
+			(at 34.29 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -586,7 +979,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 41.91 19.05 0)
+			(at 34.29 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -595,7 +988,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 41.91 19.05 0)
+			(at 34.29 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -616,8 +1009,78 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Conn_01x02_Socket")
+		(at 40.64 50.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "97266a74-baad-48b4-8121-40ac3fb340d8")
+		(property "Reference" "J12"
+			(at 41.91 50.7999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x02_Socket"
+			(at 41.91 53.3399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector:JWT_A3963_1x02_P3.96mm_Vertical"
+			(at 40.64 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 40.64 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 40.64 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "aaf5a68c-75f2-4ad4-ab9c-6a465d4e0b54")
+		)
+		(pin "1"
+			(uuid "54bbb7ad-65f4-4940-9595-2af859a88e13")
+		)
+		(instances
+			(project ""
+				(path "/2f56b371-1597-47e1-a48d-b7f69d342f77/f9fd353d-136c-4b1d-af31-404dc5242855"
+					(reference "J12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
-		(at 41.91 39.37 0)
+		(at 25.4 57.15 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -626,7 +1089,7 @@
 		(fields_autoplaced yes)
 		(uuid "9a0333a9-6112-437f-a767-f0d48d8416f9")
 		(property "Reference" "#PWR0121"
-			(at 41.91 45.72 0)
+			(at 19.05 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -635,7 +1098,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 41.91 44.45 0)
+			(at 20.32 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -643,7 +1106,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 41.91 39.37 0)
+			(at 25.4 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -652,7 +1115,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 41.91 39.37 0)
+			(at 25.4 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -661,7 +1124,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 41.91 39.37 0)
+			(at 25.4 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -682,42 +1145,35 @@
 		)
 	)
 	(symbol
-		(lib_id "LED:SK6812B")
-		(at 29.21 29.21 0)
+		(lib_id "Connector:Conn_01x02_Socket")
+		(at 40.64 58.42 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "d3cf0eeb-7c23-424a-8489-da6697801ccf")
-		(property "Reference" "D11"
-			(at 39.37 22.7898 0)
+		(uuid "a668c929-5d02-4579-92b0-9b12c6ad5a80")
+		(property "Reference" "J13"
+			(at 41.91 58.4199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "SK6812B"
-			(at 39.37 25.3298 0)
+		(property "Value" "Conn_01x02_Socket"
+			(at 41.91 60.9599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812B_SIDE_4.0mmx1.5mm"
-			(at 29.21 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://core-electronics.com.au/attachments/localcontent/4691_SK68XX_SIDE_REV_55747b5a68c.pdf"
-			(at 29.21 10.16 0)
+		(property "Footprint" "Connector:JWT_A3963_1x02_P3.96mm_Vertical"
+			(at 40.64 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -725,8 +1181,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RGB LED with integrated controller"
-			(at 29.21 7.62 0)
+		(property "Datasheet" "~"
+			(at 40.64 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -734,22 +1190,123 @@
 				(hide yes)
 			)
 		)
-		(pin "3"
-			(uuid "188f1e72-e8fa-409e-8c7c-d14d8a878214")
-		)
-		(pin "1"
-			(uuid "d86b011d-916a-416e-b770-929852ed8a86")
-		)
-		(pin "4"
-			(uuid "c65ab265-545d-4fc9-9992-5e20d956a123")
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 40.64 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
 		(pin "2"
-			(uuid "8aa414e5-7b5b-442b-9265-a8d5c9745810")
+			(uuid "67ce0725-f9ba-4466-a53f-f40dc102f443")
+		)
+		(pin "1"
+			(uuid "1ecac460-5349-4e4f-9aaf-576d6be03a80")
 		)
 		(instances
-			(project ""
+			(project "robot_pcb"
 				(path "/2f56b371-1597-47e1-a48d-b7f69d342f77/f9fd353d-136c-4b1d-af31-404dc5242855"
-					(reference "D11")
+					(reference "J13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:DMG2305UX-7")
+		(at 34.29 30.48 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b78a7507-8bb6-4ed8-b215-66ee2239af63")
+		(property "Reference" "U18"
+			(at 27.94 30.48 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "DMG2305UX-7"
+			(at 25.4 30.48 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:TSOT-23"
+			(at 34.29 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 34.29 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 34.29 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 34.29 30.48 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 34.29 30.48 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 34.29 30.48 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "7c2d39cf-11bd-4063-8086-533fe5277f19")
+		)
+		(pin "1"
+			(uuid "6e48b03f-3471-48b0-b75d-e7cd5e7fbe30")
+		)
+		(pin "3"
+			(uuid "60e2f592-fbf1-40d9-9dae-f66d32e5e571")
+		)
+		(instances
+			(project "robot_pcb"
+				(path "/2f56b371-1597-47e1-a48d-b7f69d342f77/f9fd353d-136c-4b1d-af31-404dc5242855"
+					(reference "U18")
 					(unit 1)
 				)
 			)
