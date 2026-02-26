@@ -1017,6 +1017,76 @@
 		)
 		(uuid "ff7cc1ae-6587-437d-9271-22c741e4c826")
 	)
+	(label "D6_POW"
+		(at 115.57 85.09 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6f56afdf-318f-4fcc-9d16-17fee1b27dd3")
+	)
+	(label "D4_POW"
+		(at 92.71 85.09 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "950b0fbc-64ea-4708-af4d-5b64f9f13dd1")
+	)
+	(label "D9_POW"
+		(at 149.86 85.09 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "950fe30d-448e-429a-85c5-bf64d2a6f4b8")
+	)
+	(label "D5_POW"
+		(at 104.14 85.09 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "bafcec66-7367-4ff8-9a7e-b1b7b86910aa")
+	)
+	(label "D8_POW"
+		(at 138.43 85.09 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e0337a89-8df6-44d8-8d00-daddd92206c3")
+	)
+	(label "D7_POW"
+		(at 127 85.09 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e7276890-b3c7-49e9-90a0-5372fc274539")
+	)
+	(label "DOWN_LED_DRAIN"
+		(at 95.25 73.66 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ed2c7006-04eb-4c50-8940-56c1990ae0c8")
+	)
 	(hierarchical_label "PWM"
 		(shape input)
 		(at 99.06 64.77 0)

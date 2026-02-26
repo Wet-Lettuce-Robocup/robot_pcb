@@ -1962,6 +1962,16 @@
 		)
 		(uuid "2b6282a0-a1af-4e04-bd63-252cae9a6001")
 	)
+	(label "COMP_RF"
+		(at 186.69 105.41 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2e659bf0-d45a-4bd6-a7af-5c152f5a7f0b")
+	)
 	(label "12V_COMP"
 		(at 172.72 92.71 0)
 		(effects

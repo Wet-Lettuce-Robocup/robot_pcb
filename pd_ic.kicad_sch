@@ -1944,7 +1944,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 99.06) (xy 138.43 99.06)
+			(xy 127 99.06) (xy 138.43 99.06)
 		)
 		(stroke
 			(width 0)
@@ -1974,7 +1974,7 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 91.44) (xy 111.76 91.44)
+			(xy 138.43 91.44) (xy 99.06 91.44)
 		)
 		(stroke
 			(width 0)
@@ -2314,7 +2314,7 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 91.44) (xy 111.76 92.71)
+			(xy 99.06 91.44) (xy 99.06 92.71)
 		)
 		(stroke
 			(width 0)
@@ -2394,7 +2394,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 96.52) (xy 138.43 96.52)
+			(xy 127 96.52) (xy 138.43 96.52)
 		)
 		(stroke
 			(width 0)
@@ -2461,6 +2461,46 @@
 			(justify left bottom)
 		)
 		(uuid "0f66b39d-4d41-4e56-8481-8941e7e71f8f")
+	)
+	(label "SWD_DAT"
+		(at 128.27 96.52 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "10279441-8193-4b7e-a304-c753e96f551b")
+	)
+	(label "SWD_CLK"
+		(at 128.27 99.06 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1e1622f4-c518-4f2b-aedf-ea0e11b0956b")
+	)
+	(label "COMP"
+		(at 132.08 91.44 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "641d6c37-5ba2-44d0-9e6d-84090b462600")
+	)
+	(label "FB"
+		(at 132.08 88.9 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "925a573f-2450-4ce5-9bd9-0d085dbca5f4")
 	)
 	(label "VCCD"
 		(at 111.76 73.66 0)
@@ -2854,7 +2894,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
-		(at 130.81 99.06 180)
+		(at 121.92 99.06 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2862,7 +2902,7 @@
 		(dnp no)
 		(uuid "1bfa60f2-be5a-4aa9-acfc-88d3daa063dc")
 		(property "Reference" "J11"
-			(at 127.254 97.79 0)
+			(at 118.364 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2870,7 +2910,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02"
-			(at 130.556 93.726 0)
+			(at 121.666 93.726 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2878,7 +2918,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
-			(at 130.81 99.06 0)
+			(at 121.92 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2887,7 +2927,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 130.81 99.06 0)
+			(at 121.92 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2896,7 +2936,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 130.81 99.06 0)
+			(at 121.92 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3002,7 +3042,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 111.76 96.52 0)
+		(at 99.06 96.52 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3011,7 +3051,7 @@
 		(fields_autoplaced yes)
 		(uuid "321d0ebb-01c8-41c9-9523-d677cefc3c19")
 		(property "Reference" "C71"
-			(at 115.57 95.2499 0)
+			(at 102.87 95.2499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3020,7 +3060,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 115.57 97.7899 0)
+			(at 102.87 97.7899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3029,7 +3069,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 112.7252 100.33 0)
+			(at 100.0252 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3038,7 +3078,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 111.76 96.52 0)
+			(at 99.06 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3047,7 +3087,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 111.76 96.52 0)
+			(at 99.06 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3853,7 +3893,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 111.76 100.33 0)
+		(at 99.06 100.33 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3862,7 +3902,7 @@
 		(fields_autoplaced yes)
 		(uuid "d63a55b0-9244-4881-aa16-996a4eee31ab")
 		(property "Reference" "#PWR042"
-			(at 111.76 106.68 0)
+			(at 99.06 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3871,7 +3911,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 111.76 105.41 0)
+			(at 99.06 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3879,7 +3919,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 111.76 100.33 0)
+			(at 99.06 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3888,7 +3928,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 111.76 100.33 0)
+			(at 99.06 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3897,7 +3937,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 111.76 100.33 0)
+			(at 99.06 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)

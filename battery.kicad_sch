@@ -4632,6 +4632,16 @@
 		)
 		(uuid "631f63fe-0862-4b05-9f45-5df9cf13d236")
 	)
+	(label "OFF_SW"
+		(at 107.95 121.92 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6780582d-8b7d-4b6b-a93f-58064261ceb7")
+	)
 	(label "BAT"
 		(at 181.61 74.93 0)
 		(effects
@@ -4641,6 +4651,26 @@
 			(justify left bottom)
 		)
 		(uuid "8b0cda8f-73c2-458c-bfd4-0aeda2532cf0")
+	)
+	(label "CHG_DRAIN"
+		(at 154.94 119.38 0)
+		(effects
+			(font
+				(size 0.508 0.508)
+			)
+			(justify left bottom)
+		)
+		(uuid "9859638e-ee57-4b44-93f7-aa89b2856c5b")
+	)
+	(label "CHG_GATE"
+		(at 160.02 133.35 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "98f6824d-8c52-4064-8f04-6b87759dacfe")
 	)
 	(label "CHG"
 		(at 147.32 100.33 0)
@@ -4681,6 +4711,16 @@
 			(justify left bottom)
 		)
 		(uuid "c769e424-061d-4bf2-b276-ecb738901e36")
+	)
+	(label "OFF_SW_GATE"
+		(at 128.27 121.92 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c7e2a3ad-7826-4b1c-a2cd-6ed314a59c7c")
 	)
 	(label "TS1"
 		(at 134.62 87.63 0)
@@ -6976,7 +7016,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "71147a9f-6eb2-44e8-9678-c53b5d1ec639")
 		(property "Reference" "J15"
 			(at 107.95 116.2049 90)
@@ -6988,7 +7027,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02_Pin"
-			(at 107.95 118.7449 90)
+			(at 106.934 118.11 90)
 			(effects
 				(font
 					(size 1.27 1.27)
