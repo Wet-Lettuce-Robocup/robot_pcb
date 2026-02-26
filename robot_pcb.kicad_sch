@@ -9559,7 +9559,7 @@
 		(uuid "5a80b95c-bff6-4c7c-8b86-d59f53bf881a")
 	)
 	(no_connect
-		(at 88.9 54.61)
+		(at 88.9 55.88)
 		(uuid "62aefb40-ab72-4b96-8671-97f2a70d2d18")
 	)
 	(no_connect
@@ -10894,7 +10894,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 73.66) (xy 88.9 87.63)
+			(xy 88.9 73.66) (xy 88.9 86.36)
 		)
 		(stroke
 			(width 0)
@@ -11764,17 +11764,7 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 87.63) (xy 95.25 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "90122a3e-fb75-4409-a01e-15e9d6e28439")
-	)
-	(wire
-		(pts
-			(xy 88.9 87.63) (xy 95.25 87.63)
+			(xy 88.9 86.36) (xy 95.25 86.36)
 		)
 		(stroke
 			(width 0)

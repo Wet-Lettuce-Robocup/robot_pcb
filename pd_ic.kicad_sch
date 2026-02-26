@@ -1809,6 +1809,12 @@
 		(uuid "8e3fa53a-8f84-4203-b299-cec1c3217c4f")
 	)
 	(junction
+		(at 147.32 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "901fc50c-e4f4-4698-aaab-a0ddca8dd519")
+	)
+	(junction
 		(at 168.91 142.24)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1843,12 +1849,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ef4f1c89-90aa-4821-bbc3-291112b74864")
-	)
-	(junction
-		(at 147.32 67.31)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f4d5255d-89b8-4493-ba11-925f1f60e2a5")
 	)
 	(junction
 		(at 147.32 54.61)
@@ -1934,16 +1934,6 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 67.31) (xy 147.32 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "146cb6ff-e84f-46cf-928f-03bd9ff5ca29")
-	)
-	(wire
-		(pts
 			(xy 127 99.06) (xy 138.43 99.06)
 		)
 		(stroke
@@ -1994,6 +1984,16 @@
 	)
 	(wire
 		(pts
+			(xy 147.32 66.04) (xy 147.32 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "263c949b-6115-4639-99be-3150dc484827")
+	)
+	(wire
+		(pts
 			(xy 163.83 54.61) (xy 166.37 54.61)
 		)
 		(stroke
@@ -2014,7 +2014,7 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 67.31) (xy 147.32 67.31)
+			(xy 143.51 66.04) (xy 147.32 66.04)
 		)
 		(stroke
 			(width 0)
@@ -2161,6 +2161,16 @@
 			(type default)
 		)
 		(uuid "6075e706-d0aa-45fa-87ad-ac134d9bf937")
+	)
+	(wire
+		(pts
+			(xy 143.51 66.04) (xy 143.51 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "673cedf3-d5ba-4338-aa20-0f20c80042ce")
 	)
 	(wire
 		(pts
@@ -2384,7 +2394,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 54.61) (xy 147.32 67.31)
+			(xy 147.32 54.61) (xy 147.32 66.04)
 		)
 		(stroke
 			(width 0)
@@ -2511,16 +2521,6 @@
 			(justify left bottom)
 		)
 		(uuid "9f960ec1-81f2-4893-a351-018b1be5fab6")
-	)
-	(label "VBUS_IN_DIS"
-		(at 147.32 67.31 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "f634a21d-8277-4fb3-b4e3-4c76a5da270d")
 	)
 	(global_label "+5V1"
 		(shape input)
