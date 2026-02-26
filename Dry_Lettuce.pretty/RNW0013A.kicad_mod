@@ -461,4 +461,15 @@
 		(uuid "5d71f873-69ce-4e1a-be5f-4554346b8363")
 	)
 	(embedded_fonts no)
+	(model "${KIPRJMOD}/3dmodels/RNW0013A.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )
