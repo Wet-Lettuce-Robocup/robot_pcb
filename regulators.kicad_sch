@@ -4560,6 +4560,16 @@
 		)
 		(uuid "ffa5e540-b2ac-46a1-957b-6a3939e85f4a")
 	)
+	(label "19V_VOUT"
+		(at 255.27 109.22 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6b0d6dc7-3f0d-4267-9c0a-f33e2ae6db05")
+	)
 	(hierarchical_label "SUP"
 		(shape input)
 		(at 27.94 115.57 180)
