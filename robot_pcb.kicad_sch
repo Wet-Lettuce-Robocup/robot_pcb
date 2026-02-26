@@ -11801,6 +11801,16 @@
 	)
 	(wire
 		(pts
+			(xy 146.05 151.13) (xy 147.32 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c97bd7c-7be4-4955-a785-42c66e179468")
+	)
+	(wire
+		(pts
 			(xy 354.33 102.87) (xy 353.06 102.87)
 		)
 		(stroke
@@ -14467,6 +14477,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "+19V"
+		(shape input)
+		(at 147.32 151.13 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6e9dfacb-9968-465d-8792-cecd9662a3a2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 155.3852 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -30118,6 +30150,16 @@
 		(pin "+5V1" output
 			(at 146.05 170.18 0)
 			(uuid "de93a474-faf8-4e4b-b005-a9d1710c18ea")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "+19V" output
+			(at 146.05 151.13 0)
+			(uuid "90a4767e-0e08-4732-9867-1ae43c43f7bc")
 			(effects
 				(font
 					(size 1.27 1.27)
