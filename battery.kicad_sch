@@ -5555,6 +5555,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C15127"
+			(at 149.86 121.92 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "57c47bea-eb03-4cee-91a2-11b7105f4e75")
 		)
@@ -6510,7 +6519,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C601650"
 			(at 166.37 85.09 0)
 			(effects
 				(font
@@ -7152,6 +7161,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C38774"
+			(at 135.89 140.97 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "5ed17f4b-2d57-49c3-8725-80eb14b4d8f3")
 		)
@@ -7397,6 +7415,15 @@
 		)
 		(property "Description" "0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23"
 			(at 128.27 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C65189"
+			(at 128.27 115.57 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8185,7 +8212,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C209959"
 			(at 115.57 93.98 0)
 			(effects
 				(font
@@ -9293,7 +9320,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Fuse:Fuse_2920_7451Metric"
+		(property "Footprint" "Fuse:Fuse_Bourns_MF-RG900"
 			(at 110.49 142.24 0)
 			(effects
 				(font
@@ -9896,6 +9923,15 @@
 		)
 		(property "Description" "47A Id, 55V Vds, 22mOhm Rds Single N-Channel HEXFET Power MOSFET, TO-220AB"
 			(at 160.02 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C38774"
+			(at 160.02 140.97 90)
 			(effects
 				(font
 					(size 1.27 1.27)

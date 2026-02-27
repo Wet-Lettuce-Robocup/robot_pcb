@@ -2796,6 +2796,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C609571"
+			(at 186.69 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "6"
 			(uuid "d7c77a0e-f413-4403-826d-b396e35d0fe7")
 		)
@@ -3440,6 +3449,15 @@
 		)
 		(property "Description" "USB Type-C port controller, Cortex®-M0 processor, DFP CC with direct feedback bootloader, QFN-24"
 			(at 160.274 71.628 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2952419"
+			(at 161.29 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4356,6 +4374,15 @@
 		)
 		(property "Description" "-35A Id, -40V Vds, P-Channel MOSFET, PowerPAK 1212-8 Single"
 			(at 158.75 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C142539"
+			(at 158.75 57.15 90)
 			(effects
 				(font
 					(size 1.27 1.27)
