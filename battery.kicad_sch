@@ -3535,7 +3535,7 @@
 	)
 	(wire
 		(pts
-			(xy 259.08 92.71) (xy 259.08 133.35)
+			(xy 261.62 92.71) (xy 261.62 133.35)
 		)
 		(stroke
 			(width 0)
@@ -4325,7 +4325,7 @@
 	)
 	(wire
 		(pts
-			(xy 251.46 133.35) (xy 259.08 133.35)
+			(xy 251.46 133.35) (xy 261.62 133.35)
 		)
 		(stroke
 			(width 0)
@@ -4535,7 +4535,7 @@
 	)
 	(wire
 		(pts
-			(xy 265.43 92.71) (xy 259.08 92.71)
+			(xy 265.43 92.71) (xy 261.62 92.71)
 		)
 		(stroke
 			(width 0)
@@ -4682,6 +4682,16 @@
 			(justify left bottom)
 		)
 		(uuid "39c31783-336e-41c8-a514-d69374bc13af")
+	)
+	(label "LIPO_GND"
+		(at 251.46 133.35 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "40580e01-fb4c-449a-a698-f0cbdd587d1a")
 	)
 	(label "SRN"
 		(at 180.34 100.33 0)
