@@ -9611,6 +9611,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C41383743"
+			(at 217.17 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "70424f50-de73-47fd-ae75-86bec308139b")
 		)
@@ -10272,6 +10281,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C2162042"
+			(at 337.82 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "8cf31126-2be3-49a8-98df-4719ba1e0956")
 		)
@@ -10334,6 +10352,15 @@
 			)
 		)
 		(property "Description" "Polarized capacitor"
+			(at 200.66 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C347564"
 			(at 200.66 177.8 0)
 			(effects
 				(font
@@ -11748,6 +11775,15 @@
 			)
 		)
 		(property "Description" "35A Id, 30V Vds, NexFET N-Channel Power MOSFET, 4.0mOhm Ron, Qg Typ 12nC, VSON-8 3.3x3.3mm"
+			(at 284.48 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C205986"
 			(at 284.48 176.53 0)
 			(effects
 				(font
@@ -13209,6 +13245,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C2162042"
+			(at 325.12 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "908972d0-936c-42a6-a14e-fa081bc0032c")
 		)
@@ -13830,6 +13875,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C201632"
+			(at 236.22 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "0e1338e8-2bab-4451-a3e0-82605adad4f3")
 		)
@@ -13900,6 +13954,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 247.65 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2479048"
+			(at 247.65 190.5 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14042,6 +14105,15 @@
 			)
 		)
 		(property "Description" "5A Id, 30V Vds, NexFET N-Channel Power MOSFET, 24mOhm Ron, SON-6"
+			(at 236.22 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2863837"
 			(at 236.22 203.2 0)
 			(effects
 				(font
@@ -14626,6 +14698,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C29536843"
+			(at 270.51 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -17460,6 +17541,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C19191623"
+			(at 265.43 190.5 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "3d1b2e0e-07fb-483c-ac03-6ae337df5d6a")
 		)
@@ -18223,6 +18313,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 86.36 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C41383743"
 			(at 86.36 194.31 0)
 			(effects
 				(font
@@ -19135,6 +19234,15 @@
 			)
 		)
 		(property "Description" "Polarized capacitor"
+			(at 350.52 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2162042"
 			(at 350.52 175.26 0)
 			(effects
 				(font

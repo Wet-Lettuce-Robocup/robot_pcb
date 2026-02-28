@@ -534,7 +534,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "robot_pcb.step",
       "svg": "",
       "vrml": ""
     },
