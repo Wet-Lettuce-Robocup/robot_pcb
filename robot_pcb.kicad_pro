@@ -489,7 +489,7 @@
     "classes": [
       {
         "bus_width": 12,
-        "clearance": 0.15,
+        "clearance": 0.14,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -763,10 +763,6 @@
     [
       "8e993949-53ac-4d46-9f7d-59c9cf3d33c4",
       "Battery"
-    ],
-    [
-      "9fd076b0-1699-4df3-8028-c9ce38f70125",
-      "12V Regulator"
     ],
     [
       "eed5055e-310e-40b9-8812-77db8a815e44",
