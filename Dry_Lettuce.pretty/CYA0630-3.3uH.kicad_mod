@@ -103,4 +103,15 @@
 		(uuid "bb69fd24-a40f-4c77-8483-6a0f2e02c531")
 	)
 	(embedded_fonts no)
+	(model "${KIPRJMOD}/3dmodels/IND_CYA0630_SHH.step"
+		(offset
+			(xyz 3.5 -3.3 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
 )

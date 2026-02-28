@@ -92,4 +92,15 @@
 		(uuid "c0f24082-56c4-47f9-8f72-400af34b0529")
 	)
 	(embedded_fonts no)
+	(model "${KIPRJMOD}/3dmodels/IND_TAIYO_NRS8040_TAY.step"
+		(offset
+			(xyz 0 -3.75 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
 )
