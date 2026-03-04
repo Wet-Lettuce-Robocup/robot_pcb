@@ -14622,7 +14622,7 @@
 				)
 			)
 		)
-		(property "Footprint" "IAUC120N06S5N011ATMA1"
+		(property "Footprint" "Dry_Lettuce:IAUC120N06S5N011ATMA1"
 			(at 292.1 294.31 0)
 			(effects
 				(font
