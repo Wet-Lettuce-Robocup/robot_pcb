@@ -8416,8 +8416,8 @@
 		(uuid 78b2e93b-6680-495d-9081-e0fba1705776)
 	)
 	(rectangle
-		(start 152.4 22.86)
-		(end 180.34 52.07)
+		(start 129.54 149.86)
+		(end 157.48 179.07)
 		(stroke
 			(width 0)
 			(type default)
@@ -8533,7 +8533,7 @@
 	)
 	(text "Switches"
 		(exclude_from_sim no)
-		(at 166.37 51.054 0)
+		(at 143.51 178.054 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13044,7 +13044,7 @@
 		(uuid "5135f030-95aa-4e23-a90a-468a14ebd7df")
 	)
 	(label "GPIO5"
-		(at 161.29 33.02 180)
+		(at 138.43 160.02 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13164,7 +13164,7 @@
 		(uuid "5f8d3066-02ec-4bc1-a15d-1747b86299d9")
 	)
 	(label "GPIO6"
-		(at 161.29 44.45 180)
+		(at 138.43 171.45 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -21486,7 +21486,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 171.45 33.02 90)
+		(at 148.59 160.02 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -21495,7 +21495,7 @@
 		(fields_autoplaced yes)
 		(uuid "7831f441-f52b-40e9-8ad4-93252a94af55")
 		(property "Reference" "#PWR0122"
-			(at 177.8 33.02 0)
+			(at 154.94 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21504,7 +21504,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 175.26 33.0199 90)
+			(at 152.4 160.0199 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21513,7 +21513,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 171.45 33.02 0)
+			(at 148.59 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21522,7 +21522,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 171.45 33.02 0)
+			(at 148.59 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21531,7 +21531,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 171.45 33.02 0)
+			(at 148.59 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26044,7 +26044,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 171.45 44.45 90)
+		(at 148.59 171.45 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -26053,7 +26053,7 @@
 		(fields_autoplaced yes)
 		(uuid "c33eed60-9ffb-4807-b4ed-b63d61e1263b")
 		(property "Reference" "#PWR0123"
-			(at 177.8 44.45 0)
+			(at 154.94 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26062,7 +26062,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 175.26 44.4499 90)
+			(at 152.4 171.4499 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26071,7 +26071,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 171.45 44.45 0)
+			(at 148.59 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26080,7 +26080,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 171.45 44.45 0)
+			(at 148.59 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26089,7 +26089,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 171.45 44.45 0)
+			(at 148.59 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28351,7 +28351,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 166.37 33.02 0)
+		(at 143.51 160.02 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -28360,7 +28360,7 @@
 		(fields_autoplaced yes)
 		(uuid "f3a8c2a4-e8bf-415c-817a-3f387f19c1e6")
 		(property "Reference" "SW3"
-			(at 166.37 25.4 0)
+			(at 143.51 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28368,7 +28368,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 166.37 27.94 0)
+			(at 143.51 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28376,7 +28376,7 @@
 			)
 		)
 		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_NO_CK_KMR2"
-			(at 166.37 27.94 0)
+			(at 143.51 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28385,7 +28385,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 166.37 27.94 0)
+			(at 143.51 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28394,7 +28394,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 166.37 33.02 0)
+			(at 143.51 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29040,7 +29040,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 166.37 44.45 0)
+		(at 143.51 171.45 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -29049,7 +29049,7 @@
 		(fields_autoplaced yes)
 		(uuid "ffdc4210-2473-47ea-bac1-60520df9d15f")
 		(property "Reference" "SW5"
-			(at 166.37 36.83 0)
+			(at 143.51 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29057,7 +29057,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 166.37 39.37 0)
+			(at 143.51 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29065,7 +29065,7 @@
 			)
 		)
 		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_NO_CK_KMR2"
-			(at 166.37 39.37 0)
+			(at 143.51 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29074,7 +29074,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 166.37 39.37 0)
+			(at 143.51 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29083,7 +29083,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 166.37 44.45 0)
+			(at 143.51 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
