@@ -2013,6 +2013,16 @@
 	)
 	(wire
 		(pts
+			(xy 134.62 31.75) (xy 134.62 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3da7704f-f99b-4cfe-b5dc-57a65d2d62cd")
+	)
+	(wire
+		(pts
 			(xy 58.42 97.79) (xy 58.42 95.25)
 		)
 		(stroke
@@ -2260,6 +2270,16 @@
 			(type default)
 		)
 		(uuid "8ae7f6c2-e546-47f4-b1aa-458726b3c4fa")
+	)
+	(wire
+		(pts
+			(xy 134.62 74.93) (xy 134.62 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e8d77d2-5bbe-4314-a269-c4ebafc63697")
 	)
 	(wire
 		(pts
@@ -2721,16 +2741,6 @@
 		)
 		(uuid "aa969d23-8b60-4c1f-a21f-6da7189a7df2")
 	)
-	(label "LED_2_VCC"
-		(at 134.62 77.47 180)
-		(effects
-			(font
-				(size 1.016 1.016)
-			)
-			(justify right bottom)
-		)
-		(uuid "aee116c1-2e33-4236-8daa-2774dec9cc4c")
-	)
 	(label "LED_1_VCC"
 		(at 125.73 24.13 0)
 		(effects
@@ -2740,16 +2750,6 @@
 			(justify bottom)
 		)
 		(uuid "b259e58f-ea98-4ada-abd4-a0abb1482c90")
-	)
-	(label "LED_1_VCC"
-		(at 134.62 34.29 180)
-		(effects
-			(font
-				(size 1.016 1.016)
-			)
-			(justify right bottom)
-		)
-		(uuid "fe452809-e91f-4065-a26f-b1d91ef5c5cd")
 	)
 	(hierarchical_label "GPIO12"
 		(shape input)
