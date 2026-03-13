@@ -1092,10 +1092,6 @@
 		(color 0 0 0 0)
 		(uuid "de7d15ad-3b25-47ca-8a6c-f8e7ecca6e43")
 	)
-	(no_connect
-		(at 69.85 54.61)
-		(uuid "53bded20-e71a-4dca-b064-758ace43888b")
-	)
 	(wire
 		(pts
 			(xy 40.64 82.55) (xy 41.91 82.55)
@@ -1473,6 +1469,72 @@
 			(project ""
 				(path "/ad2684eb-c2bb-4fca-b716-3281952c7862"
 					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 69.85 54.61 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a5bb4998-affc-41d3-b976-2fd6f570a7cd")
+		(property "Reference" "#PWR03"
+			(at 69.85 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 69.85 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 69.85 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 69.85 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 69.85 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2389799a-3c97-4919-9ff0-5579a87d4cf7")
+		)
+		(instances
+			(project "frontleds"
+				(path "/ad2684eb-c2bb-4fca-b716-3281952c7862"
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
