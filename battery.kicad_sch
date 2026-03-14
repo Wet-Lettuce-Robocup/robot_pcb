@@ -2923,12 +2923,6 @@
 		(uuid "0e3a6b01-51a5-4eea-a549-6ebbc5a964f0")
 	)
 	(junction
-		(at 90.17 77.47)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "16e49026-76aa-4804-b48b-6d06ff52832c")
-	)
-	(junction
 		(at 135.89 127)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3071,6 +3065,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bd30a9af-7474-4037-8590-84cc2d5d2a70")
+	)
+	(junction
+		(at 90.17 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bdfa868a-be8c-461c-b4cb-8be64dc81970")
 	)
 	(junction
 		(at 233.68 102.87)
@@ -3850,6 +3850,16 @@
 	)
 	(wire
 		(pts
+			(xy 90.17 93.98) (xy 90.17 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a0c0433-0b3e-4612-aa19-98e58ca54063")
+	)
+	(wire
+		(pts
 			(xy 233.68 101.6) (xy 233.68 102.87)
 		)
 		(stroke
@@ -3940,7 +3950,7 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 143.51) (xy 101.6 143.51)
+			(xy 90.17 143.51) (xy 123.19 143.51)
 		)
 		(stroke
 			(width 0)
@@ -3967,6 +3977,16 @@
 			(type default)
 		)
 		(uuid "8da3c392-b783-4492-9408-beb90cd60242")
+	)
+	(wire
+		(pts
+			(xy 90.17 77.47) (xy 90.17 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8fc230d7-940e-4311-8fa9-728a2a895fb7")
 	)
 	(wire
 		(pts
@@ -4140,16 +4160,6 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 77.47) (xy 90.17 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a83569cb-bab4-49d5-ad5b-4fe709a0faf5")
-	)
-	(wire
-		(pts
 			(xy 171.45 125.73) (xy 171.45 124.46)
 		)
 		(stroke
@@ -4237,16 +4247,6 @@
 			(type default)
 		)
 		(uuid "bce28319-3e7b-4dd8-a79f-1e3057c1576d")
-	)
-	(wire
-		(pts
-			(xy 109.22 143.51) (xy 123.19 143.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bd496720-6371-47b4-8c6c-29bcb15ef070")
 	)
 	(wire
 		(pts
@@ -4697,6 +4697,16 @@
 			(justify left bottom)
 		)
 		(uuid "46fa0719-48b0-4936-9756-27837b42dc7e")
+	)
+	(label "BATT_FUSE"
+		(at 90.17 99.06 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4cf9185f-b65c-48b0-9e0b-2b059d4e88f6")
 	)
 	(label "V3"
 		(at 260.35 85.09 0)
@@ -9348,7 +9358,7 @@
 	)
 	(symbol
 		(lib_id "Device:Polyfuse")
-		(at 105.41 143.51 90)
+		(at 90.17 90.17 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9357,23 +9367,25 @@
 		(fields_autoplaced yes)
 		(uuid "dc09bf64-dc70-43f4-84b0-bae57a05cc55")
 		(property "Reference" "F1"
-			(at 105.41 137.16 90)
+			(at 92.71 88.8999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Value" "Polyfuse"
-			(at 105.41 139.7 90)
+			(at 92.71 91.4399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" "Fuse:Fuse_Bourns_MF-RG900"
-			(at 110.49 142.24 0)
+			(at 88.9 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9383,7 +9395,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 105.41 143.51 0)
+			(at 90.17 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9392,7 +9404,7 @@
 			)
 		)
 		(property "Description" "Resettable fuse, polymeric positive temperature coefficient"
-			(at 105.41 143.51 0)
+			(at 90.17 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9401,7 +9413,7 @@
 			)
 		)
 		(property "LCSC" "C3762600"
-			(at 105.41 143.51 90)
+			(at 90.17 90.17 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9410,7 +9422,7 @@
 			)
 		)
 		(property "KLC_S3.3" ""
-			(at 105.41 143.51 90)
+			(at 90.17 90.17 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9419,7 +9431,7 @@
 			)
 		)
 		(property "KLC_S4.1" ""
-			(at 105.41 143.51 90)
+			(at 90.17 90.17 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9434,14 +9446,8 @@
 			(uuid "58aeb1c3-87de-4483-b393-f1e6eb8b19b7")
 		)
 		(instances
-			(project ""
+			(project "robot_pcb"
 				(path "/2f56b371-1597-47e1-a48d-b7f69d342f77/8e993949-53ac-4d46-9f7d-59c9cf3d33c4"
-					(reference "F1")
-					(unit 1)
-				)
-			)
-			(project "battery"
-				(path "/5852dc9c-be81-4731-9c95-5e6ebdb17894"
 					(reference "F1")
 					(unit 1)
 				)
