@@ -920,7 +920,7 @@
 			(uuid "54c0398a-7ef4-4263-9b50-b9e9654b4a57")
 		)
 		(embedded_fonts no)
-		(model "/Users/tobymcfall/Coding/KiCad/robot_pcb/3dmodels/LED_Cree-XP-GWT.step"
+		(model "${KIPRJMOD}/../3dmodels/LED_Cree-XP-GWT.step"
 			(offset
 				(xyz -1.725 -1.725 0)
 			)
