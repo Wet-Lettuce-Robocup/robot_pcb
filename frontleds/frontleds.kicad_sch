@@ -997,16 +997,16 @@
 		(uuid "15af14b5-5e10-4411-8bca-bf3dc2cf9652")
 	)
 	(junction
-		(at 66.04 59.69)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "19e7cb98-e4c1-4d0c-92c6-707e80293ee7")
-	)
-	(junction
 		(at 54.61 74.93)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "28bfa248-46ad-4bd7-a693-65c373820b57")
+	)
+	(junction
+		(at 54.61 59.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3497ee7b-907c-460e-a7dc-0c38b218077d")
 	)
 	(junction
 		(at 54.61 77.47)
@@ -1033,12 +1033,6 @@
 		(uuid "71ac4af7-9db7-4cd0-a0af-3e31540d9f71")
 	)
 	(junction
-		(at 54.61 62.23)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "71d69b40-b5f2-4bbd-8b80-f2d71f2866d4")
-	)
-	(junction
 		(at 54.61 67.31)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1049,6 +1043,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "87bcfa52-0d72-4369-9083-5e8d4161f036")
+	)
+	(junction
+		(at 54.61 62.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8b63a846-e3a7-4cde-bfa2-19c7806d6462")
 	)
 	(junction
 		(at 41.91 77.47)
@@ -1134,6 +1134,16 @@
 	)
 	(wire
 		(pts
+			(xy 54.61 59.69) (xy 54.61 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f07a4ce-a3fe-4184-ad61-c4efda948a3f")
+	)
+	(wire
+		(pts
 			(xy 74.93 60.96) (xy 74.93 59.69)
 		)
 		(stroke
@@ -1194,16 +1204,6 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 62.23) (xy 66.04 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4c3e6682-b99c-4a80-a533-7f710f2d67fc")
-	)
-	(wire
-		(pts
 			(xy 41.91 77.47) (xy 41.91 80.01)
 		)
 		(stroke
@@ -1211,16 +1211,6 @@
 			(type default)
 		)
 		(uuid "4d665d1a-0de1-40a6-9faf-5c63c9c559f7")
-	)
-	(wire
-		(pts
-			(xy 54.61 62.23) (xy 66.04 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4e7de21f-fee7-4347-b5ed-b16539c0939b")
 	)
 	(wire
 		(pts
@@ -1332,7 +1322,7 @@
 		)
 		(uuid "f8bbc1b8-5610-44bd-8ab5-69344b193b12")
 	)
-	(label "PWR1"
+	(label "PWR"
 		(at 54.61 59.69 0)
 		(effects
 			(font
@@ -1341,16 +1331,6 @@
 			(justify left bottom)
 		)
 		(uuid "5bc2f738-3fc2-400b-b80e-43cfe4023b8a")
-	)
-	(label "PWR1"
-		(at 54.61 62.23 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "8060229d-ef71-44ab-817d-23c66119b8bb")
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_02x10_Odd_Even")
