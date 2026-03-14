@@ -3267,6 +3267,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C4572809"
+			(at 53.34 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "11"
 			(uuid "f872376c-daab-4d31-adf0-e96c3a871bfc")
 		)
@@ -3447,6 +3456,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C2971041"
+			(at 134.62 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "9ce89cbe-56d0-4be4-92d1-275090d697ca")
 		)
@@ -3591,6 +3609,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2971041"
+			(at 134.62 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -4426,6 +4453,15 @@
 			)
 		)
 		(property "Description" "Generic connector, double row, 02x10, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 53.34 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C4572809"
 			(at 53.34 50.8 0)
 			(effects
 				(font
