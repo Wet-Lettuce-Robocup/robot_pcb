@@ -9194,7 +9194,7 @@
 				)
 			)
 		)
-		(property "Value" "4.7uF"
+		(property "Value" "10uF"
 			(at 209.804 54.356 90)
 			(effects
 				(font
@@ -9202,7 +9202,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 213.36 49.8348 0)
 			(effects
 				(font
@@ -9229,7 +9229,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C368809"
+		(property "LCSC" "C96446"
 			(at 209.55 50.8 90)
 			(effects
 				(font

@@ -17276,7 +17276,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "292228fe-6e54-4282-b1d2-a5dd6a95a35a")
 		(property "Reference" "C64"
 			(at 347.98 222.2499 0)
