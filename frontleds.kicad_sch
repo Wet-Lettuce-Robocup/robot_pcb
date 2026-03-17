@@ -3665,7 +3665,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 180.34 36.83 0)
+		(at 180.34 36.83 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3679,7 +3679,7 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Value" "10nF"
@@ -3688,11 +3688,11 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 181.3052 40.64 0)
+			(at 179.3748 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3710,6 +3710,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 180.34 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C15195"
 			(at 180.34 36.83 0)
 			(effects
 				(font
@@ -3871,6 +3880,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 180.34 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C15195"
 			(at 180.34 80.01 0)
 			(effects
 				(font
