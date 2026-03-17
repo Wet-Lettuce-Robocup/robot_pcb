@@ -15755,7 +15755,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C60474"
+		(property "LCSC" " C1525"
 			(at 356.87 223.52 0)
 			(effects
 				(font
@@ -16873,7 +16873,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C60474"
+		(property "LCSC" " C1525"
 			(at 270.51 238.76 0)
 			(effects
 				(font
@@ -17322,7 +17322,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C60474"
+		(property "LCSC" " C1525"
 			(at 344.17 223.52 0)
 			(effects
 				(font
@@ -22063,7 +22063,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C60474"
+		(property "LCSC" " C1525"
 			(at 283.21 238.76 0)
 			(effects
 				(font
@@ -24879,7 +24879,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C60474"
+		(property "LCSC" " C1525"
 			(at 256.54 266.7 0)
 			(effects
 				(font
