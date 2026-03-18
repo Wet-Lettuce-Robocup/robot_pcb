@@ -3803,7 +3803,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C1525"
+		(property "LCSC" "C307331"
 			(at 123.19 71.12 0)
 			(effects
 				(font
@@ -4192,7 +4192,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C1525"
+		(property "LCSC" "C307331"
 			(at 123.19 27.94 0)
 			(effects
 				(font

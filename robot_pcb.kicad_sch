@@ -16316,7 +16316,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" " C1525"
+		(property "LCSC" "C307331"
 			(at 356.87 223.52 0)
 			(effects
 				(font
@@ -17434,7 +17434,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" " C1525"
+		(property "LCSC" "C307331"
 			(at 270.51 238.76 0)
 			(effects
 				(font
@@ -17883,7 +17883,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" " C1525"
+		(property "LCSC" "C307331"
 			(at 344.17 223.52 0)
 			(effects
 				(font
@@ -18101,10 +18101,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "b9245136-67a8-46e8-bdf2-7e03fec523b7")
+			(uuid "b9245136-67a8-46e8-bdf2-7e03fec523b8")
 		)
 		(pin "2"
-			(uuid "446726ab-64f9-4525-a1d8-f79a4e050125")
+			(uuid "446726ab-64f9-4525-a1d8-f79a4e050126")
 		)
 		(instances
 			(project ""
@@ -22768,7 +22768,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" " C1525"
+		(property "LCSC" "C307331"
 			(at 283.21 238.76 0)
 			(effects
 				(font
@@ -25584,7 +25584,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" " C1525"
+		(property "LCSC" "C307331"
 			(at 256.54 266.7 0)
 			(effects
 				(font
