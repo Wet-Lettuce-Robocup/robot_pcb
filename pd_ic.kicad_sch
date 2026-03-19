@@ -5675,7 +5675,7 @@
 				)
 			)
 		)
-		(property "Value" "SiS443DN"
+		(property "Value" "DI040P04PT-AQ"
 			(at 158.75 50.8 90)
 			(effects
 				(font
@@ -5713,7 +5713,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C142539"
+		(property "LCSC" "C6934675"
 			(at 158.75 57.15 90)
 			(effects
 				(font
