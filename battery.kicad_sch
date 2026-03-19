@@ -8440,7 +8440,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C431539"
 			(at 104.14 77.47 0)
 			(effects
 				(font
