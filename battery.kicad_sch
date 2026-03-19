@@ -5498,7 +5498,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_0402_1005Metric"
+		(property "Footprint" "Diode_SMD:D_0603_1608Metric"
 			(at 162.56 127 0)
 			(effects
 				(font
@@ -5536,6 +5536,15 @@
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 162.56 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C35621074"
+			(at 162.56 127 90)
 			(effects
 				(font
 					(size 1.27 1.27)

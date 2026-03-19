@@ -2828,6 +2828,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C83528"
+			(at 133.35 63.5 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "33dee4d2-59c2-4278-9741-b9d62ca531e0")
 		)
@@ -4106,6 +4115,15 @@
 		)
 		(property "Description" "Schottky diode"
 			(at 133.35 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C83528"
+			(at 133.35 20.32 90)
 			(effects
 				(font
 					(size 1.27 1.27)
