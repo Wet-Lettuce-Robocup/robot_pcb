@@ -737,6 +737,19 @@
 				)
 			)
 		)
+		(property "LCSC" "C17401863"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ff312f71-116b-49cc-aa87-333aee35914a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/c0e20707-8bc4-4867-9158-4966d5e22a70")
 		(sheetname "/")
