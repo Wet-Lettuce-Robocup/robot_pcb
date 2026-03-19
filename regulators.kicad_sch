@@ -16302,13 +16302,13 @@
 	)
 	(symbol
 		(lib_id "Transistor_FET:Si7141DP")
-		(at 294.64 62.23 90)
+		(at 294.64 62.23 270)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "9fcaeeae-44f4-407f-ae43-66fa5c5fca1c")
 		(property "Reference" "Q6"
 			(at 294.64 53.34 90)
@@ -16327,7 +16327,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:PowerPAK_SO-8_Single"
-			(at 296.545 57.15 0)
+			(at 292.735 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16338,7 +16338,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.vishay.com/docs/65596/si7141dp.pdf"
-			(at 298.45 57.15 0)
+			(at 290.83 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16356,7 +16356,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C553982"
 			(at 294.64 62.23 90)
 			(effects
 				(font

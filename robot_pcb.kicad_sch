@@ -17047,6 +17047,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C194048"
+			(at 121.92 251.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "11"
 			(uuid "0500a9f5-8557-4408-be0d-305e308e8a51")
 		)
@@ -20105,6 +20114,15 @@
 			)
 		)
 		(property "Description" "Fan, tacho output, PWM input, 4-pin connector"
+			(at 339.09 240.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C240840"
 			(at 339.09 240.03 0)
 			(effects
 				(font
@@ -25327,6 +25345,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C194048"
+			(at 44.45 251.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "11"
 			(uuid "16af8d13-cc00-4446-9c9d-643235d4f619")
 		)
@@ -27085,6 +27112,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C194048"
+			(at 121.92 209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "11"
 			(uuid "54a0d376-61bd-4f1f-b67c-29312c66367b")
 		)
@@ -28675,6 +28711,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 44.45 209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C194048"
 			(at 44.45 209.55 0)
 			(effects
 				(font
