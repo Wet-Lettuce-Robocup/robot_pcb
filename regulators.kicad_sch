@@ -12391,9 +12391,9 @@
 		(at 39.37 113.03 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "4ef048d2-ebf7-4891-b6e0-fb3d03a4d857")
 		(property "Reference" "R27"
 			(at 39.37 107.442 90)
@@ -12541,7 +12541,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C6779318"
+		(property "LCSC" "C851068"
 			(at 210.82 196.85 0)
 			(effects
 				(font
@@ -15815,7 +15815,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C6779318"
+		(property "LCSC" "C851068"
 			(at 312.42 185.42 0)
 			(effects
 				(font
@@ -15922,9 +15922,9 @@
 		(at 39.37 68.58 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "99bd0d29-d78b-41c0-9bef-25bf0640ac0d")
 		(property "Reference" "R28"
 			(at 39.37 62.992 90)
