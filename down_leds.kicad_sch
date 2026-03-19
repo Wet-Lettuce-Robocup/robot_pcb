@@ -1117,7 +1117,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "250"
+		(property "Value" "91"
 			(at 118.11 80.0099 0)
 			(effects
 				(font
@@ -1126,7 +1126,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 113.792 78.74 90)
 			(effects
 				(font
@@ -1153,7 +1153,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C7277389"
+		(property "LCSC" "C5842965"
 			(at 115.57 78.74 0)
 			(effects
 				(font
@@ -1211,7 +1211,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+		(property "Footprint" "LED_SMD:LED_PLCC_2835"
 			(at 104.14 88.9 0)
 			(effects
 				(font
@@ -1240,6 +1240,15 @@
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 104.14 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2843876"
+			(at 104.14 88.9 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1296,7 +1305,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+		(property "Footprint" "LED_SMD:LED_PLCC_2835"
 			(at 127 88.9 0)
 			(effects
 				(font
@@ -1325,6 +1334,15 @@
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 127 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2843876"
+			(at 127 88.9 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1381,7 +1399,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+		(property "Footprint" "LED_SMD:LED_PLCC_2835"
 			(at 115.57 88.9 0)
 			(effects
 				(font
@@ -1410,6 +1428,15 @@
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 115.57 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2843876"
+			(at 115.57 88.9 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1457,7 +1484,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "250"
+		(property "Value" "91"
 			(at 95.25 80.0099 0)
 			(effects
 				(font
@@ -1466,7 +1493,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 90.932 78.74 90)
 			(effects
 				(font
@@ -1493,7 +1520,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C7277389"
+		(property "LCSC" "C5842965"
 			(at 92.71 78.74 0)
 			(effects
 				(font
@@ -1655,7 +1682,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+		(property "Footprint" "LED_SMD:LED_PLCC_2835"
 			(at 149.86 88.9 0)
 			(effects
 				(font
@@ -1684,6 +1711,15 @@
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 149.86 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2843876"
+			(at 149.86 88.9 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1803,7 +1839,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "250"
+		(property "Value" "91"
 			(at 152.4 80.0099 0)
 			(effects
 				(font
@@ -1812,7 +1848,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 148.082 78.74 90)
 			(effects
 				(font
@@ -1839,7 +1875,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C7277389"
+		(property "LCSC" "C5842965"
 			(at 149.86 78.74 0)
 			(effects
 				(font
@@ -1888,7 +1924,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "250"
+		(property "Value" "91"
 			(at 140.97 80.0099 0)
 			(effects
 				(font
@@ -1897,7 +1933,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 136.652 78.74 90)
 			(effects
 				(font
@@ -1924,7 +1960,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C7277389"
+		(property "LCSC" "C5842965"
 			(at 138.43 78.74 0)
 			(effects
 				(font
@@ -1973,7 +2009,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "250"
+		(property "Value" "91"
 			(at 106.68 80.0099 0)
 			(effects
 				(font
@@ -1982,7 +2018,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 102.362 78.74 90)
 			(effects
 				(font
@@ -2009,7 +2045,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C7277389"
+		(property "LCSC" "C5842965"
 			(at 104.14 78.74 0)
 			(effects
 				(font
@@ -2130,7 +2166,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "250"
+		(property "Value" "91"
 			(at 129.54 80.0099 0)
 			(effects
 				(font
@@ -2139,7 +2175,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 125.222 78.74 90)
 			(effects
 				(font
@@ -2166,7 +2202,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C7277389"
+		(property "LCSC" "C5842965"
 			(at 127 78.74 0)
 			(effects
 				(font
@@ -2224,7 +2260,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+		(property "Footprint" "LED_SMD:LED_PLCC_2835"
 			(at 138.43 88.9 0)
 			(effects
 				(font
@@ -2253,6 +2289,15 @@
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 138.43 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2843876"
+			(at 138.43 88.9 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2309,7 +2354,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+		(property "Footprint" "LED_SMD:LED_PLCC_2835"
 			(at 92.71 88.9 0)
 			(effects
 				(font
@@ -2338,6 +2383,15 @@
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 92.71 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2843876"
+			(at 92.71 88.9 90)
 			(effects
 				(font
 					(size 1.27 1.27)
