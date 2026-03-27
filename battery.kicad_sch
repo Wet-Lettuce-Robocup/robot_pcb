@@ -9250,7 +9250,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_NO_CK_KSC6xxJ"
+		(property "Footprint" "Dry_Lettuce:SW_Push_1P1T_NO_CK_new"
 			(at 104.14 72.39 0)
 			(hide yes)
 			(show_name no)
