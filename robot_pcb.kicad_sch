@@ -31423,7 +31423,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C52016392"
+		(property "LCSC" "C541851"
 			(at 370.84 205.74 90)
 			(hide yes)
 			(show_name no)
@@ -33386,7 +33386,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_NO_CK_KMR2"
+		(property "Footprint" "Dry_Lettuce:SW_Push_1P1T_NO_CK_new"
 			(at 143.51 154.94 0)
 			(hide yes)
 			(show_name no)
@@ -33397,7 +33397,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C51927445.pdf"
+		(property "Datasheet" ""
 			(at 143.51 154.94 0)
 			(hide yes)
 			(show_name no)
@@ -33419,7 +33419,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C51927445"
+		(property "LCSC" "C431539"
 			(at 143.51 160.02 0)
 			(hide yes)
 			(show_name no)
@@ -34234,7 +34234,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_NO_CK_KMR2"
+		(property "Footprint" "Dry_Lettuce:SW_Push_1P1T_NO_CK_new"
 			(at 143.51 166.37 0)
 			(hide yes)
 			(show_name no)
@@ -34245,7 +34245,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C51927445.pdf"
+		(property "Datasheet" ""
 			(at 143.51 166.37 0)
 			(hide yes)
 			(show_name no)
@@ -34267,7 +34267,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C51927445"
+		(property "LCSC" "C431539"
 			(at 143.51 171.45 0)
 			(hide yes)
 			(show_name no)

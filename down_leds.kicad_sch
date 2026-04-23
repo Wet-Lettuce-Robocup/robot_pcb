@@ -1702,8 +1702,7 @@
 	)
 	(symbol
 		(lib_id "Transistor_FET:DMG2305UX-7")
-		(at 92.71 64.77 0)
-		(mirror y)
+		(at 92.71 64.77 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
