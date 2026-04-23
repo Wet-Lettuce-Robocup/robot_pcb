@@ -1702,7 +1702,8 @@
 	)
 	(symbol
 		(lib_id "Transistor_FET:DMG2305UX-7")
-		(at 92.71 64.77 180)
+		(at 92.71 64.77 0)
+		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1713,23 +1714,25 @@
 		(fields_autoplaced yes)
 		(uuid "9bedc33f-1cd1-4751-aa45-713476897bdf")
 		(property "Reference" "U5"
-			(at 86.36 64.77 90)
+			(at 87.63 63.4999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "DMG2305UX-7"
-			(at 83.82 64.77 90)
+			(at 87.63 66.0399 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:TSOT-23"
