@@ -1,0 +1,294 @@
+(footprint "LED_Cree-XPGBWT"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "LED Cree-XP-G http://www.cree.com/~/media/Files/Cree/LED%20Components%20and%20Modules/XLamp/Data%20and%20Binning/XLampXPG.pdf")
+	(tags "LED Cree XP-G")
+	(property "Reference" "REF**"
+		(at 0 -2.9 0)
+		(layer "F.SilkS")
+		(uuid "8b624845-284b-41dd-a209-5c36d7e7937b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "LED_Cree-XPGBWT"
+		(at 0 2.9 0)
+		(layer "F.Fab")
+		(uuid "aa0c5eeb-2fac-42c1-844b-5363fbceea2c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "13480af1-b7ab-4033-8dc3-8577d079aee4")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "500b3713-1c06-4924-95aa-0330fe28380c")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -1.8 -1.6)
+		(end -1.8 1.6)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "81b9cc64-735c-4c3a-b188-bb3d1ef0ec74")
+	)
+	(fp_line
+		(start -1.6 -1.8)
+		(end -1.8 -1.6)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "6d640909-c29a-4cd8-9eb5-80b6547147c9")
+	)
+	(fp_line
+		(start -1.6 1.8)
+		(end -1.8 1.6)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "1f54ead7-845d-4216-bb4d-81f06454719f")
+	)
+	(fp_line
+		(start 1.8 -1.8)
+		(end -1.6 -1.8)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a248f4db-e5ce-445d-801c-45b00376b84b")
+	)
+	(fp_line
+		(start 1.8 1.8)
+		(end -1.6 1.8)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "79e8ac06-e723-468d-8dfe-fcd76b0277f3")
+	)
+	(fp_poly
+		(pts
+			(xy 0.85 -0.35) (xy 0.5 0) (xy 0.85 0.35)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "3e0e4fd8-aee9-420c-8c6d-b3bb378f4f09")
+	)
+	(fp_line
+		(start -2.15 -2.15)
+		(end 2.15 -2.15)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "f5a19a80-d124-44b6-9f35-6247c9c99a36")
+	)
+	(fp_line
+		(start -2.15 2.15)
+		(end -2.15 -2.15)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "706e3a79-4001-4be4-b7f8-85dc888859ee")
+	)
+	(fp_line
+		(start 2.15 -2.15)
+		(end 2.15 2.15)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "01733b68-df2b-491a-a708-ae5841376fa8")
+	)
+	(fp_line
+		(start 2.15 2.15)
+		(end -2.15 2.15)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "e69caf39-17c6-41b2-a182-000644da5a9a")
+	)
+	(fp_line
+		(start -1.65 -1.65)
+		(end 1.65 -1.65)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ca589018-2fd6-49ac-b122-69734d41ce9a")
+	)
+	(fp_line
+		(start -1.65 1.65)
+		(end -1.65 -1.65)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "55b6c675-7da1-4b60-90c9-d5c22c0dd87e")
+	)
+	(fp_line
+		(start 1.65 -1.65)
+		(end 1.65 1.65)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "34bbb8f8-92fd-4021-a555-e7e6c72c0d6b")
+	)
+	(fp_line
+		(start 1.65 1.65)
+		(end -1.65 1.65)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "30e36ebe-7352-4693-bba2-956a06cc5d60")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0 1.3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "78618e7c-d629-4639-b103-fb101854d2cb")
+	)
+	(fp_text user "-"
+		(at -1.8 0.3 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "67b3cd29-485b-4deb-8b72-354248a24655")
+		(effects
+			(font
+				(size 0.6 0.6)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "+"
+		(at 1 0.3 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "f925c818-15de-47f8-b787-4af61359b43a")
+		(effects
+			(font
+				(size 0.6 0.6)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "086481df-c54e-427a-9c98-37f694a8c871")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.08)
+			)
+		)
+	)
+	(pad "" smd rect
+		(at 0 -1)
+		(size 1.01 0.75)
+		(layers "F.Paste")
+		(uuid "45719822-8e18-4095-adcf-436c9c9ad973")
+	)
+	(pad "" smd rect
+		(at 0 0)
+		(size 1.01 0.75)
+		(layers "F.Paste")
+		(uuid "c76337fd-9446-4ec8-bcd1-efcdfa3a428d")
+	)
+	(pad "" smd rect
+		(at 0 1)
+		(size 1.01 0.75)
+		(layers "F.Paste")
+		(uuid "7693ea1f-6a34-451b-8f9d-d6821fcb45cf")
+	)
+	(pad "1" smd rect
+		(at 1.4 0)
+		(size 0.5 3.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "dc6e4ac2-85db-4992-a56f-18b535ebb5d3")
+	)
+	(pad "2" smd rect
+		(at -1.4 0)
+		(size 0.5 3.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "75b15879-5db1-4c03-94e2-2720e0218eb6")
+	)
+	(pad "3" smd rect
+		(at 0 0)
+		(size 1.3 3.3)
+		(layers "F.Cu" "F.Mask")
+		(uuid "0c5f404e-1602-443b-acf3-afda68f6f2e3")
+	)
+	(embedded_fonts no)
+	(model "${KICAD10_3DMODEL_DIR}/LED_SMD.3dshapes/LED_Cree-XP-G.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

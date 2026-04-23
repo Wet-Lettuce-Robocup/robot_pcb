@@ -1,0 +1,4 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "Dry_Lettuce_LED") (type "KiCad") (uri "${KIPRJMOD}/Dry_Lettuce_LED.pretty") (options "") (descr ""))
+)

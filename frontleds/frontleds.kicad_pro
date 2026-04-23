@@ -673,7 +673,7 @@
       {
         "filename": "frontleds.kicad_sch",
         "name": "frontleds",
-        "uuid": "00000000-0000-0000-0000-000000000000"
+        "uuid": "ad2684eb-c2bb-4fca-b716-3281952c7862"
       }
     ],
     "used_designators": "",
@@ -682,7 +682,7 @@
   "sheets": [
     [
       "ad2684eb-c2bb-4fca-b716-3281952c7862",
-      "Root"
+      "frontleds"
     ]
   ],
   "text_variables": {},
