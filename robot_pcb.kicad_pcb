@@ -15107,7 +15107,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C2479048"
+		(property "LCSC" "C92124"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -63657,7 +63657,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" "Female generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
@@ -92669,6 +92669,22 @@
 		(uuid "6212c698-7b11-4d83-a6b5-652ca4c6dbef")
 	)
 	(segment
+		(start 131.47 119.825)
+		(end 133.35 119.825)
+		(width 0.5)
+		(layer "F.Cu")
+		(net "Net-(D13-K)")
+		(uuid "621ea1f7-0275-43f4-9c0d-769fc0c3b919")
+	)
+	(segment
+		(start 130.175 119.825)
+		(end 131.47 119.825)
+		(width 0.5)
+		(layer "F.Cu")
+		(net "Net-(D13-K)")
+		(uuid "af52fd11-9de2-4140-9459-6df87a667881")
+	)
+	(segment
 		(start 123.55 97.5)
 		(end 122.15 96.1)
 		(width 0.3)
@@ -96154,22 +96170,6 @@
 		(layer "F.Cu")
 		(net "/D1_OUT")
 		(uuid "cb074214-e299-43c5-a79b-1904ba904e7d")
-	)
-	(segment
-		(start 131.47 119.825)
-		(end 133.35 119.825)
-		(width 0.5)
-		(layer "F.Cu")
-		(net "Net-(D13-K)")
-		(uuid "621ea1f7-0275-43f4-9c0d-769fc0c3b919")
-	)
-	(segment
-		(start 130.175 119.825)
-		(end 131.47 119.825)
-		(width 0.5)
-		(layer "F.Cu")
-		(net "Net-(D13-K)")
-		(uuid "af52fd11-9de2-4140-9459-6df87a667881")
 	)
 	(segment
 		(start 93.009999 98.07)
