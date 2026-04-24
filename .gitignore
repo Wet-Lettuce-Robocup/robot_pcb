@@ -32,3 +32,6 @@ fp-info-cache
 # Local project settings
 *.kicad_prl
 .DS_Store
+
+.history
+.history_trim
